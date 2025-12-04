@@ -46,4 +46,11 @@ public class StoryMovie : MonoBehaviour
 		//Handheld.PlayFullScreenMovie(text, Color.black, FullScreenMovieControlMode.CancelOnTouch, FullScreenMovieScalingMode.AspectFit);
 		videoPlayer.Play();
 	}
+
+#if UNITY_EDITOR
+	void OnApplicationQuit()
+    {
+        videoPlayer.targetTexture.Release();
+    }
+#endif
 }

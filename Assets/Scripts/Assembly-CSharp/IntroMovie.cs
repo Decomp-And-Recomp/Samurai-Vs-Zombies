@@ -66,18 +66,6 @@ public class IntroMovie : MonoBehaviour
 
 	private void StartMovie()
 	{
-        /*string text = "1024x768";
-		switch (Screen.width)
-		{
-		case 640:
-			text = "960x640";
-			break;
-		case 320:
-			text = "480x320";
-			break;
-		}
-		string text2 = "Glu_logo_" + text + ".mp4";
-		Debug.Log("Playing movie:" + text2);*/
         if (Screen.width >= 1024)
         {
             videoPlayer.clip = Glu_logo_1024x768;
@@ -87,16 +75,18 @@ public class IntroMovie : MonoBehaviour
 		{
 			videoPlayer.clip = Glu_logo_960x640;
 			videoPlayer.Play();
-		}
-        else if (Screen.width >= 480 && Screen.width < 960)
+        }
+        else if (Screen.width >= 0 && Screen.width < 960)
         {
             videoPlayer.clip = Glu_logo_480x320;
             videoPlayer.Play();
         }
-		else
-		{
-            videoPlayer.clip = Glu_logo_480x320;
-            videoPlayer.Play();
-        }
     }
+
+#if UNITY_EDITOR
+    void OnApplicationQuit()
+    {
+        videoPlayer.targetTexture.Release();
+    }
+#endif
 }

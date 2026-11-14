@@ -19,11 +19,11 @@ public class WhirlWindDamageAura : MonoBehaviour
 
 	private bool mStoppedEmitting;
 
-	private ParticleEmitter[] mEmitters;
+	private LegacyParticleEmitter[] mEmitters;
 
 	private void Start()
 	{
-		mEmitters = GetComponentsInChildren<ParticleEmitter>();
+		mEmitters = GetComponentsInChildren<LegacyParticleEmitter>();
 		mRemainingDuration = float.Parse(Singleton<AbilitiesDatabase>.instance.GetAttribute("SummonTornadoes", "duration"));
 		mDamagePerHit = Singleton<AbilitiesDatabase>.instance.Extrapolate<float>("SummonTornadoes", "infiniteUpgradeDamage", "damage") / (mRemainingDuration / 0.2f);
 		mFlierDamageMultiplier = float.Parse(Singleton<AbilitiesDatabase>.instance.GetAttribute("SummonTornadoes", "flyerDamageMultiplier"));
@@ -37,8 +37,8 @@ public class WhirlWindDamageAura : MonoBehaviour
 		if (mStoppedEmitting)
 		{
 			bool flag = false;
-			ParticleEmitter[] array = mEmitters;
-			foreach (ParticleEmitter particleEmitter in array)
+			LegacyParticleEmitter[] array = mEmitters;
+			foreach (LegacyParticleEmitter particleEmitter in array)
 			{
 				particleEmitter.emit = false;
 				if (particleEmitter.particleCount > 0)

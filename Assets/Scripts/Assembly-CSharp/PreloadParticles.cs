@@ -8,7 +8,7 @@ public class PreloadParticles : MonoBehaviour
 
 	private void Awake()
 	{
-		ParticleEmitter particleEmitter = base.GetComponent<ParticleEmitter>();
+		LegacyParticleEmitter particleEmitter = base.GetComponent<LegacyParticleEmitter>();
 		if (!(particleEmitter == null))
 		{
 			float num = Mathf.Max(Time.deltaTime, 0.01f);

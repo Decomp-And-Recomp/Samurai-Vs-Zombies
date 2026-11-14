@@ -198,9 +198,9 @@ public class AnimationEffects : MonoBehaviour
 
 	public void StopAllParticleEmitters()
 	{
-		ParticleEmitter[] componentsInChildren = GetComponentsInChildren<ParticleEmitter>();
-		ParticleEmitter[] array = componentsInChildren;
-		foreach (ParticleEmitter particleEmitter in array)
+		LegacyParticleEmitter[] componentsInChildren = GetComponentsInChildren<LegacyParticleEmitter>();
+		LegacyParticleEmitter[] array = componentsInChildren;
+		foreach (LegacyParticleEmitter particleEmitter in array)
 		{
 			if (particleEmitter != null)
 			{

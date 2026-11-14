@@ -20,16 +20,16 @@ public class ParColorAnimBehavior : MonoBehaviour
 
 	private void Update()
 	{
-		Particle[] particles = base.GetComponent<ParticleEmitter>().particles;
+		ParticleSystem.Particle[] particles = base.GetComponent<LegacyParticleEmitter>().particles;
 		x = 0;
-		Particle[] array = particles;
+		ParticleSystem.Particle[] array = particles;
 		for (int i = 0; i < array.Length; i++)
 		{
-			Particle particle = array[i];
-			lifePerc = 1f - particle.energy / particle.startEnergy;
-			particles[x].color = new Color(RCurve.Evaluate(lifePerc), GCurve.Evaluate(lifePerc), BCurve.Evaluate(lifePerc), ACurve.Evaluate(lifePerc));
+			ParticleSystem.Particle particle = array[i];
+			lifePerc = 1f - particle.remainingLifetime / particle.startLifetime;
+			particles[x].startColor = new Color(RCurve.Evaluate(lifePerc), GCurve.Evaluate(lifePerc), BCurve.Evaluate(lifePerc), ACurve.Evaluate(lifePerc));
 			x++;
 		}
-		base.GetComponent<ParticleEmitter>().particles = particles;
+		base.GetComponent<LegacyParticleEmitter>().particles = particles;
 	}
 }

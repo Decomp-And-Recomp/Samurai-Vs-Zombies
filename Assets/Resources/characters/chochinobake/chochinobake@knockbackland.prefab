@@ -1,55 +1,429 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1555205623699951}
-  m_IsPrefabParent: 1
-  m_IsExploded: 0
---- !u!1 &1555205623699951
+--- !u!1 &1002415811168787
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4682532218575813}
-  - 111: {fileID: 111716591461680848}
-  - 114: {fileID: 114393482393688668}
+  - component: {fileID: 4011999713513425}
   m_Layer: 0
-  m_Name: chochinobake@knockbackland
+  m_Name: chochinobake:Chino_rt_ball_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4011999713513425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002415811168787}
+  serializedVersion: 2
+  m_LocalRotation: {x: -3.327825e-19, y: 3.355202e-10, z: 0.12986685, w: 0.9915315}
+  m_LocalPosition: {x: 5.455059, y: 0.0000011213818, z: -1.7763568e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4365623761280727}
+  m_LocalEulerAnglesHint: {x: 0.0000000049930917, y: -0.00000003812218, z: -14.923796}
+--- !u!1 &1037866988000133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4365623761280727}
+  m_Layer: 0
+  m_Name: chochinobake:Chino_rt_ankle_jnt
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4365623761280727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037866988000133}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.15031536, y: 0.10341701, z: 0.64942086, w: 0.7382159}
+  m_LocalPosition: {x: 10.464878, y: -0.0000094353245, z: 2.5046631e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4011999713513425}
+  m_Father: {fileID: 4973384620534650}
+  m_LocalEulerAnglesHint: {x: -5.361903, y: -20.360392, z: -81.71373}
+--- !u!1 &1068414620000036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4274367504914524}
+  m_Layer: 0
+  m_Name: chochinobake:Chino_hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4274367504914524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068414620000036}
+  serializedVersion: 2
+  m_LocalRotation: {x: 9.214204e-17, y: 1.7084889e-16, z: -0.13570158, w: 0.9907498}
+  m_LocalPosition: {x: 11.886607, y: -1.8406444, z: -7.8825835e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4331589474238333}
+  - {fileID: 4112563996212814}
+  m_Father: {fileID: 4332798012426100}
+  m_LocalEulerAnglesHint: {x: 7.804285e-15, y: -2.082957e-14, z: 15.59838}
+--- !u!1 &1072048324234224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4706230307355142}
+  m_Layer: 0
+  m_Name: chochinobake:Chino_spine_mid_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4706230307355142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072048324234224}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000048957038, y: -0.017963752, z: -0.003404472, w: 0.99983287}
+  m_LocalPosition: {x: -16.190706, y: -2.8850477, z: -1.2092121}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4634961886492970}
+  - {fileID: 4521988855150248}
+  m_Father: {fileID: 4332798012426100}
+  m_LocalEulerAnglesHint: {x: 0.01262536, y: 2.0585742, z: 0.39041433}
+--- !u!1 &1166489066037679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4331589474238333}
+  m_Layer: 0
+  m_Name: chochinobake:Chino_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4331589474238333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166489066037679}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.097583994, y: 0.95122313, z: 0.13547084, w: -0.25942168}
+  m_LocalPosition: {x: 4.0813584, y: -1.597907, z: -8.378746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4834357663157208}
+  m_Father: {fileID: 4274367504914524}
+  m_LocalEulerAnglesHint: {x: 159.58983, y: 27.845968, z: 163.17477}
+--- !u!1 &1194700083020024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4631519574369413}
+  m_Layer: 0
+  m_Name: chochinobake:left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4631519574369413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194700083020024}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.49983004, y: -0.50016993, z: 0.49983004, w: 0.50016993}
+  m_LocalPosition: {x: -0.7909683, y: -0.53814524, z: -25.190908}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4332798012426100}
+  m_LocalEulerAnglesHint: {x: 89.96105, y: 90, z: 0}
+--- !u!1 &1201626633407388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4634961886492970}
+  m_Layer: 0
+  m_Name: chochinobake:backribbonJnt1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4634961886492970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201626633407388}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.21139643, y: 0.8361105, z: -0.24292496, w: -0.44409263}
+  m_LocalPosition: {x: -24.536457, y: 6.19772, z: -8.160139e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4948951951971506}
+  m_Father: {fileID: 4706230307355142}
+  m_LocalEulerAnglesHint: {x: -129.37897, y: 39.785416, z: -132.20053}
+--- !u!1 &1205053701317869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4162955578989894}
+  m_Layer: 0
+  m_Name: chochinobake:Chino_lf_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4162955578989894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205053701317869}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.8323843e-24, y: -3.4243104e-16, z: 0.12986685, w: 0.9915315}
+  m_LocalPosition: {x: -5.455056, y: -1.01042805e-16, z: 4.6881977e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4735643583943530}
+  m_LocalEulerAnglesHint: {x: -5.095937e-15, y: 3.89074e-14, z: -14.923796}
+--- !u!1 &1241602013860714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4834357663157208}
+  m_Layer: 0
+  m_Name: chochinobake:Chino_lf_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4834357663157208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241602013860714}
+  serializedVersion: 2
+  m_LocalRotation: {x: -4.145791e-17, y: -2.7332387e-16, z: -0.000013672992, w: 1}
+  m_LocalPosition: {x: -11.076783, y: 6.8513774e-16, z: 3.9153545e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4735643583943530}
+  m_Father: {fileID: 4331589474238333}
+  m_LocalEulerAnglesHint: {x: -4.750298e-15, y: 3.1320673e-14, z: 0.0015668095}
+--- !u!1 &1271246587760064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4612816375524410}
+  m_Layer: 0
+  m_Name: chochinobake:back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4612816375524410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271246587760064}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.49983004, y: -0.50016993, z: 0.49983004, w: 0.50016993}
+  m_LocalPosition: {x: -0.7743261, y: 23.945866, z: 0.031848907}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4332798012426100}
+  m_LocalEulerAnglesHint: {x: 89.96105, y: 90, z: 0}
+--- !u!1 &1426358077920406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4948951951971506}
+  m_Layer: 0
+  m_Name: chochinobake:backribbonJnt2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4948951951971506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426358077920406}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.07783093, y: -0.018806107, z: 0.23411451, w: 0.9689061}
+  m_LocalPosition: {x: -1.4210855e-14, y: 16.477339, z: 0.15399382}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4634961886492970}
+  m_LocalEulerAnglesHint: {x: -9.185264, y: 0.0000001419542, z: -27.167759}
+--- !u!1 &1426833633062473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4112563996212814}
+  m_Layer: 0
+  m_Name: chochinobake:Chino_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4112563996212814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426833633062473}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9896654, y: -0.13769202, z: 0.032924708, w: -0.022787066}
+  m_LocalPosition: {x: 4.081387, y: -1.5979114, z: 8.37875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4973384620534650}
+  m_Father: {fileID: 4274367504914524}
+  m_LocalEulerAnglesHint: {x: -176.88936, y: 3.3763137, z: 15.933117}
+--- !u!1 &1555205623699951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4682532218575813}
+  - component: {fileID: 111716591461680848}
+  - component: {fileID: 114393482393688668}
+  m_Layer: 0
+  m_Name: chochinobake@knockbackland
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4682532218575813
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555205623699951}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4738353809528842}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!111 &111716591461680848
 Animation:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555205623699951}
   m_Enabled: 1
+  serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 8db71abdd44deca41939c65edf050438, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 8db71abdd44deca41939c65edf050438, type: 2}
@@ -57,76 +431,49 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
-  m_UserAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!114 &114393482393688668
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555205623699951}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sourcePrefabPath: Assets/Resources/Characters/Chochinobake/chochinobake@knockbackland.fbx
-  basePrefabPath:
+  basePrefabPath: 
   exemptObjects: []
---- !u!1 &1902478753455224
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4738353809528842}
-  m_Layer: 0
-  m_Name: chochinobake:Chino_Skeleton_grp
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4738353809528842
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1902478753455224}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 4332798012426100}
-  - {fileID: 4492904752513418}
-  m_Father: {fileID: 4682532218575813}
 --- !u!1 &1581932100989595
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4332798012426100}
+  - component: {fileID: 4332798012426100}
   m_Layer: 0
   m_Name: chochinobake:Chino_spine_low_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4332798012426100
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581932100989595}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.26776212, y: 0.30885002, z: -0.56413877, w: 0.71739984}
   m_LocalPosition: {x: -0.9809603, y: 43.733917, z: -2.0349739}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -47.73567, y: -8.107332, z: 79.95266}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4612816375524410}
   - {fileID: 4274367504914524}
@@ -135,528 +482,258 @@ Transform:
   - {fileID: 4631519574369413}
   - {fileID: 4309131090545231}
   m_Father: {fileID: 4738353809528842}
---- !u!1 &1271246587760064
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4612816375524410}
-  m_Layer: 0
-  m_Name: chochinobake:back
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4612816375524410
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1271246587760064}
-  m_LocalRotation: {x: 0.49983004, y: -0.50016993, z: 0.49983004, w: 0.50016993}
-  m_LocalPosition: {x: -0.7743261, y: 23.945866, z: 0.031848907}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 89.96105, y: 90, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4332798012426100}
---- !u!1 &1068414620000036
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4274367504914524}
-  m_Layer: 0
-  m_Name: chochinobake:Chino_hip_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4274367504914524
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1068414620000036}
-  m_LocalRotation: {x: 9.214204E-17, y: 1.7084889E-16, z: -0.13570158, w: 0.9907498}
-  m_LocalPosition: {x: 11.886607, y: -1.8406444, z: -7.8825835E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 7.804285E-15, y: -2.082957E-14, z: 15.59838}
-  m_Children:
-  - {fileID: 4331589474238333}
-  - {fileID: 4112563996212814}
-  m_Father: {fileID: 4332798012426100}
---- !u!1 &1166489066037679
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4331589474238333}
-  m_Layer: 0
-  m_Name: chochinobake:Chino_lf_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4331589474238333
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1166489066037679}
-  m_LocalRotation: {x: -0.097583994, y: 0.95122313, z: 0.13547084, w: -0.25942168}
-  m_LocalPosition: {x: 4.0813584, y: -1.597907, z: -8.378746}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 159.58983, y: 27.845968, z: 163.17477}
-  m_Children:
-  - {fileID: 4834357663157208}
-  m_Father: {fileID: 4274367504914524}
---- !u!1 &1241602013860714
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4834357663157208}
-  m_Layer: 0
-  m_Name: chochinobake:Chino_lf_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4834357663157208
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1241602013860714}
-  m_LocalRotation: {x: -4.145791E-17, y: -2.7332387E-16, z: -1.3672992E-05, w: 1}
-  m_LocalPosition: {x: -11.076783, y: 6.8513774E-16, z: 3.9153545E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -4.750298E-15, y: 3.1320673E-14, z: 0.0015668095}
-  m_Children:
-  - {fileID: 4735643583943530}
-  m_Father: {fileID: 4331589474238333}
---- !u!1 &1868262092478898
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4735643583943530}
-  m_Layer: 0
-  m_Name: chochinobake:Chino_lf_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4735643583943530
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1868262092478898}
-  m_LocalRotation: {x: -0.118833415, y: 0.008985826, z: 0.6411786, w: 0.7580818}
-  m_LocalPosition: {x: -10.4825945, y: -2.528921E-15, z: -5.486549E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -9.847184, y: -9.555962, z: -79.623375}
-  m_Children:
-  - {fileID: 4162955578989894}
-  m_Father: {fileID: 4834357663157208}
---- !u!1 &1205053701317869
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4162955578989894}
-  m_Layer: 0
-  m_Name: chochinobake:Chino_lf_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4162955578989894
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1205053701317869}
-  m_LocalRotation: {x: -1.8323843E-24, y: -3.4243104E-16, z: 0.12986685, w: 0.9915315}
-  m_LocalPosition: {x: -5.455056, y: -1.01042805E-16, z: 4.6881977E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -5.095937E-15, y: 3.89074E-14, z: -14.923796}
-  m_Children: []
-  m_Father: {fileID: 4735643583943530}
---- !u!1 &1426833633062473
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4112563996212814}
-  m_Layer: 0
-  m_Name: chochinobake:Chino_rt_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4112563996212814
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1426833633062473}
-  m_LocalRotation: {x: 0.9896654, y: -0.13769202, z: 0.032924708, w: -0.022787066}
-  m_LocalPosition: {x: 4.081387, y: -1.5979114, z: 8.37875}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -176.88936, y: 3.3763137, z: 15.933117}
-  m_Children:
-  - {fileID: 4973384620534650}
-  m_Father: {fileID: 4274367504914524}
+  m_LocalEulerAnglesHint: {x: -47.73567, y: -8.107332, z: 79.95266}
 --- !u!1 &1619449560184307
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4973384620534650}
+  - component: {fileID: 4973384620534650}
   m_Layer: 0
   m_Name: chochinobake:Chino_rt_knee_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4973384620534650
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619449560184307}
-  m_LocalRotation: {x: 1.2583062E-08, y: -2.863567E-09, z: -0.077254236, w: 0.9970114}
-  m_LocalPosition: {x: 11.058095, y: -3.2263029E-06, z: 3.5527137E-15}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000012583062, y: -0.000000002863567, z: -0.077254236,
+    w: 0.9970114}
+  m_LocalPosition: {x: 11.058095, y: -0.0000032263029, z: 3.5527137e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.4629536E-06, y: 2.1576606E-07, z: 8.861513}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4365623761280727}
   m_Father: {fileID: 4112563996212814}
---- !u!1 &1037866988000133
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4365623761280727}
-  m_Layer: 0
-  m_Name: chochinobake:Chino_rt_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4365623761280727
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1037866988000133}
-  m_LocalRotation: {x: -0.15031536, y: 0.10341701, z: 0.64942086, w: 0.7382159}
-  m_LocalPosition: {x: 10.464878, y: -9.4353245E-06, z: 2.5046631E-13}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -5.361903, y: -20.360392, z: -81.71373}
-  m_Children:
-  - {fileID: 4011999713513425}
-  m_Father: {fileID: 4973384620534650}
---- !u!1 &1002415811168787
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4011999713513425}
-  m_Layer: 0
-  m_Name: chochinobake:Chino_rt_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4011999713513425
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1002415811168787}
-  m_LocalRotation: {x: -3.327825E-19, y: 3.355202E-10, z: 0.12986685, w: 0.9915315}
-  m_LocalPosition: {x: 5.455059, y: 1.1213818E-06, z: -1.7763568E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 4.9930917E-09, y: -3.812218E-08, z: -14.923796}
-  m_Children: []
-  m_Father: {fileID: 4365623761280727}
---- !u!1 &1072048324234224
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4706230307355142}
-  m_Layer: 0
-  m_Name: chochinobake:Chino_spine_mid_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4706230307355142
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1072048324234224}
-  m_LocalRotation: {x: 4.8957038E-05, y: -0.017963752, z: -0.003404472, w: 0.99983287}
-  m_LocalPosition: {x: -16.190706, y: -2.8850477, z: -1.2092121}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0.01262536, y: 2.0585742, z: 0.39041433}
-  m_Children:
-  - {fileID: 4634961886492970}
-  - {fileID: 4521988855150248}
-  m_Father: {fileID: 4332798012426100}
---- !u!1 &1201626633407388
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4634961886492970}
-  m_Layer: 0
-  m_Name: chochinobake:backribbonJnt1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4634961886492970
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1201626633407388}
-  m_LocalRotation: {x: 0.21139643, y: 0.8361105, z: -0.24292496, w: -0.44409263}
-  m_LocalPosition: {x: -24.536457, y: 6.19772, z: -8.160139E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -129.37897, y: 39.785416, z: -132.20053}
-  m_Children:
-  - {fileID: 4948951951971506}
-  m_Father: {fileID: 4706230307355142}
---- !u!1 &1426358077920406
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4948951951971506}
-  m_Layer: 0
-  m_Name: chochinobake:backribbonJnt2
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4948951951971506
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1426358077920406}
-  m_LocalRotation: {x: -0.07783093, y: -0.018806107, z: 0.23411451, w: 0.9689061}
-  m_LocalPosition: {x: -1.4210855E-14, y: 16.477339, z: 0.15399382}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -9.185264, y: 1.419542E-07, z: -27.167759}
-  m_Children: []
-  m_Father: {fileID: 4634961886492970}
---- !u!1 &1855811126240791
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4521988855150248}
-  m_Layer: 0
-  m_Name: chochinobake:frontribbonJnt1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4521988855150248
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1855811126240791}
-  m_LocalRotation: {x: -0.33472702, y: 0.6431149, z: -0.56082666, w: -0.3997931}
-  m_LocalPosition: {x: -24.902006, y: -3.1230645, z: 1.6653345E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -96.44818, y: 62.832237, z: -177.75409}
-  m_Children:
-  - {fileID: 4763436346186377}
-  m_Father: {fileID: 4706230307355142}
+  m_LocalEulerAnglesHint: {x: 0.0000014629536, y: 0.00000021576606, z: 8.861513}
 --- !u!1 &1623254481256357
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4763436346186377}
+  - component: {fileID: 4763436346186377}
   m_Layer: 0
   m_Name: chochinobake:frontribbonJnt2
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4763436346186377
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623254481256357}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.054668017, y: -0.013209306, z: 0.23449689, w: 0.9704886}
-  m_LocalPosition: {x: -1.4210855E-14, y: 16.477339, z: 0.15399382}
+  m_LocalPosition: {x: -1.4210855e-14, y: 16.477339, z: 0.15399382}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -6.4481745, y: 8.198432E-08, z: -27.167759}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4521988855150248}
---- !u!1 &1779126729061883
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4231059245452557}
-  m_Layer: 0
-  m_Name: chochinobake:front
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4231059245452557
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1779126729061883}
-  m_LocalRotation: {x: 0.49983004, y: -0.50016993, z: 0.49983004, w: 0.50016993}
-  m_LocalPosition: {x: -0.80718005, y: -24.388948, z: -0.073685646}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 89.96105, y: 90, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4332798012426100}
---- !u!1 &1194700083020024
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4631519574369413}
-  m_Layer: 0
-  m_Name: chochinobake:left
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4631519574369413
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1194700083020024}
-  m_LocalRotation: {x: 0.49983004, y: -0.50016993, z: 0.49983004, w: 0.50016993}
-  m_LocalPosition: {x: -0.7909683, y: -0.53814524, z: -25.190908}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 89.96105, y: 90, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4332798012426100}
+  m_LocalEulerAnglesHint: {x: -6.4481745, y: 0.00000008198432, z: -27.167759}
 --- !u!1 &1704553819507271
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4309131090545231}
+  - component: {fileID: 4309131090545231}
   m_Layer: 0
   m_Name: chochinobake:right
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4309131090545231
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704553819507271}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.49983004, y: -0.50016993, z: 0.49983004, w: 0.50016993}
   m_LocalPosition: {x: -0.79082483, y: -0.32707617, z: 24.515865}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 89.96105, y: 90, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4332798012426100}
---- !u!1 &1931161334076967
+  m_LocalEulerAnglesHint: {x: 89.96105, y: 90, z: 0}
+--- !u!1 &1779126729061883
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4492904752513418}
+  - component: {fileID: 4231059245452557}
   m_Layer: 0
-  m_Name: chochinobake:weightSpine_grp
+  m_Name: chochinobake:front
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4231059245452557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779126729061883}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.49983004, y: -0.50016993, z: 0.49983004, w: 0.50016993}
+  m_LocalPosition: {x: -0.80718005, y: -24.388948, z: -0.073685646}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4332798012426100}
+  m_LocalEulerAnglesHint: {x: 89.96105, y: 90, z: 0}
+--- !u!1 &1855811126240791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4521988855150248}
+  m_Layer: 0
+  m_Name: chochinobake:frontribbonJnt1
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4521988855150248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855811126240791}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.33472702, y: 0.6431149, z: -0.56082666, w: -0.3997931}
+  m_LocalPosition: {x: -24.902006, y: -3.1230645, z: 1.6653345e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4763436346186377}
+  m_Father: {fileID: 4706230307355142}
+  m_LocalEulerAnglesHint: {x: -96.44818, y: 62.832237, z: -177.75409}
+--- !u!1 &1868262092478898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4735643583943530}
+  m_Layer: 0
+  m_Name: chochinobake:Chino_lf_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4735643583943530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868262092478898}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.118833415, y: 0.008985826, z: 0.6411786, w: 0.7580818}
+  m_LocalPosition: {x: -10.4825945, y: -2.528921e-15, z: -5.486549e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4162955578989894}
+  m_Father: {fileID: 4834357663157208}
+  m_LocalEulerAnglesHint: {x: -9.847184, y: -9.555962, z: -79.623375}
+--- !u!1 &1902478753455224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4738353809528842}
+  m_Layer: 0
+  m_Name: chochinobake:Chino_Skeleton_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4738353809528842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902478753455224}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4332798012426100}
+  - {fileID: 4492904752513418}
+  m_Father: {fileID: 4682532218575813}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1931161334076967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4492904752513418}
+  m_Layer: 0
+  m_Name: chochinobake:weightSpine_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4492904752513418
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931161334076967}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4738353809528842}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}

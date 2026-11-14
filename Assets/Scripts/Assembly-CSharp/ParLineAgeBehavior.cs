@@ -11,14 +11,14 @@ public class ParLineAgeBehavior : MonoBehaviour
 
 	private void Update()
 	{
-		Particle[] particles = base.GetComponent<ParticleEmitter>().particles;
-		List<Particle> list = new List<Particle>();
+		ParticleSystem.Particle[] particles = base.GetComponent<LegacyParticleEmitter>().particles;
+		List<ParticleSystem.Particle> list = new List<ParticleSystem.Particle>();
 		list.AddRange(particles);
-		list.Sort((Particle thing1, Particle thing2) => thing1.energy.CompareTo(thing2.energy));
+		list.Sort((ParticleSystem.Particle thing1, ParticleSystem.Particle thing2) => thing1.remainingLifetime.CompareTo(thing2.remainingLifetime));
 		LineRenderer component = GetComponent<LineRenderer>();
 		component.SetVertexCount(particles.Length);
 		x = 0;
-		foreach (Particle item in list)
+		foreach (ParticleSystem.Particle item in list)
 		{
 			component.SetPosition(x, item.position);
 			x++;

@@ -1,55 +1,784 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1693426488208311}
-  m_IsPrefabParent: 1
-  m_IsExploded: 0
---- !u!1 &1693426488208311
+--- !u!1 &1021473104273263
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4301383538139036}
-  - 111: {fileID: 111310733680685814}
-  - 114: {fileID: 114453640230596401}
+  - component: {fileID: 4741776602020391}
   m_Layer: 0
-  m_Name: zombiehorse@walk
+  m_Name: zombiehorse:horse_lf_upLeg_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4741776602020391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021473104273263}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.501153, y: 0.8425059, z: 0.1856442, w: -0.06756981}
+  m_LocalPosition: {x: 4.531995, y: -0.79735154, z: -9.296214}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4466796070523261}
+  m_Father: {fileID: 4524830548464308}
+  m_LocalEulerAnglesHint: {x: 165.11292, y: 17.453293, z: -120.806335}
+--- !u!1 &1052344160585394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4120914455779099}
+  m_Layer: 0
+  m_Name: zombiehorse:horse_tail1_jnt
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4120914455779099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052344160585394}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.49246293, y: 0.5074251, z: 0.49246293, w: 0.5074251}
+  m_LocalPosition: {x: -11.523104, y: -18.51414, z: -7.993606e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4596085112113248}
+  m_Father: {fileID: 4286713013099732}
+  m_LocalEulerAnglesHint: {x: -88.28539, y: -90, z: 0}
+--- !u!1 &1058333506209833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4616889610479872}
+  m_Layer: 0
+  m_Name: zombiehorse:horsefront_rt_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4616889610479872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058333506209833}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1, y: -0.000010133106, z: -7.2365975e-17, w: -6.123307e-17}
+  m_LocalPosition: {x: 8.786587, y: -0.00005075003, z: -8.881784e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4729679892741944}
+  m_Father: {fileID: 4994632298851879}
+  m_LocalEulerAnglesHint: {x: -180, y: -8.292601e-15, z: 0.0011611684}
+--- !u!1 &1069005580494380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4671781842756944}
+  m_Layer: 0
+  m_Name: zombiehorse:horsefront_rt_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4671781842756944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069005580494380}
+  serializedVersion: 2
+  m_LocalRotation: {x: -2.6285854e-17, y: 1.8762755e-16, z: 0.4538434, w: 0.89108145}
+  m_LocalPosition: {x: 8.48118, y: 0.000054311673, z: -8.881784e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4729679892741944}
+  m_LocalEulerAnglesHint: {x: 7.073816e-15, y: -2.0525765e-14, z: -53.981083}
+--- !u!1 &1081385494948563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4524830548464308}
+  m_Layer: 0
+  m_Name: zombiehorse:horse_hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4524830548464308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081385494948563}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9944422, y: -0.09815002, z: -0.038070325, w: 0.0013829669}
+  m_LocalPosition: {x: 2.7212603, y: -0.5435493, z: -0.20996213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4741776602020391}
+  - {fileID: 4010357891979899}
+  m_Father: {fileID: 4286713013099732}
+  m_LocalEulerAnglesHint: {x: 179.41254, y: -4.326849, z: 11.295704}
+--- !u!1 &1114256840214197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4490643477664157}
+  m_Layer: 0
+  m_Name: zombiehorse:horse_Skeleton_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4490643477664157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114256840214197}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4286713013099732}
+  - {fileID: 4545502170221341}
+  m_Father: {fileID: 4301383538139036}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117028570592573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4596085112113248}
+  m_Layer: 0
+  m_Name: zombiehorse:horse_tail2_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4596085112113248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117028570592573}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.054072347, y: 0, z: -0, w: 0.998537}
+  m_LocalPosition: {x: 8.881784e-16, y: -10.886715, z: -3.7498684}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4951706526082636}
+  m_Father: {fileID: 4120914455779099}
+  m_LocalEulerAnglesHint: {x: -6.199258, y: -0, z: 0}
+--- !u!1 &1126504555872398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4483219947432035}
+  m_Layer: 0
+  m_Name: zombiehorse:horsefront_lf_shoulder_jnt1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4483219947432035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126504555872398}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9710531, y: -0.23886363, z: 3.754307e-16, w: 1.5540765e-16}
+  m_LocalPosition: {x: 8.080072, y: -4.2311583, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4156731697286780}
+  m_Father: {fileID: 4523764593723024}
+  m_LocalEulerAnglesHint: {x: 180, y: 4.602964e-14, z: 27.638962}
+--- !u!1 &1187902908180947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4310540815260682}
+  m_Layer: 0
+  m_Name: zombiehorse:horsefront_head_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4310540815260682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187902908180947}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.19257534, y: 0.00424275, z: 0.021613821, w: 0.981035}
+  m_LocalPosition: {x: 0.000000014182436, y: 2.0212529, z: -0.00000006103611}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4872904080835286}
+  m_Father: {fileID: 4886152587330520}
+  m_LocalEulerAnglesHint: {x: -22.192228, y: -0.95397, z: -2.3371344}
+--- !u!1 &1278929577655107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4466796070523261}
+  m_Layer: 0
+  m_Name: zombiehorse:horse_lf_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4466796070523261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278929577655107}
+  serializedVersion: 2
+  m_LocalRotation: {x: 9.250735e-17, y: -2.4265826e-16, z: -0.64746076, w: 0.7620988}
+  m_LocalPosition: {x: -10.564058, y: 2.8139567e-15, z: 4.5595207e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4887915074585230}
+  m_Father: {fileID: 4741776602020391}
+  m_LocalEulerAnglesHint: {x: 2.608235e-14, y: 1.432792e-14, z: 80.70085}
+--- !u!1 &1306498640033386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4969547788366489}
+  m_Layer: 0
+  m_Name: zombiehorse:horsefront_spine_mid_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4969547788366489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306498640033386}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9739735, y: -0.22561908, z: -0.02164894, w: 0.0017080065}
+  m_LocalPosition: {x: -6.966813, y: -9.1323216e-10, z: -1.4534596e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4886152587330520}
+  m_Father: {fileID: 4523764593723024}
+  m_LocalEulerAnglesHint: {x: 179.249, y: -2.3727388, z: 26.100382}
+--- !u!1 &1386634813037422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4643587603806098}
+  m_Layer: 0
+  m_Name: zombiehorse:horse_rt_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4643587603806098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386634813037422}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.96605855, y: 0.25832322, z: -0.000000037897813, w: 0.000000010133842}
+  m_LocalPosition: {x: 9.72012, y: -0.000008902087, z: 0.000000020968367}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4968282125969966}
+  m_LocalEulerAnglesHint: {x: -180, y: -0.000004495348, z: -29.941183}
+--- !u!1 &1426779624463272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4321007113029556}
+  m_Layer: 0
+  m_Name: zombiehorse:horsefront_lf_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4321007113029556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426779624463272}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.7745618e-17, y: -2.6709305e-17, z: 0.02383095, w: 0.99971604}
+  m_LocalPosition: {x: -8.481211, y: 1.6427939e-15, z: -6.871494e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4600209840173281}
+  m_LocalEulerAnglesHint: {x: 1.959982e-15, y: 3.1082516e-15, z: -2.731084}
+--- !u!1 &1440123319931771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4886152587330520}
+  m_Layer: 0
+  m_Name: zombiehorse:horsefront_neck_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4886152587330520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440123319931771}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6063991, y: -0.3637033, z: 0.6063991, w: 0.3637033}
+  m_LocalPosition: {x: -13.375108, y: -2.8512564, z: 1.4210855e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4310540815260682}
+  m_Father: {fileID: 4969547788366489}
+  m_LocalEulerAnglesHint: {x: 118.09141, y: 90, z: 0}
+--- !u!1 &1458372882930607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4545502170221341}
+  m_Layer: 0
+  m_Name: zombiehorse:weightSpine_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4545502170221341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458372882930607}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4490643477664157}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1474108932011356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4356440852422718}
+  m_Layer: 0
+  m_Name: zombiehorse:horsefront_rt_shoulder_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4356440852422718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474108932011356}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9429423, y: -0.24414308, z: -0.15676768, w: 0.16333349}
+  m_LocalPosition: {x: 8.080072, y: -4.2311583, z: -8.881784e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4994632298851879}
+  m_Father: {fileID: 4523764593723024}
+  m_LocalEulerAnglesHint: {x: 156.80486, y: -12.46788, z: 31.600529}
+--- !u!1 &1516882630439434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4523764593723024}
+  m_Layer: 0
+  m_Name: zombiehorse:horsefront_spine_low_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4523764593723024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516882630439434}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5518519, y: -0.4577197, z: -0.4661972, w: 0.51827824}
+  m_LocalPosition: {x: 0.1239854, y: -0.13720548, z: 26.761854}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4483219947432035}
+  - {fileID: 4356440852422718}
+  - {fileID: 4969547788366489}
+  m_Father: {fileID: 4069307698259800}
+  m_LocalEulerAnglesHint: {x: 91.611275, y: -2.2976782, z: 81.580284}
+--- !u!1 &1537973892194270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4872904080835286}
+  m_Layer: 0
+  m_Name: zombiehorse:horsefront_head_b_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4872904080835286
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537973892194270}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.3319004, y: 0.000000008451426, z: 0.0000000015845679, w: 0.9433145}
+  m_LocalPosition: {x: 0.00000008170372, y: 31.177828, z: 1.4073935e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4310540815260682}
+  m_LocalEulerAnglesHint: {x: -38.768322, y: -0.0000009738301, z: 0.00000015014767}
+--- !u!1 &1598346700231458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4286713013099732}
+  m_Layer: 0
+  m_Name: zombiehorse:horse_spine_low_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4286713013099732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598346700231458}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.44142562, y: -0.4416324, z: -0.5236084, w: 0.579602}
+  m_LocalPosition: {x: -0.204031, y: 38.05315, z: -15.034051}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4524830548464308}
+  - {fileID: 4069307698259800}
+  - {fileID: 4120914455779099}
+  m_Father: {fileID: 4490643477664157}
+  m_LocalEulerAnglesHint: {x: 77.26273, y: 2.8472664, z: 86.46454}
+--- !u!1 &1601609762975599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4968282125969966}
+  m_Layer: 0
+  m_Name: zombiehorse:horse_rt_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4968282125969966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601609762975599}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.86621195, y: 0.48431128, z: -0.119902946, w: -0.027252948}
+  m_LocalPosition: {x: 11.814638, y: 0.0000018405443, z: -0.00000011070862}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4643587603806098}
+  m_Father: {fileID: 4984404154236382}
+  m_LocalEulerAnglesHint: {x: -170.4384, y: -10.446941, z: -59.29648}
+--- !u!1 &1611095282046967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4951706526082636}
+  m_Layer: 0
+  m_Name: zombiehorse:horse_tail3_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4951706526082636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611095282046967}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.34309563, y: 0, z: -0, w: 0.9393005}
+  m_LocalPosition: {x: 3.5527137e-15, y: -8.830335, z: 0.36289048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4596085112113248}
+  m_LocalEulerAnglesHint: {x: -40.13118, y: -0, z: 0}
+--- !u!1 &1655661373969991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4887915074585230}
+  m_Layer: 0
+  m_Name: zombiehorse:horse_lf_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4887915074585230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655661373969991}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.96641684, y: 0.23134962, z: -0.08981192, w: -0.066705815}
+  m_LocalPosition: {x: -11.814634, y: 2.814551e-15, z: -4.401366e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4595911364821103}
+  m_Father: {fileID: 4466796070523261}
+  m_LocalEulerAnglesHint: {x: -170.0813, y: -8.205664, z: -27.638508}
+--- !u!1 &1657858614216604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4156731697286780}
+  m_Layer: 0
+  m_Name: zombiehorse:horsefront_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4156731697286780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657858614216604}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.20101014, y: 0.003470817, z: 0.8841949, w: 0.42164242}
+  m_LocalPosition: {x: 5.109493, y: 0.4729281, z: -7.4523983}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4101211599330324}
+  m_Father: {fileID: 4483219947432035}
+  m_LocalEulerAnglesHint: {x: 10.818421, y: 20.64259, z: -127.034355}
+--- !u!1 &1693426488208311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4301383538139036}
+  - component: {fileID: 111310733680685814}
+  - component: {fileID: 114453640230596401}
+  m_Layer: 0
+  m_Name: zombiehorse@walk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4301383538139036
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693426488208311}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4490643477664157}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!111 &111310733680685814
 Animation:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693426488208311}
   m_Enabled: 1
+  serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 1e401e96ead3f7047ada19b30b2b4cfe, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 1e401e96ead3f7047ada19b30b2b4cfe, type: 2}
@@ -57,886 +786,273 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
-  m_UserAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!114 &114453640230596401
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693426488208311}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sourcePrefabPath: Assets/Resources/Characters/ZombieHorse/zombiehorse@walk.fbx
-  basePrefabPath:
+  basePrefabPath: 
   exemptObjects: []
---- !u!1 &1114256840214197
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4490643477664157}
-  m_Layer: 0
-  m_Name: zombiehorse:horse_Skeleton_grp
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4490643477664157
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1114256840214197}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 4286713013099732}
-  - {fileID: 4545502170221341}
-  m_Father: {fileID: 4301383538139036}
---- !u!1 &1598346700231458
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4286713013099732}
-  m_Layer: 0
-  m_Name: zombiehorse:horse_spine_low_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4286713013099732
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1598346700231458}
-  m_LocalRotation: {x: 0.44142562, y: -0.4416324, z: -0.5236084, w: 0.579602}
-  m_LocalPosition: {x: -0.204031, y: 38.05315, z: -15.034051}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 77.26273, y: 2.8472664, z: 86.46454}
-  m_Children:
-  - {fileID: 4524830548464308}
-  - {fileID: 4069307698259800}
-  - {fileID: 4120914455779099}
-  m_Father: {fileID: 4490643477664157}
---- !u!1 &1081385494948563
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4524830548464308}
-  m_Layer: 0
-  m_Name: zombiehorse:horse_hip_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4524830548464308
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1081385494948563}
-  m_LocalRotation: {x: 0.9944422, y: -0.09815002, z: -0.038070325, w: 0.0013829669}
-  m_LocalPosition: {x: 2.7212603, y: -0.5435493, z: -0.20996213}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 179.41254, y: -4.326849, z: 11.295704}
-  m_Children:
-  - {fileID: 4741776602020391}
-  - {fileID: 4010357891979899}
-  m_Father: {fileID: 4286713013099732}
---- !u!1 &1021473104273263
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4741776602020391}
-  m_Layer: 0
-  m_Name: zombiehorse:horse_lf_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4741776602020391
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1021473104273263}
-  m_LocalRotation: {x: 0.501153, y: 0.8425059, z: 0.1856442, w: -0.06756981}
-  m_LocalPosition: {x: 4.531995, y: -0.79735154, z: -9.296214}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 165.11292, y: 17.453293, z: -120.806335}
-  m_Children:
-  - {fileID: 4466796070523261}
-  m_Father: {fileID: 4524830548464308}
---- !u!1 &1278929577655107
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4466796070523261}
-  m_Layer: 0
-  m_Name: zombiehorse:horse_lf_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4466796070523261
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1278929577655107}
-  m_LocalRotation: {x: 9.250735E-17, y: -2.4265826E-16, z: -0.64746076, w: 0.7620988}
-  m_LocalPosition: {x: -10.564058, y: 2.8139567E-15, z: 4.5595207E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 2.608235E-14, y: 1.432792E-14, z: 80.70085}
-  m_Children:
-  - {fileID: 4887915074585230}
-  m_Father: {fileID: 4741776602020391}
---- !u!1 &1655661373969991
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4887915074585230}
-  m_Layer: 0
-  m_Name: zombiehorse:horse_lf_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4887915074585230
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1655661373969991}
-  m_LocalRotation: {x: 0.96641684, y: 0.23134962, z: -0.08981192, w: -0.066705815}
-  m_LocalPosition: {x: -11.814634, y: 2.814551E-15, z: -4.401366E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -170.0813, y: -8.205664, z: -27.638508}
-  m_Children:
-  - {fileID: 4595911364821103}
-  m_Father: {fileID: 4466796070523261}
 --- !u!1 &1791876208796150
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4595911364821103}
+  - component: {fileID: 4595911364821103}
   m_Layer: 0
   m_Name: zombiehorse:horse_lf_ball_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4595911364821103
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791876208796150}
-  m_LocalRotation: {x: 0.8564527, y: -0.5162255, z: -2.7071623E-16, w: -9.16785E-17}
-  m_LocalPosition: {x: -9.720124, y: 2.8865799E-15, z: 1.9975265E-15}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.8564527, y: -0.5162255, z: -2.7071623e-16, w: -9.16785e-17}
+  m_LocalPosition: {x: -9.720124, y: 2.8865799e-15, z: 1.9975265e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: -3.199195E-14, z: 62.15881}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4887915074585230}
---- !u!1 &1854280469788610
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4010357891979899}
-  m_Layer: 0
-  m_Name: zombiehorse:horse_rt_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4010357891979899
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1854280469788610}
-  m_LocalRotation: {x: 0.86418325, y: -0.47214216, z: -0.17323346, w: 0.016098589}
-  m_LocalPosition: {x: 4.531952, y: -0.79733133, z: 9.29621}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 168.48418, y: -16.511591, z: 58.97596}
-  m_Children:
-  - {fileID: 4984404154236382}
-  m_Father: {fileID: 4524830548464308}
+  m_LocalEulerAnglesHint: {x: 180, y: -3.199195e-14, z: 62.15881}
 --- !u!1 &1808443072117715
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4984404154236382}
+  - component: {fileID: 4984404154236382}
   m_Layer: 0
   m_Name: zombiehorse:horse_rt_knee_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4984404154236382
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808443072117715}
-  m_LocalRotation: {x: 7.943068E-09, y: 6.1399867E-09, z: -0.7529862, w: 0.6580363}
-  m_LocalPosition: {x: 10.564104, y: -7.96303E-06, z: -1.1901591E-13}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000007943068, y: 0.0000000061399867, z: -0.7529862, w: 0.6580363}
+  m_LocalPosition: {x: 10.564104, y: -0.00000796303, z: -1.1901591e-13}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 6.915624E-08, y: -1.1483627E-06, z: 97.69943}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4968282125969966}
   m_Father: {fileID: 4010357891979899}
---- !u!1 &1601609762975599
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4968282125969966}
-  m_Layer: 0
-  m_Name: zombiehorse:horse_rt_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4968282125969966
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1601609762975599}
-  m_LocalRotation: {x: 0.86621195, y: 0.48431128, z: -0.119902946, w: -0.027252948}
-  m_LocalPosition: {x: 11.814638, y: 1.8405443E-06, z: -1.1070862E-07}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -170.4384, y: -10.446941, z: -59.29648}
-  m_Children:
-  - {fileID: 4643587603806098}
-  m_Father: {fileID: 4984404154236382}
---- !u!1 &1386634813037422
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4643587603806098}
-  m_Layer: 0
-  m_Name: zombiehorse:horse_rt_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4643587603806098
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1386634813037422}
-  m_LocalRotation: {x: 0.96605855, y: 0.25832322, z: -3.7897813E-08, w: 1.0133842E-08}
-  m_LocalPosition: {x: 9.72012, y: -8.902087E-06, z: 2.0968367E-08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -180, y: -4.495348E-06, z: -29.941183}
-  m_Children: []
-  m_Father: {fileID: 4968282125969966}
---- !u!1 &1864450183459971
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4069307698259800}
-  m_Layer: 0
-  m_Name: zombiehorse:horse_midsection_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4069307698259800
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1864450183459971}
-  m_LocalRotation: {x: -0.4414257, y: 0.4416324, z: 0.5236084, w: 0.579602}
-  m_LocalPosition: {x: 3.759683, y: 14.434056, z: 3.3717165}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -12.598813, y: -76.9594, z: -74.15977}
-  m_Children:
-  - {fileID: 4523764593723024}
-  m_Father: {fileID: 4286713013099732}
---- !u!1 &1516882630439434
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4523764593723024}
-  m_Layer: 0
-  m_Name: zombiehorse:horsefront_spine_low_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4523764593723024
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1516882630439434}
-  m_LocalRotation: {x: 0.5518519, y: -0.4577197, z: -0.4661972, w: 0.51827824}
-  m_LocalPosition: {x: 0.1239854, y: -0.13720548, z: 26.761854}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 91.611275, y: -2.2976782, z: 81.580284}
-  m_Children:
-  - {fileID: 4483219947432035}
-  - {fileID: 4356440852422718}
-  - {fileID: 4969547788366489}
-  m_Father: {fileID: 4069307698259800}
---- !u!1 &1126504555872398
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4483219947432035}
-  m_Layer: 0
-  m_Name: zombiehorse:horsefront_lf_shoulder_jnt1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4483219947432035
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1126504555872398}
-  m_LocalRotation: {x: 0.9710531, y: -0.23886363, z: 3.754307E-16, w: 1.5540765E-16}
-  m_LocalPosition: {x: 8.080072, y: -4.2311583, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: 4.602964E-14, z: 27.638962}
-  m_Children:
-  - {fileID: 4156731697286780}
-  m_Father: {fileID: 4523764593723024}
---- !u!1 &1657858614216604
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4156731697286780}
-  m_Layer: 0
-  m_Name: zombiehorse:horsefront_lf_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4156731697286780
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1657858614216604}
-  m_LocalRotation: {x: 0.20101014, y: 0.003470817, z: 0.8841949, w: 0.42164242}
-  m_LocalPosition: {x: 5.109493, y: 0.4729281, z: -7.4523983}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 10.818421, y: 20.64259, z: -127.034355}
-  m_Children:
-  - {fileID: 4101211599330324}
-  m_Father: {fileID: 4483219947432035}
+  m_LocalEulerAnglesHint: {x: 0.00000006915624, y: -0.0000011483627, z: 97.69943}
 --- !u!1 &1838036995972201
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4101211599330324}
+  - component: {fileID: 4101211599330324}
   m_Layer: 0
   m_Name: zombiehorse:horsefront_lf_knee_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4101211599330324
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838036995972201}
-  m_LocalRotation: {x: 0.7186569, y: -0.69536483, z: -9.57492E-18, w: 7.593926E-17}
-  m_LocalPosition: {x: -8.703398, y: 2.3483612E-14, z: -1.8407085E-15}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7186569, y: -0.69536483, z: -9.57492e-18, w: 7.593926e-17}
+  m_LocalPosition: {x: -8.703398, y: 2.3483612e-14, z: -1.8407085e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: 5.26255E-15, z: 88.112595}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4600209840173281}
   m_Father: {fileID: 4156731697286780}
---- !u!1 &1937204642823930
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4600209840173281}
-  m_Layer: 0
-  m_Name: zombiehorse:horsefront_lf_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4600209840173281
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1937204642823930}
-  m_LocalRotation: {x: 0.07756257, y: 0.102237426, z: 0.954622, w: -0.26875353}
-  m_LocalPosition: {x: -9.50178, y: 1.1141735E-15, z: -3.4606209E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 9.019535, y: 11.71474, z: 149.48032}
-  m_Children:
-  - {fileID: 4321007113029556}
-  m_Father: {fileID: 4101211599330324}
---- !u!1 &1426779624463272
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4321007113029556}
-  m_Layer: 0
-  m_Name: zombiehorse:horsefront_lf_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4321007113029556
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1426779624463272}
-  m_LocalRotation: {x: 1.7745618E-17, y: -2.6709305E-17, z: 0.02383095, w: 0.99971604}
-  m_LocalPosition: {x: -8.481211, y: 1.6427939E-15, z: -6.871494E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.959982E-15, y: 3.1082516E-15, z: -2.731084}
-  m_Children: []
-  m_Father: {fileID: 4600209840173281}
---- !u!1 &1474108932011356
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4356440852422718}
-  m_Layer: 0
-  m_Name: zombiehorse:horsefront_rt_shoulder_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4356440852422718
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1474108932011356}
-  m_LocalRotation: {x: 0.9429423, y: -0.24414308, z: -0.15676768, w: 0.16333349}
-  m_LocalPosition: {x: 8.080072, y: -4.2311583, z: -8.881784E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 156.80486, y: -12.46788, z: 31.600529}
-  m_Children:
-  - {fileID: 4994632298851879}
-  m_Father: {fileID: 4523764593723024}
---- !u!1 &1964816880854708
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4994632298851879}
-  m_Layer: 0
-  m_Name: zombiehorse:horsefront_rt_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4994632298851879
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1964816880854708}
-  m_LocalRotation: {x: 0.10960761, y: 0.32404315, z: -0.27680203, w: 0.89797705}
-  m_LocalPosition: {x: 5.109493, y: 0.4729469, z: 7.4524}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.3057164, y: -39.9894, z: 33.788773}
-  m_Children:
-  - {fileID: 4616889610479872}
-  m_Father: {fileID: 4356440852422718}
---- !u!1 &1058333506209833
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4616889610479872}
-  m_Layer: 0
-  m_Name: zombiehorse:horsefront_rt_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4616889610479872
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1058333506209833}
-  m_LocalRotation: {x: 1, y: -1.0133106E-05, z: -7.2365975E-17, w: -6.123307E-17}
-  m_LocalPosition: {x: 8.786587, y: -5.075003E-05, z: -8.881784E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -180, y: -8.292601E-15, z: 0.0011611684}
-  m_Children:
-  - {fileID: 4729679892741944}
-  m_Father: {fileID: 4994632298851879}
+  m_LocalEulerAnglesHint: {x: 180, y: 5.26255e-15, z: 88.112595}
 --- !u!1 &1850605909891585
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4729679892741944}
+  - component: {fileID: 4729679892741944}
   m_Layer: 0
   m_Name: zombiehorse:horsefront_rt_ankle_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4729679892741944
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850605909891585}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.07961336, y: 0.055859838, z: 0.1796821, w: 0.9789054}
-  m_LocalPosition: {x: 9.592708, y: -2.8708602E-05, z: 8.881784E-16}
+  m_LocalPosition: {x: 9.592708, y: -0.000028708602, z: 8.881784e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 10.167031, y: -4.631838, z: -21.21445}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4671781842756944}
   m_Father: {fileID: 4616889610479872}
---- !u!1 &1069005580494380
+  m_LocalEulerAnglesHint: {x: 10.167031, y: -4.631838, z: -21.21445}
+--- !u!1 &1854280469788610
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4671781842756944}
+  - component: {fileID: 4010357891979899}
   m_Layer: 0
-  m_Name: zombiehorse:horsefront_rt_ball_jnt
+  m_Name: zombiehorse:horse_rt_upLeg_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4671781842756944
+--- !u!4 &4010357891979899
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1069005580494380}
-  m_LocalRotation: {x: -2.6285854E-17, y: 1.8762755E-16, z: 0.4538434, w: 0.89108145}
-  m_LocalPosition: {x: 8.48118, y: 5.4311673E-05, z: -8.881784E-16}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854280469788610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.86418325, y: -0.47214216, z: -0.17323346, w: 0.016098589}
+  m_LocalPosition: {x: 4.531952, y: -0.79733133, z: 9.29621}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 7.073816E-15, y: -2.0525765E-14, z: -53.981083}
-  m_Children: []
-  m_Father: {fileID: 4729679892741944}
---- !u!1 &1306498640033386
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4969547788366489}
-  m_Layer: 0
-  m_Name: zombiehorse:horsefront_spine_mid_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4969547788366489
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1306498640033386}
-  m_LocalRotation: {x: 0.9739735, y: -0.22561908, z: -0.02164894, w: 0.0017080065}
-  m_LocalPosition: {x: -6.966813, y: -9.1323216E-10, z: -1.4534596E-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 179.249, y: -2.3727388, z: 26.100382}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4886152587330520}
-  m_Father: {fileID: 4523764593723024}
---- !u!1 &1440123319931771
+  - {fileID: 4984404154236382}
+  m_Father: {fileID: 4524830548464308}
+  m_LocalEulerAnglesHint: {x: 168.48418, y: -16.511591, z: 58.97596}
+--- !u!1 &1864450183459971
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4886152587330520}
+  - component: {fileID: 4069307698259800}
   m_Layer: 0
-  m_Name: zombiehorse:horsefront_neck_jnt
+  m_Name: zombiehorse:horse_midsection_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4886152587330520
+--- !u!4 &4069307698259800
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1440123319931771}
-  m_LocalRotation: {x: 0.6063991, y: -0.3637033, z: 0.6063991, w: 0.3637033}
-  m_LocalPosition: {x: -13.375108, y: -2.8512564, z: 1.4210855E-14}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864450183459971}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.4414257, y: 0.4416324, z: 0.5236084, w: 0.579602}
+  m_LocalPosition: {x: 3.759683, y: 14.434056, z: 3.3717165}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 118.09141, y: 90, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4310540815260682}
-  m_Father: {fileID: 4969547788366489}
---- !u!1 &1187902908180947
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4310540815260682}
-  m_Layer: 0
-  m_Name: zombiehorse:horsefront_head_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4310540815260682
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1187902908180947}
-  m_LocalRotation: {x: -0.19257534, y: 0.00424275, z: 0.021613821, w: 0.981035}
-  m_LocalPosition: {x: 1.4182436E-08, y: 2.0212529, z: -6.103611E-08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -22.192228, y: -0.95397, z: -2.3371344}
-  m_Children:
-  - {fileID: 4872904080835286}
-  m_Father: {fileID: 4886152587330520}
---- !u!1 &1537973892194270
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4872904080835286}
-  m_Layer: 0
-  m_Name: zombiehorse:horsefront_head_b_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4872904080835286
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537973892194270}
-  m_LocalRotation: {x: -0.3319004, y: 8.451426E-09, z: 1.5845679E-09, w: 0.9433145}
-  m_LocalPosition: {x: 8.170372E-08, y: 31.177828, z: 1.4073935E-14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -38.768322, y: -9.738301E-07, z: 1.5014767E-07}
-  m_Children: []
-  m_Father: {fileID: 4310540815260682}
---- !u!1 &1052344160585394
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4120914455779099}
-  m_Layer: 0
-  m_Name: zombiehorse:horse_tail1_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4120914455779099
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1052344160585394}
-  m_LocalRotation: {x: -0.49246293, y: 0.5074251, z: 0.49246293, w: 0.5074251}
-  m_LocalPosition: {x: -11.523104, y: -18.51414, z: -7.993606E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -88.28539, y: -90, z: 0}
-  m_Children:
-  - {fileID: 4596085112113248}
+  - {fileID: 4523764593723024}
   m_Father: {fileID: 4286713013099732}
---- !u!1 &1117028570592573
+  m_LocalEulerAnglesHint: {x: -12.598813, y: -76.9594, z: -74.15977}
+--- !u!1 &1937204642823930
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4596085112113248}
+  - component: {fileID: 4600209840173281}
   m_Layer: 0
-  m_Name: zombiehorse:horse_tail2_jnt
+  m_Name: zombiehorse:horsefront_lf_ankle_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4596085112113248
+--- !u!4 &4600209840173281
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1117028570592573}
-  m_LocalRotation: {x: -0.054072347, y: 0, z: -0, w: 0.998537}
-  m_LocalPosition: {x: 8.881784E-16, y: -10.886715, z: -3.7498684}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937204642823930}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.07756257, y: 0.102237426, z: 0.954622, w: -0.26875353}
+  m_LocalPosition: {x: -9.50178, y: 1.1141735e-15, z: -3.4606209e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -6.199258, y: -0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4951706526082636}
-  m_Father: {fileID: 4120914455779099}
---- !u!1 &1611095282046967
+  - {fileID: 4321007113029556}
+  m_Father: {fileID: 4101211599330324}
+  m_LocalEulerAnglesHint: {x: 9.019535, y: 11.71474, z: 149.48032}
+--- !u!1 &1964816880854708
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4951706526082636}
+  - component: {fileID: 4994632298851879}
   m_Layer: 0
-  m_Name: zombiehorse:horse_tail3_jnt
+  m_Name: zombiehorse:horsefront_rt_upLeg_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4951706526082636
+--- !u!4 &4994632298851879
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1611095282046967}
-  m_LocalRotation: {x: -0.34309563, y: 0, z: -0, w: 0.9393005}
-  m_LocalPosition: {x: 3.5527137E-15, y: -8.830335, z: 0.36289048}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964816880854708}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.10960761, y: 0.32404315, z: -0.27680203, w: 0.89797705}
+  m_LocalPosition: {x: 5.109493, y: 0.4729469, z: 7.4524}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -40.13118, y: -0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4596085112113248}
---- !u!1 &1458372882930607
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4545502170221341}
-  m_Layer: 0
-  m_Name: zombiehorse:weightSpine_grp
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4545502170221341
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1458372882930607}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4490643477664157}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4616889610479872}
+  m_Father: {fileID: 4356440852422718}
+  m_LocalEulerAnglesHint: {x: 1.3057164, y: -39.9894, z: 33.788773}

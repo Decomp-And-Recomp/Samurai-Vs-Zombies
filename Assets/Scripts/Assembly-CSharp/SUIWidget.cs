@@ -68,13 +68,13 @@ public class SUIWidget : SUIProcess, IHasVisualAttributes
 	{
 		get
 		{
-			return mGameObject.active;
+			return mGameObject.activeSelf;
 		}
 		set
 		{
-			if (mGameObject.active != value)
+			if (mGameObject.activeSelf != value)
 			{
-				mGameObject.active = value;
+				mGameObject.SetActive(value);
 			}
 		}
 	}

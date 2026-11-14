@@ -22,7 +22,7 @@ public class ParAttractorBehavior : MonoBehaviour
 
 	private void Update()
 	{
-		Particle[] particles = base.GetComponent<ParticleEmitter>().particles;
+		ParticleSystem.Particle[] particles = base.GetComponent<LegacyParticleEmitter>().particles;
 		if (UseWorldSpace)
 		{
 			pVector = AttractorLoc;
@@ -32,8 +32,8 @@ public class ParAttractorBehavior : MonoBehaviour
 			pVector = base.transform.position - AttractorLoc;
 		}
 		x = 0;
-		Particle[] array = particles;
-		foreach (Particle particle in array)
+		ParticleSystem.Particle[] array = particles;
+		foreach (ParticleSystem.Particle particle in array)
 		{
 			gVector = particle.position - pVector;
 			if (gVector.sqrMagnitude > minExclusion * minExclusion)
@@ -43,6 +43,6 @@ public class ParAttractorBehavior : MonoBehaviour
 			}
 			x++;
 		}
-		base.GetComponent<ParticleEmitter>().particles = particles;
+		base.GetComponent<LegacyParticleEmitter>().particles = particles;
 	}
 }

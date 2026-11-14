@@ -3,10 +3,11 @@
 --- !u!43 &4300000
 Mesh:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: lzombiebow_pCube7
-  serializedVersion: 8
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -26,15 +27,17 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
   m_IndexBuffer: 010000000300020002000400040005000800090009000b000b0006000a000c000c000e000e000d0007000f000f0012001200100011001300
-  m_Skin: []
   m_VertexData:
-    m_CurrentChannels: 143
+    serializedVersion: 3
     m_VertexCount: 20
     m_Channels:
     - stream: 0
@@ -45,6 +48,10 @@ Mesh:
       offset: 12
       format: 0
       dimension: 3
+    - stream: 0
+      offset: 36
+      format: 0
+      dimension: 4
     - stream: 0
       offset: 24
       format: 2
@@ -66,9 +73,29 @@ Mesh:
       format: 0
       dimension: 0
     - stream: 0
-      offset: 36
+      offset: 0
       format: 0
-      dimension: 4
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
     m_DataSize: 1040
     _typelessdata: 00d8003d55b8d4be005a903e00000000000000000000803fffffffffd5890b3fa805a33d0000803f00000000000000000000803f006e97be42e7a3bd005a903e00000000000000000000803fffffffff61b50b3fa805a33d0000803f00000000000000000000803fc0a4b73e42e7a3bd005a903e00000000000000000000803fffffffff475e0b3fa805a33d0000803f00000000000000000000803f00d8003db3c4823e005a903e00000000000000000000803fffffffffd5890b3fa805a33d0000803f00000000000000000000803f202cf8be42e7a3bd417467c2165e1fbf325848bfe595843affffffff63b50b3fa805a33dad13253a98854f3af8ff7f3f000080bf00cd003d55b8d4be417467c2165e1fbf325848bfe595843affffffffd5890b3fa805a33dad13253a98854f3af8ff7f3f000080bfa02f0c3f42e7a3bd427467c2e55d1f3f585848bf018d843affffffff475e0b3fa805a33d690825bad5774f3af8ff7f3f000080bf00cd003db3c4823e427467c2e55d1f3f5858483f008d843affffffffd5890b3fa805a33d680825bad3774fbaf8ff7f3f0000803f006e97be42e7a3bd005a903e165e1fbf325848bfe595843affffffff61b50b3fa805a33dad13253a98854f3af8ff7f3f000080bf00d8003d55b8d4be005a903e165e1fbf325848bfe595843affffffffd5890b3fa805a33dad13253a98854f3af8ff7f3f000080bf00d8003d55b8d4be005a903ee55d1f3f585848bf018d843affffffffd5890b3fa805a33d690825bad5774f3af8ff7f3f000080bf00cd003d55b8d4be417467c2e55d1f3f585848bf018d843affffffffd5890b3fa805a33d690825bad5774f3af8ff7f3f000080bfc0a4b73e42e7a3bd005a903ee55d1f3f585848bf018d843affffffff475e0b3fa805a33d690825bad5774f3af8ff7f3f000080bfc0a4b73e42e7a3bd005a903ee55d1f3f5858483f008d843affffffff475e0b3fa805a33d680825bad3774fbaf8ff7f3f0000803f00d8003db3c4823e005a903ee55d1f3f5858483f008d843affffffffd5890b3fa805a33d680825bad3774fbaf8ff7f3f0000803fa02f0c3f42e7a3bd427467c2e55d1f3f5858483f008d843affffffff475e0b3fa805a33d680825bad3774fbaf8ff7f3f0000803f006e97be42e7a3bd005a903e165e1fbf3258483fe495843affffffff61b50b3fa805a33dac13253a96854fbaf8ff7f3f0000803f00cd003db3c4823e427467c2165e1fbf3258483fe495843affffffffd5890b3fa805a33dac13253a96854fbaf8ff7f3f0000803f202cf8be42e7a3bd417467c2165e1fbf3258483fe495843affffffff63b50b3fa805a33dac13253a96854fbaf8ff7f3f0000803f00d8003db3c4823e005a903e165e1fbf3258483fe495843affffffffd5890b3fa805a33dac13253a96854fbaf8ff7f3f0000803f
   m_CompressedMesh:
@@ -127,6 +154,14 @@ Mesh:
     m_Center: {x: 0.031445026, y: -0.08003095, z: -28.790798}
     m_Extent: {x: 0.5161567, y: 0.3354379, z: 29.072735}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: -1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 

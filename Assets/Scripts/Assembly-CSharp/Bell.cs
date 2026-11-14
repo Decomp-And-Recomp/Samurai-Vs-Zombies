@@ -41,7 +41,7 @@ public class Bell
 		{
 			if (mBellRinger != null)
 			{
-				mBellRinger.SetActiveRecursively(false);
+				LegacyActivation.SetRecursively(mBellRinger, false);
 			}
 			return;
 		}

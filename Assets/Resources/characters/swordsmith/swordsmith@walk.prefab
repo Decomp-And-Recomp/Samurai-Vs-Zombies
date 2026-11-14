@@ -1,55 +1,80 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1031646262740869}
-  m_IsPrefabParent: 1
-  m_IsExploded: 0
---- !u!1 &1031646262740869
+--- !u!1 &1020697286395818
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4148761666236264}
-  - 111: {fileID: 111848716868290390}
-  - 114: {fileID: 114692481403474313}
+  - component: {fileID: 4701386085060756}
   m_Layer: 0
-  m_Name: swordsmith@walk
+  m_Name: Swordsmith:Swordsmith_lf_upArm_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4701386085060756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020697286395818}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.14697543, y: -0.124426566, z: 0.48976633, w: 0.8503207}
+  m_LocalPosition: {x: -7.6872544, y: 2.333332e-15, z: 1.8753796e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4103586777697883}
+  m_Father: {fileID: 4424278947116489}
+  m_LocalEulerAnglesHint: {x: 7.875877, y: 20.828514, z: -58.432297}
+--- !u!1 &1031646262740869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4148761666236264}
+  - component: {fileID: 111848716868290390}
+  - component: {fileID: 114692481403474313}
+  m_Layer: 0
+  m_Name: swordsmith@walk
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4148761666236264
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031646262740869}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4753889517887893}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!111 &111848716868290390
 Animation:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031646262740869}
   m_Enabled: 1
+  serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 48eac4afb32723049b31eede24fc8615, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 48eac4afb32723049b31eede24fc8615, type: 2}
@@ -57,1054 +82,1170 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
-  m_UserAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!114 &114692481403474313
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031646262740869}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sourcePrefabPath: Assets/Resources/Characters/Swordsmith/swordsmith@walk.fbx
-  basePrefabPath:
+  basePrefabPath: 
   exemptObjects: []
---- !u!1 &1925347529794168
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4753889517887893}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_Skeleton_grp
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4753889517887893
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1925347529794168}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 4773214109338688}
-  - {fileID: 4917443149485660}
-  m_Father: {fileID: 4148761666236264}
 --- !u!1 &1043253430881466
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4773214109338688}
+  - component: {fileID: 4773214109338688}
   m_Layer: 0
   m_Name: Swordsmith:Swordsmith_spine_low_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4773214109338688
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043253430881466}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.4354892, y: -0.45282298, z: -0.556939, w: 0.54324895}
-  m_LocalPosition: {x: 1.110223E-16, y: 29.427471, z: -2.2120712}
+  m_LocalPosition: {x: 1.110223e-16, y: 29.427471, z: -2.2120712}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 77.84213, y: 0.39588085, z: 91.74551}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4845047893087566}
   - {fileID: 4331570476183998}
   m_Father: {fileID: 4753889517887893}
---- !u!1 &1787102685106079
+  m_LocalEulerAnglesHint: {x: 77.84213, y: 0.39588085, z: 91.74551}
+--- !u!1 &1081447213054474
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4845047893087566}
+  - component: {fileID: 4132192470162999}
   m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_hip_jnt
+  m_Name: Swordsmith:Swordsmith_head_b_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4132192470162999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081447213054474}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.016092371, y: -5.551115e-17, z: 1.6653345e-16, w: 0.99987054}
+  m_LocalPosition: {x: 5.0756027e-15, y: 33.408356, z: 2.0515936e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4757929209381487}
+  m_LocalEulerAnglesHint: {x: 1.8441296, y: 6.6673817e-15, z: -1.8978491e-14}
+--- !u!1 &1118187862957341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4966580623973565}
+  m_Layer: 0
+  m_Name: Swordsmith:RightSkirt
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4966580623973565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118187862957341}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.03329877, y: 0.6863224, z: 0.69034195, w: 0.22645259}
+  m_LocalPosition: {x: -4.125721, y: 0.11162648, z: -13.4739}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4830360618810885}
+  m_Father: {fileID: 4845047893087566}
+  m_LocalEulerAnglesHint: {x: 86.58138, y: -20.904663, z: -163.39558}
+--- !u!1 &1124002499213051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4031668372730707}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_rt_hand_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4031668372730707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124002499213051}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.1632609, y: 0.08666634, z: -0.23390341, w: 0.95452815}
+  m_LocalPosition: {x: -7.1054274e-15, y: 7.1054274e-15, z: 8.881784e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4687630939055211}
+  - {fileID: 4774471340344818}
+  - {fileID: 4650752073418876}
+  m_Father: {fileID: 4818299224087753}
+  m_LocalEulerAnglesHint: {x: -20.70908, y: -5.1104727, z: 28.471941}
+--- !u!1 &1141228154931610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4300194549689575}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4300194549689575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141228154931610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.70139325, y: 0.5206095, z: 0.3817498, w: -0.3021264}
+  m_LocalPosition: {x: -1.1059979, y: 1.2415243, z: 7.16383}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4528458758703150}
+  m_Father: {fileID: 4838150119399662}
+  m_LocalEulerAnglesHint: {x: -177.13379, y: 58.22181, z: -71.57309}
+--- !u!1 &1147406794652339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4424278947116489}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4424278947116489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147406794652339}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.39117813, y: 0.65271086, z: -0.4451031, w: -0.47205037}
+  m_LocalPosition: {x: -1.106003, y: 1.241528, z: -7.163829}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4701386085060756}
+  m_Father: {fileID: 4838150119399662}
+  m_LocalEulerAnglesHint: {x: -126.74877, y: 74.677536, z: 159.98824}
+--- !u!1 &1153524656533635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4331570476183998}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_spine_mid_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4331570476183998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153524656533635}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9999122, y: -0.011000879, z: 0.004783756, w: -0.0056309453}
+  m_LocalPosition: {x: -7.217677, y: -1.0444445e-10, z: 7.640111e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4519430477592161}
+  m_Father: {fileID: 4773214109338688}
+  m_LocalEulerAnglesHint: {x: -179.34872, y: 0.5410396, z: 1.2637428}
+--- !u!1 &1162739260930891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4111833557400379}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_lf_hand_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4111833557400379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162739260930891}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.1420934, y: -0.1496615, z: 0.068007715, w: 0.97610754}
+  m_LocalPosition: {x: -1.4210855e-14, y: 7.1054274e-15, z: 8.881784e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4810264939810971}
+  - {fileID: 4999941940980389}
+  m_Father: {fileID: 4311948901315117}
+  m_LocalEulerAnglesHint: {x: -18.02886, y: 15.833604, z: -10.498567}
+--- !u!1 &1201279585799969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4838150119399662}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_spine_end_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4838150119399662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201279585799969}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.2002588e-16, y: -1.0901395e-24, z: 0.19857526, w: 0.9800857}
+  m_LocalPosition: {x: -5.4413486, y: 1.2889633e-14, z: 1.7982037e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4424278947116489}
+  - {fileID: 4132896682199192}
+  - {fileID: 4300194549689575}
+  m_Father: {fileID: 4519430477592161}
+  m_LocalEulerAnglesHint: {x: 1.348005e-14, y: 2.7311944e-15, z: -22.90731}
+--- !u!1 &1210074098173426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4687630939055211}
+  m_Layer: 0
+  m_Name: Swordsmith:prop1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4687630939055211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210074098173426}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.85601026, y: -0.5166461, z: 0.016476654, w: -0.0071929162}
+  m_LocalPosition: {x: 5.713086, y: 2.6313417, z: -5.7256927}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4031668372730707}
+  m_LocalEulerAnglesHint: {x: -178.31836, y: 1.1904619, z: 62.24374}
+--- !u!1 &1226799700420233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4818299224087753}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_rt_wrist_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4818299224087753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226799700420233}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.766813, y: 0.00005754405, z: -0.0000038541634}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4031668372730707}
+  m_Father: {fileID: 4056945307222371}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1242565263614748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4528458758703150}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_rt_upArm_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4528458758703150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242565263614748}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.26976737, y: 0.47864228, z: 0.43879935, w: 0.71104306}
+  m_LocalPosition: {x: 7.687236, y: -0.000034071203, z: 0.0000049829937}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4056945307222371}
+  m_Father: {fileID: 4300194549689575}
+  m_LocalEulerAnglesHint: {x: 63.754642, y: -26.354458, z: -79.927704}
+--- !u!1 &1266233725250422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4650752073418876}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_rt_thumb_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4650752073418876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266233725250422}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7052337, y: 0.120970994, z: 0.48542425, w: 0.5023691}
+  m_LocalPosition: {x: 2.8985631, y: 1.8415703, z: -4.379969}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4031668372730707}
+  m_LocalEulerAnglesHint: {x: -92.32273, y: -53.728172, z: -32.410843}
+--- !u!1 &1336165816019036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4810264939810971}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_lf_index_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4810264939810971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336165816019036}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.70921546, y: -0.0632494, z: 0.124761745, w: 0.6909757}
+  m_LocalPosition: {x: -5.814976, y: -0.5091855, z: 0.8080302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4111833557400379}
+  m_LocalEulerAnglesHint: {x: -90.80392, y: -5.138198, z: -15.259262}
+--- !u!1 &1349568683115842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4999941940980389}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_lf_thumb_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4999941940980389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349568683115842}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.76316804, y: 0.055260394, z: 0.2352491, w: 0.5993152}
+  m_LocalPosition: {x: -2.8985252, y: -1.8416266, z: 4.3799696}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4111833557400379}
+  m_LocalEulerAnglesHint: {x: -100.88823, y: -25.170029, z: -12.612995}
+--- !u!1 &1371711079235589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4917443149485660}
+  m_Layer: 0
+  m_Name: Swordsmith:weightSpine_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4917443149485660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371711079235589}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4753889517887893}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1391450338841477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4919668817032389}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_lf_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4919668817032389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391450338841477}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.087340996, y: 0.039642494, z: 0.5019408, w: 0.85956705}
+  m_LocalPosition: {x: -8.69288, y: -3.0966468e-15, z: -7.0964984e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4567070604623935}
+  m_Father: {fileID: 4962045288026855}
+  m_LocalEulerAnglesHint: {x: 10.95182, y: 1.1190149, z: -60.457973}
+--- !u!1 &1423667151575837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4732778935989149}
+  m_Layer: 0
+  m_Name: Swordsmith:LeftSkirt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4732778935989149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423667151575837}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.16455029, y: 0.6665898, z: 0.7249071, w: 0.055596486}
+  m_LocalPosition: {x: -4.125757, y: 0.1116266, z: 13.473885}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4494037602668943}
+  m_Father: {fileID: 4845047893087566}
+  m_LocalEulerAnglesHint: {x: 86.54984, y: -18.221262, z: 171.59923}
+--- !u!1 &1462637169110387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4825789836004811}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_rt_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4825789836004811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462637169110387}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000001329991, y: 0.000000027882097, z: -0.00000855007,
+    w: 1}
+  m_LocalPosition: {x: 15.894758, y: 0.00000085105546, z: -0.000002574401}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4017178007344713}
+  m_Father: {fileID: 4485979057904164}
+  m_LocalEulerAnglesHint: {x: 0.00000152403, y: -0.000003195066, z: 0.0009797658}
+--- !u!1 &1469661645929561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4103586777697883}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_lf_elbow_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4103586777697883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469661645929561}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0028084097, y: 0.43525892, z: 0.0012362797, w: 0.9003001}
+  m_LocalPosition: {x: -17.782814, y: -4.7838955e-15, z: 7.0029767e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4311948901315117}
+  m_Father: {fileID: 4701386085060756}
+  m_LocalEulerAnglesHint: {x: 0.56576145, y: -51.60248, z: -0.43087202}
+--- !u!1 &1523749263007017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4494037602668943}
+  m_Layer: 0
+  m_Name: Swordsmith:LeftSkirt1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4494037602668943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523749263007017}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.029988742, y: 0.048597287, z: -0.5921451, w: 0.8038055}
+  m_LocalPosition: {x: -9.417479, y: 1.4210855e-14, z: -1.7763568e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4732778935989149}
+  m_LocalEulerAnglesHint: {x: -0.5388163, y: -6.52524, z: 72.78716}
+--- !u!1 &1541722428203637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4519430477592161}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_spine_hi_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4519430477592161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541722428203637}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.014926132, y: 0.005648821, z: 0.016390609, w: 0.99973834}
+  m_LocalPosition: {x: -8.423573, y: 1.6187496e-11, z: -7.724155e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4838150119399662}
+  m_Father: {fileID: 4331570476183998}
+  m_LocalEulerAnglesHint: {x: 1.7209299, y: -0.6191152, z: -1.8878473}
+--- !u!1 &1554903384219248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4056945307222371}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_rt_elbow_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4056945307222371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554903384219248}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0030657772, y: -0.006306756, z: -0.00012870092, w: 0.99997544}
+  m_LocalPosition: {x: 17.782845, y: 0.000012426074, z: 0.0000033177882}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4818299224087753}
+  m_Father: {fileID: 4528458758703150}
+  m_LocalEulerAnglesHint: {x: 0.3514267, y: 0.7226571, z: 0.016964665}
+--- !u!1 &1586055440095757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4962045288026855}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_lf_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4962045288026855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586055440095757}
+  serializedVersion: 2
+  m_LocalRotation: {x: -6.369973e-17, y: -4.3891725e-16, z: -0.0000079342135, w: 1}
+  m_LocalPosition: {x: -12.537484, y: -1.4903462e-14, z: -1.8694267e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4919668817032389}
+  m_Father: {fileID: 4218557512193975}
+  m_LocalEulerAnglesHint: {x: -7.299052e-15, y: 5.029627e-14, z: 0.0009091939}
+--- !u!1 &1596441102391222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4757929209381487}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_head_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4757929209381487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596441102391222}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.22038455, y: -0.09478284, z: -0.03309495, w: 0.9702328}
+  m_LocalPosition: {x: -0, y: 2.8409476, z: -1.0658141e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4132192470162999}
+  m_Father: {fileID: 4132896682199192}
+  m_LocalEulerAnglesHint: {x: -25.463184, y: 11.449843, z: 1.312071}
+--- !u!1 &1669670068358253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4524950735204862}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_rt_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4524950735204862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669670068358253}
+  serializedVersion: 2
+  m_LocalRotation: {x: -8.682767e-16, y: -2.5432692e-15, z: 0.5312569, w: 0.84721076}
+  m_LocalPosition: {x: 4.8343034, y: -0.000004442872, z: 0.0000011629674}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4017178007344713}
+  m_LocalEulerAnglesHint: {x: -2.391231e-13, y: 1.9405015e-13, z: -64.18084}
+--- !u!1 &1686171263390020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4218557512193975}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4218557512193975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686171263390020}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.052045666, y: -0.13196452, z: 0.9280385, w: -0.3444143}
+  m_LocalPosition: {x: 3.945032, y: -1.5698469, z: 9.073001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4962045288026855}
+  m_Father: {fileID: 4845047893087566}
+  m_LocalEulerAnglesHint: {x: -12.290068, y: -10.807021, z: 140.44508}
+--- !u!1 &1719683479199152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4485979057904164}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4485979057904164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719683479199152}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.13521978, y: -0.20349365, z: -0.4157622, w: 0.87604094}
+  m_LocalPosition: {x: 3.945041, y: -1.5698441, z: -9.073}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4825789836004811}
+  m_Father: {fileID: 4845047893087566}
+  m_LocalEulerAnglesHint: {x: 24.758501, y: 14.128593, z: 53.893353}
+--- !u!1 &1728397701170348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4830360618810885}
+  m_Layer: 0
+  m_Name: Swordsmith:RightSkirt1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4830360618810885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728397701170348}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0431201, y: 0.02621359, z: 0.0065515293, w: 0.9987045}
+  m_LocalPosition: {x: -7.660854, y: -5.420957, z: -1.0523314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4966580623973565}
+  m_LocalEulerAnglesHint: {x: 4.9673567, y: -2.9689202, z: -0.8805203}
+--- !u!1 &1787102685106079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4845047893087566}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4845047893087566
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787102685106079}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.0017832511, y: 0.11153828, z: 0.02217155, w: 0.9935112}
   m_LocalPosition: {x: 4.324314, y: 0.1938016, z: -0.98419124}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0.08241373, y: -12.809381, z: -2.5660927}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4732778935989149}
   - {fileID: 4966580623973565}
   - {fileID: 4218557512193975}
   - {fileID: 4485979057904164}
   m_Father: {fileID: 4773214109338688}
---- !u!1 &1423667151575837
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4732778935989149}
-  m_Layer: 0
-  m_Name: Swordsmith:LeftSkirt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4732778935989149
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1423667151575837}
-  m_LocalRotation: {x: -0.16455029, y: 0.6665898, z: 0.7249071, w: 0.055596486}
-  m_LocalPosition: {x: -4.125757, y: 0.1116266, z: 13.473885}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 86.54984, y: -18.221262, z: 171.59923}
-  m_Children:
-  - {fileID: 4494037602668943}
-  m_Father: {fileID: 4845047893087566}
---- !u!1 &1523749263007017
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4494037602668943}
-  m_Layer: 0
-  m_Name: Swordsmith:LeftSkirt1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4494037602668943
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1523749263007017}
-  m_LocalRotation: {x: 0.029988742, y: 0.048597287, z: -0.5921451, w: 0.8038055}
-  m_LocalPosition: {x: -9.417479, y: 1.4210855E-14, z: -1.7763568E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -0.5388163, y: -6.52524, z: 72.78716}
-  m_Children: []
-  m_Father: {fileID: 4732778935989149}
---- !u!1 &1118187862957341
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4966580623973565}
-  m_Layer: 0
-  m_Name: Swordsmith:RightSkirt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4966580623973565
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1118187862957341}
-  m_LocalRotation: {x: -0.03329877, y: 0.6863224, z: 0.69034195, w: 0.22645259}
-  m_LocalPosition: {x: -4.125721, y: 0.11162648, z: -13.4739}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 86.58138, y: -20.904663, z: -163.39558}
-  m_Children:
-  - {fileID: 4830360618810885}
-  m_Father: {fileID: 4845047893087566}
---- !u!1 &1728397701170348
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4830360618810885}
-  m_Layer: 0
-  m_Name: Swordsmith:RightSkirt1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4830360618810885
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1728397701170348}
-  m_LocalRotation: {x: 0.0431201, y: 0.02621359, z: 0.0065515293, w: 0.9987045}
-  m_LocalPosition: {x: -7.660854, y: -5.420957, z: -1.0523314}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 4.9673567, y: -2.9689202, z: -0.8805203}
-  m_Children: []
-  m_Father: {fileID: 4966580623973565}
---- !u!1 &1686171263390020
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4218557512193975}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_lf_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4218557512193975
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1686171263390020}
-  m_LocalRotation: {x: -0.052045666, y: -0.13196452, z: 0.9280385, w: -0.3444143}
-  m_LocalPosition: {x: 3.945032, y: -1.5698469, z: 9.073001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -12.290068, y: -10.807021, z: 140.44508}
-  m_Children:
-  - {fileID: 4962045288026855}
-  m_Father: {fileID: 4845047893087566}
---- !u!1 &1586055440095757
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4962045288026855}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_lf_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4962045288026855
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1586055440095757}
-  m_LocalRotation: {x: -6.369973E-17, y: -4.3891725E-16, z: -7.9342135E-06, w: 1}
-  m_LocalPosition: {x: -12.537484, y: -1.4903462E-14, z: -1.8694267E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -7.299052E-15, y: 5.029627E-14, z: 0.0009091939}
-  m_Children:
-  - {fileID: 4919668817032389}
-  m_Father: {fileID: 4218557512193975}
---- !u!1 &1391450338841477
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4919668817032389}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_lf_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4919668817032389
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1391450338841477}
-  m_LocalRotation: {x: 0.087340996, y: 0.039642494, z: 0.5019408, w: 0.85956705}
-  m_LocalPosition: {x: -8.69288, y: -3.0966468E-15, z: -7.0964984E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 10.95182, y: 1.1190149, z: -60.457973}
-  m_Children:
-  - {fileID: 4567070604623935}
-  m_Father: {fileID: 4962045288026855}
---- !u!1 &1941080295556816
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4567070604623935}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_lf_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4567070604623935
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1941080295556816}
-  m_LocalRotation: {x: 4.9555213E-24, y: 1.6893136E-15, z: 0.2290376, w: 0.9734176}
-  m_LocalPosition: {x: -4.8343077, y: -8.5252384E-17, z: 1.7106627E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 4.4337347E-14, y: -1.8843523E-13, z: -26.480835}
-  m_Children: []
-  m_Father: {fileID: 4919668817032389}
---- !u!1 &1719683479199152
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4485979057904164}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_rt_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4485979057904164
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1719683479199152}
-  m_LocalRotation: {x: 0.13521978, y: -0.20349365, z: -0.4157622, w: 0.87604094}
-  m_LocalPosition: {x: 3.945041, y: -1.5698441, z: -9.073}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 24.758501, y: 14.128593, z: 53.893353}
-  m_Children:
-  - {fileID: 4825789836004811}
-  m_Father: {fileID: 4845047893087566}
---- !u!1 &1462637169110387
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4825789836004811}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_rt_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4825789836004811
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1462637169110387}
-  m_LocalRotation: {x: 1.329991E-08, y: 2.7882097E-08, z: -8.55007E-06, w: 1}
-  m_LocalPosition: {x: 15.894758, y: 8.5105546E-07, z: -2.574401E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.52403E-06, y: -3.195066E-06, z: 0.0009797658}
-  m_Children:
-  - {fileID: 4017178007344713}
-  m_Father: {fileID: 4485979057904164}
---- !u!1 &1972559291547597
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4017178007344713}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_rt_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4017178007344713
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1972559291547597}
-  m_LocalRotation: {x: -0.2940563, y: 0.08065654, z: 0.5893149, w: 0.7481533}
-  m_LocalPosition: {x: 11.020728, y: 8.033316E-06, z: -1.016999E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -22.963617, y: -27.85726, z: -70.68678}
-  m_Children:
-  - {fileID: 4524950735204862}
-  m_Father: {fileID: 4825789836004811}
---- !u!1 &1669670068358253
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4524950735204862}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_rt_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4524950735204862
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1669670068358253}
-  m_LocalRotation: {x: -8.682767E-16, y: -2.5432692E-15, z: 0.5312569, w: 0.84721076}
-  m_LocalPosition: {x: 4.8343034, y: -4.442872E-06, z: 1.1629674E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -2.391231E-13, y: 1.9405015E-13, z: -64.18084}
-  m_Children: []
-  m_Father: {fileID: 4017178007344713}
---- !u!1 &1153524656533635
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4331570476183998}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_spine_mid_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4331570476183998
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1153524656533635}
-  m_LocalRotation: {x: 0.9999122, y: -0.011000879, z: 0.004783756, w: -0.0056309453}
-  m_LocalPosition: {x: -7.217677, y: -1.0444445E-10, z: 7.640111E-12}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -179.34872, y: 0.5410396, z: 1.2637428}
-  m_Children:
-  - {fileID: 4519430477592161}
-  m_Father: {fileID: 4773214109338688}
---- !u!1 &1541722428203637
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4519430477592161}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_spine_hi_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4519430477592161
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1541722428203637}
-  m_LocalRotation: {x: 0.014926132, y: 0.005648821, z: 0.016390609, w: 0.99973834}
-  m_LocalPosition: {x: -8.423573, y: 1.6187496E-11, z: -7.724155E-12}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.7209299, y: -0.6191152, z: -1.8878473}
-  m_Children:
-  - {fileID: 4838150119399662}
-  m_Father: {fileID: 4331570476183998}
---- !u!1 &1201279585799969
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4838150119399662}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_spine_end_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4838150119399662
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1201279585799969}
-  m_LocalRotation: {x: 1.2002588E-16, y: -1.0901395E-24, z: 0.19857526, w: 0.9800857}
-  m_LocalPosition: {x: -5.4413486, y: 1.2889633E-14, z: 1.7982037E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.348005E-14, y: 2.7311944E-15, z: -22.90731}
-  m_Children:
-  - {fileID: 4424278947116489}
-  - {fileID: 4132896682199192}
-  - {fileID: 4300194549689575}
-  m_Father: {fileID: 4519430477592161}
---- !u!1 &1147406794652339
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4424278947116489}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_lf_clavicle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4424278947116489
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1147406794652339}
-  m_LocalRotation: {x: -0.39117813, y: 0.65271086, z: -0.4451031, w: -0.47205037}
-  m_LocalPosition: {x: -1.106003, y: 1.241528, z: -7.163829}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -126.74877, y: 74.677536, z: 159.98824}
-  m_Children:
-  - {fileID: 4701386085060756}
-  m_Father: {fileID: 4838150119399662}
---- !u!1 &1020697286395818
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4701386085060756}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_lf_upArm_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4701386085060756
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1020697286395818}
-  m_LocalRotation: {x: 0.14697543, y: -0.124426566, z: 0.48976633, w: 0.8503207}
-  m_LocalPosition: {x: -7.6872544, y: 2.333332E-15, z: 1.8753796E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 7.875877, y: 20.828514, z: -58.432297}
-  m_Children:
-  - {fileID: 4103586777697883}
-  m_Father: {fileID: 4424278947116489}
---- !u!1 &1469661645929561
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4103586777697883}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_lf_elbow_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4103586777697883
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1469661645929561}
-  m_LocalRotation: {x: 0.0028084097, y: 0.43525892, z: 0.0012362797, w: 0.9003001}
-  m_LocalPosition: {x: -17.782814, y: -4.7838955E-15, z: 7.0029767E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0.56576145, y: -51.60248, z: -0.43087202}
-  m_Children:
-  - {fileID: 4311948901315117}
-  m_Father: {fileID: 4701386085060756}
---- !u!1 &1989356476623316
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4311948901315117}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_lf_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4311948901315117
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1989356476623316}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.766858, y: -5.4110955E-15, z: -7.8155873E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4111833557400379}
-  m_Father: {fileID: 4103586777697883}
---- !u!1 &1162739260930891
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4111833557400379}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_lf_hand_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4111833557400379
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1162739260930891}
-  m_LocalRotation: {x: -0.1420934, y: -0.1496615, z: 0.068007715, w: 0.97610754}
-  m_LocalPosition: {x: -1.4210855E-14, y: 7.1054274E-15, z: 8.881784E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -18.02886, y: 15.833604, z: -10.498567}
-  m_Children:
-  - {fileID: 4810264939810971}
-  - {fileID: 4999941940980389}
-  m_Father: {fileID: 4311948901315117}
---- !u!1 &1336165816019036
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4810264939810971}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_lf_index_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4810264939810971
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1336165816019036}
-  m_LocalRotation: {x: -0.70921546, y: -0.0632494, z: 0.124761745, w: 0.6909757}
-  m_LocalPosition: {x: -5.814976, y: -0.5091855, z: 0.8080302}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -90.80392, y: -5.138198, z: -15.259262}
-  m_Children: []
-  m_Father: {fileID: 4111833557400379}
---- !u!1 &1349568683115842
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4999941940980389}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_lf_thumb_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4999941940980389
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1349568683115842}
-  m_LocalRotation: {x: -0.76316804, y: 0.055260394, z: 0.2352491, w: 0.5993152}
-  m_LocalPosition: {x: -2.8985252, y: -1.8416266, z: 4.3799696}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -100.88823, y: -25.170029, z: -12.612995}
-  m_Children: []
-  m_Father: {fileID: 4111833557400379}
+  m_LocalEulerAnglesHint: {x: 0.08241373, y: -12.809381, z: -2.5660927}
 --- !u!1 &1836808831019574
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4132896682199192}
+  - component: {fileID: 4132896682199192}
   m_Layer: 0
   m_Name: Swordsmith:Swordsmith_neck_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4132896682199192
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836808831019574}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.45810983, y: -0.4637209, z: 0.55891126, w: 0.51255894}
-  m_LocalPosition: {x: -8.892193, y: 0, z: 7.5495166E-15}
+  m_LocalPosition: {x: -8.892193, y: 0, z: 7.5495166e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -17.979017, y: 80.91454, z: -110.32085}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4757929209381487}
   m_Father: {fileID: 4838150119399662}
---- !u!1 &1596441102391222
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4757929209381487}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_head_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4757929209381487
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1596441102391222}
-  m_LocalRotation: {x: -0.22038455, y: -0.09478284, z: -0.03309495, w: 0.9702328}
-  m_LocalPosition: {x: -0, y: 2.8409476, z: -1.0658141E-14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -25.463184, y: 11.449843, z: 1.312071}
-  m_Children:
-  - {fileID: 4132192470162999}
-  m_Father: {fileID: 4132896682199192}
---- !u!1 &1081447213054474
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4132192470162999}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_head_b_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4132192470162999
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1081447213054474}
-  m_LocalRotation: {x: 0.016092371, y: -5.551115E-17, z: 1.6653345E-16, w: 0.99987054}
-  m_LocalPosition: {x: 5.0756027E-15, y: 33.408356, z: 2.0515936E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.8441296, y: 6.6673817E-15, z: -1.8978491E-14}
-  m_Children: []
-  m_Father: {fileID: 4757929209381487}
---- !u!1 &1141228154931610
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4300194549689575}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_rt_clavicle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4300194549689575
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1141228154931610}
-  m_LocalRotation: {x: 0.70139325, y: 0.5206095, z: 0.3817498, w: -0.3021264}
-  m_LocalPosition: {x: -1.1059979, y: 1.2415243, z: 7.16383}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -177.13379, y: 58.22181, z: -71.57309}
-  m_Children:
-  - {fileID: 4528458758703150}
-  m_Father: {fileID: 4838150119399662}
---- !u!1 &1242565263614748
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4528458758703150}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_rt_upArm_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4528458758703150
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1242565263614748}
-  m_LocalRotation: {x: 0.26976737, y: 0.47864228, z: 0.43879935, w: 0.71104306}
-  m_LocalPosition: {x: 7.687236, y: -3.4071203E-05, z: 4.9829937E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 63.754642, y: -26.354458, z: -79.927704}
-  m_Children:
-  - {fileID: 4056945307222371}
-  m_Father: {fileID: 4300194549689575}
---- !u!1 &1554903384219248
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4056945307222371}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_rt_elbow_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4056945307222371
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1554903384219248}
-  m_LocalRotation: {x: 0.0030657772, y: -0.006306756, z: -0.00012870092, w: 0.99997544}
-  m_LocalPosition: {x: 17.782845, y: 1.2426074E-05, z: 3.3177882E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0.3514267, y: 0.7226571, z: 0.016964665}
-  m_Children:
-  - {fileID: 4818299224087753}
-  m_Father: {fileID: 4528458758703150}
---- !u!1 &1226799700420233
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4818299224087753}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_rt_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4818299224087753
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1226799700420233}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.766813, y: 5.754405E-05, z: -3.8541634E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4031668372730707}
-  m_Father: {fileID: 4056945307222371}
---- !u!1 &1124002499213051
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4031668372730707}
-  m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_rt_hand_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4031668372730707
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1124002499213051}
-  m_LocalRotation: {x: -0.1632609, y: 0.08666634, z: -0.23390341, w: 0.95452815}
-  m_LocalPosition: {x: -7.1054274E-15, y: 7.1054274E-15, z: 8.881784E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -20.70908, y: -5.1104727, z: 28.471941}
-  m_Children:
-  - {fileID: 4687630939055211}
-  - {fileID: 4774471340344818}
-  - {fileID: 4650752073418876}
-  m_Father: {fileID: 4818299224087753}
---- !u!1 &1210074098173426
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4687630939055211}
-  m_Layer: 0
-  m_Name: Swordsmith:prop1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4687630939055211
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1210074098173426}
-  m_LocalRotation: {x: 0.85601026, y: -0.5166461, z: 0.016476654, w: -0.0071929162}
-  m_LocalPosition: {x: 5.713086, y: 2.6313417, z: -5.7256927}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -178.31836, y: 1.1904619, z: 62.24374}
-  m_Children: []
-  m_Father: {fileID: 4031668372730707}
+  m_LocalEulerAnglesHint: {x: -17.979017, y: 80.91454, z: -110.32085}
 --- !u!1 &1905363343120505
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4774471340344818}
+  - component: {fileID: 4774471340344818}
   m_Layer: 0
   m_Name: Swordsmith:Swordsmith_rt_index_a_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4774471340344818
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905363343120505}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.70921546, y: -0.0632494, z: 0.124761745, w: 0.6909757}
   m_LocalPosition: {x: 5.814983, y: 0.50913435, z: -0.80803}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4031668372730707}
   m_LocalEulerAnglesHint: {x: -90.80392, y: -5.138198, z: -15.259262}
-  m_Children: []
-  m_Father: {fileID: 4031668372730707}
---- !u!1 &1266233725250422
+--- !u!1 &1925347529794168
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4650752073418876}
+  - component: {fileID: 4753889517887893}
   m_Layer: 0
-  m_Name: Swordsmith:Swordsmith_rt_thumb_a_jnt
+  m_Name: Swordsmith:Swordsmith_Skeleton_grp
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4650752073418876
+--- !u!4 &4753889517887893
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1266233725250422}
-  m_LocalRotation: {x: -0.7052337, y: 0.120970994, z: 0.48542425, w: 0.5023691}
-  m_LocalPosition: {x: 2.8985631, y: 1.8415703, z: -4.379969}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925347529794168}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -92.32273, y: -53.728172, z: -32.410843}
-  m_Children: []
-  m_Father: {fileID: 4031668372730707}
---- !u!1 &1371711079235589
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4773214109338688}
+  - {fileID: 4917443149485660}
+  m_Father: {fileID: 4148761666236264}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1941080295556816
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4917443149485660}
+  - component: {fileID: 4567070604623935}
   m_Layer: 0
-  m_Name: Swordsmith:weightSpine_grp
+  m_Name: Swordsmith:Swordsmith_lf_ball_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4917443149485660
+--- !u!4 &4567070604623935
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1371711079235589}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941080295556816}
+  serializedVersion: 2
+  m_LocalRotation: {x: 4.9555213e-24, y: 1.6893136e-15, z: 0.2290376, w: 0.9734176}
+  m_LocalPosition: {x: -4.8343077, y: -8.5252384e-17, z: 1.7106627e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4919668817032389}
+  m_LocalEulerAnglesHint: {x: 4.4337347e-14, y: -1.8843523e-13, z: -26.480835}
+--- !u!1 &1972559291547597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4017178007344713}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_rt_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4017178007344713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972559291547597}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.2940563, y: 0.08065654, z: 0.5893149, w: 0.7481533}
+  m_LocalPosition: {x: 11.020728, y: 0.000008033316, z: -0.000001016999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4524950735204862}
+  m_Father: {fileID: 4825789836004811}
+  m_LocalEulerAnglesHint: {x: -22.963617, y: -27.85726, z: -70.68678}
+--- !u!1 &1989356476623316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4311948901315117}
+  m_Layer: 0
+  m_Name: Swordsmith:Swordsmith_lf_wrist_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4311948901315117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989356476623316}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -8.766858, y: -5.4110955e-15, z: -7.8155873e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4111833557400379}
+  m_Father: {fileID: 4103586777697883}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4753889517887893}

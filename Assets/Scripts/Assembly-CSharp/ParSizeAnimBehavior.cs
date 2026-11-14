@@ -23,22 +23,22 @@ public class ParSizeAnimBehavior : MonoBehaviour
 		{
 			sizeArray[x] = Random.Range(minSize, maxSize);
 		}
-		base.GetComponent<ParticleEmitter>().minSize = 0f;
-		base.GetComponent<ParticleEmitter>().maxSize = 0f;
+		base.GetComponent<LegacyParticleEmitter>().minSize = 0f;
+		base.GetComponent<LegacyParticleEmitter>().maxSize = 0f;
 	}
 
 	private void Update()
 	{
-		Particle[] particles = base.GetComponent<ParticleEmitter>().particles;
+		ParticleSystem.Particle[] particles = base.GetComponent<LegacyParticleEmitter>().particles;
 		x = 0;
-		Particle[] array = particles;
+		ParticleSystem.Particle[] array = particles;
 		for (int i = 0; i < array.Length; i++)
 		{
-			Particle particle = array[i];
-			lifePerc = 1f - particle.energy / particle.startEnergy;
-			particles[x].size = sizeArray[x] * SizeCurve.Evaluate(lifePerc);
+			ParticleSystem.Particle particle = array[i];
+			lifePerc = 1f - particle.remainingLifetime / particle.startLifetime;
+			particles[x].startSize = sizeArray[x] * SizeCurve.Evaluate(lifePerc);
 			x++;
 		}
-		base.GetComponent<ParticleEmitter>().particles = particles;
+		base.GetComponent<LegacyParticleEmitter>().particles = particles;
 	}
 }

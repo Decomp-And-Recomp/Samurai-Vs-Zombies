@@ -150,9 +150,9 @@ public class Arrow : Projectile
 				{
 					mTargetRef.ptr.RecievedAttack(attackType, mDamage);
 					mTargetRef.ptr.controller.autoPaperdoll.AttachObjectToJoint(mArrow, "impact_target", false);
-					ParticleRenderer[] componentsInChildren = mArrow.GetComponentsInChildren<ParticleRenderer>();
-					ParticleRenderer[] array = componentsInChildren;
-					foreach (ParticleRenderer particleRenderer in array)
+					LegacyParticleRenderer[] componentsInChildren = mArrow.GetComponentsInChildren<LegacyParticleRenderer>();
+					LegacyParticleRenderer[] array = componentsInChildren;
+					foreach (LegacyParticleRenderer particleRenderer in array)
 					{
 						if (particleRenderer != null)
 						{

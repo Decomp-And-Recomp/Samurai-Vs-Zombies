@@ -1,55 +1,462 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1542689022187663}
-  m_IsPrefabParent: 1
-  m_IsExploded: 0
---- !u!1 &1542689022187663
+--- !u!1 &1140998379025105
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4557228769526774}
-  - 111: {fileID: 111083438692636330}
-  - 114: {fileID: 114502912036021554}
+  - component: {fileID: 4262117769165072}
   m_Layer: 0
-  m_Name: yarihorse@attack01
+  m_Name: yarihorse:horsefront_rt_knee_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4262117769165072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140998379025105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1, y: -0.000010099817, z: -7.2365975e-17, w: -6.123307e-17}
+  m_LocalPosition: {x: 9.097312, y: -0.00005075003, z: -8.881784e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4214220979101080}
+  m_Father: {fileID: 4301371720676592}
+  m_LocalEulerAnglesHint: {x: -180, y: -8.292601e-15, z: 0.0011573537}
+--- !u!1 &1179914723027025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4301371720676592}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_rt_upLeg_jnt
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4301371720676592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179914723027025}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.13678823, y: 0.06997659, z: 0.26142785, w: 0.95291543}
+  m_LocalPosition: {x: 5.109493, y: 0.4729469, z: 7.4524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4262117769165072}
+  m_Father: {fileID: 4728124999037292}
+  m_LocalEulerAnglesHint: {x: -13.236132, y: -11.822712, z: -29.30621}
+--- !u!1 &1255342665913910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4094424423475800}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4094424423475800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255342665913910}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.23631917, y: 0.044463634, z: 0.9683328, w: 0.06714067}
+  m_LocalPosition: {x: 5.109493, y: 0.4729281, z: -7.4523983}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4672564471485145}
+  m_Father: {fileID: 4976271403698170}
+  m_LocalEulerAnglesHint: {x: 7.590236, y: 26.852842, z: -170.25288}
+--- !u!1 &1264878981168654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4785668910085451}
+  m_Layer: 0
+  m_Name: yarihorse:horse_tail1_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4785668910085451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264878981168654}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.6035722, y: 0.45364663, z: 0.33213544, w: 0.5653242}
+  m_LocalPosition: {x: -11.523104, y: -18.51414, z: -1.3322676e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4139321966909314}
+  m_Father: {fileID: 4474647312864535}
+  m_LocalEulerAnglesHint: {x: -110.19706, y: -66.04297, z: 25.075352}
+--- !u!1 &1293191228096875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4951968399319894}
+  m_Layer: 0
+  m_Name: yarihorse:horse_hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4951968399319894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293191228096875}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9944422, y: -0.09815002, z: -0.038070325, w: 0.0013829669}
+  m_LocalPosition: {x: 2.7212603, y: -0.5435493, z: -0.20996213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4344310843188436}
+  - {fileID: 4707205334188651}
+  m_Father: {fileID: 4474647312864535}
+  m_LocalEulerAnglesHint: {x: 179.41254, y: -4.326849, z: 11.295704}
+--- !u!1 &1308035639919675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4605252112994906}
+  m_Layer: 0
+  m_Name: yarihorse:horse_rt_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4605252112994906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308035639919675}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.97323865, y: 0.22961469, z: -0.0074873073, w: 0.0052537424}
+  m_LocalPosition: {x: 11.814638, y: 0.0000018405443, z: -0.00000011070862}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4987922847645027}
+  m_Father: {fileID: 4396158407604632}
+  m_LocalEulerAnglesHint: {x: 179.61102, y: -0.97330415, z: -26.5466}
+--- !u!1 &1323967988105149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4825280523889303}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_head_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4825280523889303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323967988105149}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.11194106, y: -0.11253882, z: -0.17388108, w: 0.97188973}
+  m_LocalPosition: {x: 0.000000014182422, y: 2.0212529, z: -0.0000000019511788}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4855539971287966}
+  m_Father: {fileID: 4881336656118415}
+  m_LocalEulerAnglesHint: {x: -10.642991, y: 14.932416, z: 18.888226}
+--- !u!1 &1348967236280278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4131440427857989}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_rt_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4131440427857989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348967236280278}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.1131789e-23, y: 1.8945987e-16, z: 0.5730837, w: 0.81949687}
+  m_LocalPosition: {x: 8.48118, y: 0.000054311673, z: -8.881784e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4214220979101080}
+  m_LocalEulerAnglesHint: {x: 1.2441934e-14, y: -1.7791688e-14, z: -69.93108}
+--- !u!1 &1365723524621618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4987922847645027}
+  m_Layer: 0
+  m_Name: yarihorse:horse_rt_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4987922847645027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365723524621618}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.85645264, y: -0.5162256, z: -0.000000018748858, w: -0.000000011300846}
+  m_LocalPosition: {x: 9.72012, y: -0.000008902087, z: 0.000000020968367}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4605252112994906}
+  m_LocalEulerAnglesHint: {x: 180, y: -0.0000025085576, z: 62.158817}
+--- !u!1 &1407395986922534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4827190432839339}
+  m_Layer: 0
+  m_Name: yarihorse:horse_lf_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4827190432839339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407395986922534}
+  serializedVersion: 2
+  m_LocalRotation: {x: -8.6611964e-17, y: -2.4482444e-16, z: 0.000000004188057, w: 1}
+  m_LocalPosition: {x: -11.405078, y: 2.8139567e-15, z: 4.5595207e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4633128918639149}
+  m_Father: {fileID: 4344310843188436}
+  m_LocalEulerAnglesHint: {x: -9.925e-15, y: 2.8054815e-14, z: -0.00000047991597}
+--- !u!1 &1464137608425306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4690161582191665}
+  m_Layer: 0
+  m_Name: yarihorse:horse_tail3_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4690161582191665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464137608425306}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.08188366, y: 0.0028353932, z: -0.4058143, w: 0.9102757}
+  m_LocalPosition: {x: -0, y: -8.830335, z: 0.36289048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4139321966909314}
+  m_LocalEulerAnglesHint: {x: -8.723132, y: 3.5142705, z: 47.787914}
+--- !u!1 &1537959365577322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4436623287971076}
+  m_Layer: 0
+  m_Name: yarihorse:horse_midsection_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4436623287971076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537959365577322}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.51435596, y: 0.5473157, z: 0.4521313, w: 0.4811037}
+  m_LocalPosition: {x: 2.0509007, y: 15.076805, z: -3.1435766}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4842532610854530}
+  m_Father: {fileID: 4474647312864535}
+  m_LocalEulerAnglesHint: {x: 179.99998, y: -82.6325, z: 93.5564}
+--- !u!1 &1538967154723444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4396158407604632}
+  m_Layer: 0
+  m_Name: yarihorse:horse_rt_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4396158407604632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538967154723444}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000010004348, y: 8.395242e-10, z: -0.2746727, w: 0.96153784}
+  m_LocalPosition: {x: 10.564104, y: -0.00000796303, z: -1.1901591e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4605252112994906}
+  m_Father: {fileID: 4707205334188651}
+  m_LocalEulerAnglesHint: {x: 0.000001075896, y: -0.00000040739073, z: 31.885017}
+--- !u!1 &1542689022187663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4557228769526774}
+  - component: {fileID: 111083438692636330}
+  - component: {fileID: 114502912036021554}
+  m_Layer: 0
+  m_Name: yarihorse@attack01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4557228769526774
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542689022187663}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4410379526297139}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!111 &111083438692636330
 Animation:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542689022187663}
   m_Enabled: 1
+  serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 6ae6070011705174bbd2a25c7d0ff95a, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 6ae6070011705174bbd2a25c7d0ff95a, type: 2}
@@ -57,858 +464,563 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
-  m_UserAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!114 &114502912036021554
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542689022187663}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sourcePrefabPath: Assets/Resources/Characters/YariHorse/yarihorse@attack01.fbx
-  basePrefabPath:
+  basePrefabPath: 
   exemptObjects: []
---- !u!1 &1982375382439314
+--- !u!1 &1626251526541198
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4410379526297139}
+  - component: {fileID: 4852253286830635}
   m_Layer: 0
-  m_Name: yarihorse:horse_Skeleton_grp
+  m_Name: yarihorse:horsefront_spine_mid_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4410379526297139
+--- !u!4 &4852253286830635
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1982375382439314}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626251526541198}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9794126, y: 0.06666112, z: -0.18608178, w: -0.040997803}
+  m_LocalPosition: {x: -6.966813, y: -3.3044856e-10, z: -0.0000000011859296}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4474647312864535}
-  m_Father: {fileID: 4557228769526774}
---- !u!1 &1968676282320935
+  - {fileID: 4881336656118415}
+  m_Father: {fileID: 4842532610854530}
+  m_LocalEulerAnglesHint: {x: -173.5333, y: -21.04099, z: -8.989518}
+--- !u!1 &1626555311097191
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4474647312864535}
+  - component: {fileID: 4976271403698170}
   m_Layer: 0
-  m_Name: yarihorse:horse_spine_low_jnt
+  m_Name: yarihorse:horsefront_lf_shoulder_jnt1
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4474647312864535
+--- !u!4 &4976271403698170
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1968676282320935}
-  m_LocalRotation: {x: 0.44809037, y: -0.47680387, z: -0.51788014, w: 0.5510657}
-  m_LocalPosition: {x: -3.6982677, y: 36.6108, z: -17.424383}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626555311097191}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9710531, y: -0.23886363, z: 4.144784e-16, w: 1.6501276e-16}
+  m_LocalPosition: {x: 8.297757, y: -3.7864902, z: 1.7763568e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 81.71959, y: 3.5193872, z: 89.488144}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4951968399319894}
-  - {fileID: 4436623287971076}
-  - {fileID: 4785668910085451}
-  m_Father: {fileID: 4410379526297139}
---- !u!1 &1293191228096875
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4951968399319894}
-  m_Layer: 0
-  m_Name: yarihorse:horse_hip_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4951968399319894
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1293191228096875}
-  m_LocalRotation: {x: 0.9944422, y: -0.09815002, z: -0.038070325, w: 0.0013829669}
-  m_LocalPosition: {x: 2.7212603, y: -0.5435493, z: -0.20996213}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 179.41254, y: -4.326849, z: 11.295704}
-  m_Children:
-  - {fileID: 4344310843188436}
-  - {fileID: 4707205334188651}
-  m_Father: {fileID: 4474647312864535}
---- !u!1 &1925942162331155
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4344310843188436}
-  m_Layer: 0
-  m_Name: yarihorse:horse_lf_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4344310843188436
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1925942162331155}
-  m_LocalRotation: {x: -0.35224217, y: 0.9352736, z: 0.034394585, w: 0.0024275973}
-  m_LocalPosition: {x: 4.531995, y: -0.79735154, z: -9.296214}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 176.40793, y: -1.6487061, z: 138.77701}
-  m_Children:
-  - {fileID: 4827190432839339}
-  m_Father: {fileID: 4951968399319894}
---- !u!1 &1407395986922534
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4827190432839339}
-  m_Layer: 0
-  m_Name: yarihorse:horse_lf_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4827190432839339
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1407395986922534}
-  m_LocalRotation: {x: -8.6611964E-17, y: -2.4482444E-16, z: 4.188057E-09, w: 1}
-  m_LocalPosition: {x: -11.405078, y: 2.8139567E-15, z: 4.5595207E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -9.925E-15, y: 2.8054815E-14, z: -4.7991597E-07}
-  m_Children:
-  - {fileID: 4633128918639149}
-  m_Father: {fileID: 4344310843188436}
+  - {fileID: 4094424423475800}
+  m_Father: {fileID: 4842532610854530}
+  m_LocalEulerAnglesHint: {x: 180, y: 5.063756e-14, z: 27.638962}
 --- !u!1 &1632635135321478
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4633128918639149}
+  - component: {fileID: 4633128918639149}
   m_Layer: 0
   m_Name: yarihorse:horse_lf_ankle_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4633128918639149
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632635135321478}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.9170706, y: 0.39676842, z: -0.035126995, w: -0.017955976}
-  m_LocalPosition: {x: -12.755214, y: 2.814551E-15, z: -4.401366E-15}
+  m_LocalPosition: {x: -12.755214, y: 2.814551e-15, z: -4.401366e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -176.50938, y: -2.8762608, z: -46.878872}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4036022540435676}
   m_Father: {fileID: 4827190432839339}
---- !u!1 &1922458107590840
+  m_LocalEulerAnglesHint: {x: -176.50938, y: -2.8762608, z: -46.878872}
+--- !u!1 &1645706188084766
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4036022540435676}
+  - component: {fileID: 4728124999037292}
   m_Layer: 0
-  m_Name: yarihorse:horse_lf_ball_jnt
+  m_Name: yarihorse:horsefront_rt_shoulder_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4036022540435676
+--- !u!4 &4728124999037292
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1922458107590840}
-  m_LocalRotation: {x: 0.8564527, y: -0.5162255, z: -2.7071623E-16, w: -9.16785E-17}
-  m_LocalPosition: {x: -9.720124, y: 2.8865799E-15, z: 1.9975265E-15}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645706188084766}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9429423, y: -0.24414308, z: -0.15676768, w: 0.16333349}
+  m_LocalPosition: {x: 8.297757, y: -3.7864902, z: 1.7763568e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: -3.199195E-14, z: 62.15881}
-  m_Children: []
-  m_Father: {fileID: 4633128918639149}
---- !u!1 &1728208144556715
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4707205334188651}
-  m_Layer: 0
-  m_Name: yarihorse:horse_rt_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4707205334188651
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1728208144556715}
-  m_LocalRotation: {x: 0.9945297, y: -0.093377374, z: -0.04654768, w: -0.0049634757}
-  m_LocalPosition: {x: 4.531952, y: -0.79733133, z: 9.29621}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -179.93211, y: -5.365743, z: 10.7244835}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4396158407604632}
-  m_Father: {fileID: 4951968399319894}
---- !u!1 &1538967154723444
+  - {fileID: 4301371720676592}
+  m_Father: {fileID: 4842532610854530}
+  m_LocalEulerAnglesHint: {x: 156.80486, y: -12.46788, z: 31.600529}
+--- !u!1 &1681165727726132
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4396158407604632}
+  - component: {fileID: 4139321966909314}
   m_Layer: 0
-  m_Name: yarihorse:horse_rt_knee_jnt
+  m_Name: yarihorse:horse_tail2_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4396158407604632
+--- !u!4 &4139321966909314
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1538967154723444}
-  m_LocalRotation: {x: 1.0004348E-08, y: 8.395242E-10, z: -0.2746727, w: 0.96153784}
-  m_LocalPosition: {x: 10.564104, y: -7.96303E-06, z: -1.1901591E-13}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681165727726132}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.33141097, y: -0.01302822, z: -0.40561494, w: 0.85174733}
+  m_LocalPosition: {x: -3.5527137e-15, y: -10.886715, z: -3.7498684}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.075896E-06, y: -4.0739073E-07, z: 31.885017}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4605252112994906}
-  m_Father: {fileID: 4707205334188651}
---- !u!1 &1308035639919675
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4605252112994906}
-  m_Layer: 0
-  m_Name: yarihorse:horse_rt_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4605252112994906
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1308035639919675}
-  m_LocalRotation: {x: 0.97323865, y: 0.22961469, z: -0.0074873073, w: 0.0052537424}
-  m_LocalPosition: {x: 11.814638, y: 1.8405443E-06, z: -1.1070862E-07}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 179.61102, y: -0.97330415, z: -26.5466}
-  m_Children:
-  - {fileID: 4987922847645027}
-  m_Father: {fileID: 4396158407604632}
---- !u!1 &1365723524621618
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4987922847645027}
-  m_Layer: 0
-  m_Name: yarihorse:horse_rt_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4987922847645027
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1365723524621618}
-  m_LocalRotation: {x: 0.85645264, y: -0.5162256, z: -1.8748858E-08, w: -1.1300846E-08}
-  m_LocalPosition: {x: 9.72012, y: -8.902087E-06, z: 2.0968367E-08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: -2.5085576E-06, z: 62.158817}
-  m_Children: []
-  m_Father: {fileID: 4605252112994906}
---- !u!1 &1537959365577322
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4436623287971076}
-  m_Layer: 0
-  m_Name: yarihorse:horse_midsection_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4436623287971076
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537959365577322}
-  m_LocalRotation: {x: -0.51435596, y: 0.5473157, z: 0.4521313, w: 0.4811037}
-  m_LocalPosition: {x: 2.0509007, y: 15.076805, z: -3.1435766}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 179.99998, y: -82.6325, z: 93.5564}
-  m_Children:
-  - {fileID: 4842532610854530}
-  m_Father: {fileID: 4474647312864535}
+  - {fileID: 4690161582191665}
+  m_Father: {fileID: 4785668910085451}
+  m_LocalEulerAnglesHint: {x: 36.40307, y: -14.279778, z: 46.211823}
 --- !u!1 &1727080982262294
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4842532610854530}
+  - component: {fileID: 4842532610854530}
   m_Layer: 0
   m_Name: yarihorse:horsefront_spine_low_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4842532610854530
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1727080982262294}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.45378184, y: -0.5984969, z: -0.39888522, w: 0.52609324}
   m_LocalPosition: {x: -2.16366, y: -0.7784944, z: 26.713434}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 97.648254, y: 15.528438, z: 92.05893}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4976271403698170}
   - {fileID: 4728124999037292}
   - {fileID: 4852253286830635}
   m_Father: {fileID: 4436623287971076}
---- !u!1 &1626555311097191
+  m_LocalEulerAnglesHint: {x: 97.648254, y: 15.528438, z: 92.05893}
+--- !u!1 &1728208144556715
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4976271403698170}
+  - component: {fileID: 4707205334188651}
   m_Layer: 0
-  m_Name: yarihorse:horsefront_lf_shoulder_jnt1
+  m_Name: yarihorse:horse_rt_upLeg_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4976271403698170
+--- !u!4 &4707205334188651
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1626555311097191}
-  m_LocalRotation: {x: 0.9710531, y: -0.23886363, z: 4.144784E-16, w: 1.6501276E-16}
-  m_LocalPosition: {x: 8.297757, y: -3.7864902, z: 1.7763568E-15}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728208144556715}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9945297, y: -0.093377374, z: -0.04654768, w: -0.0049634757}
+  m_LocalPosition: {x: 4.531952, y: -0.79733133, z: 9.29621}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: 5.063756E-14, z: 27.638962}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4094424423475800}
-  m_Father: {fileID: 4842532610854530}
---- !u!1 &1255342665913910
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4094424423475800}
-  m_Layer: 0
-  m_Name: yarihorse:horsefront_lf_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4094424423475800
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1255342665913910}
-  m_LocalRotation: {x: 0.23631917, y: 0.044463634, z: 0.9683328, w: 0.06714067}
-  m_LocalPosition: {x: 5.109493, y: 0.4729281, z: -7.4523983}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 7.590236, y: 26.852842, z: -170.25288}
-  m_Children:
-  - {fileID: 4672564471485145}
-  m_Father: {fileID: 4976271403698170}
---- !u!1 &1938981734401150
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4672564471485145}
-  m_Layer: 0
-  m_Name: yarihorse:horsefront_lf_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4672564471485145
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1938981734401150}
-  m_LocalRotation: {x: 0.74732035, y: -0.6644639, z: -1.8733634E-17, w: 6.5279254E-17}
-  m_LocalPosition: {x: -8.703398, y: 2.3483612E-14, z: -1.8407085E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: 3.366205E-15, z: 83.28242}
-  m_Children:
-  - {fileID: 4413972644161874}
-  m_Father: {fileID: 4094424423475800}
---- !u!1 &1819002349935968
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4413972644161874}
-  m_Layer: 0
-  m_Name: yarihorse:horsefront_lf_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4413972644161874
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1819002349935968}
-  m_LocalRotation: {x: 0.12994681, y: 0.20233035, z: 0.88109696, w: -0.40724003}
-  m_LocalPosition: {x: -9.50178, y: 1.1141735E-15, z: -3.4606209E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 15.827571, y: 23.19025, z: 133.65501}
-  m_Children:
-  - {fileID: 4732638282400049}
-  m_Father: {fileID: 4672564471485145}
+  - {fileID: 4396158407604632}
+  m_Father: {fileID: 4951968399319894}
+  m_LocalEulerAnglesHint: {x: -179.93211, y: -5.365743, z: 10.7244835}
 --- !u!1 &1807238518277741
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4732638282400049}
+  - component: {fileID: 4732638282400049}
   m_Layer: 0
   m_Name: yarihorse:horsefront_lf_ball_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4732638282400049
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807238518277741}
-  m_LocalRotation: {x: 1.7745618E-17, y: -2.6709305E-17, z: 0.02383095, w: 0.99971604}
-  m_LocalPosition: {x: -8.481211, y: 1.6427939E-15, z: -6.871494E-15}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.7745618e-17, y: -2.6709305e-17, z: 0.02383095, w: 0.99971604}
+  m_LocalPosition: {x: -8.481211, y: 1.6427939e-15, z: -6.871494e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.959982E-15, y: 3.1082516E-15, z: -2.731084}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4413972644161874}
---- !u!1 &1645706188084766
+  m_LocalEulerAnglesHint: {x: 1.959982e-15, y: 3.1082516e-15, z: -2.731084}
+--- !u!1 &1819002349935968
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4728124999037292}
+  - component: {fileID: 4413972644161874}
   m_Layer: 0
-  m_Name: yarihorse:horsefront_rt_shoulder_jnt
+  m_Name: yarihorse:horsefront_lf_ankle_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4728124999037292
+--- !u!4 &4413972644161874
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1645706188084766}
-  m_LocalRotation: {x: 0.9429423, y: -0.24414308, z: -0.15676768, w: 0.16333349}
-  m_LocalPosition: {x: 8.297757, y: -3.7864902, z: 1.7763568E-15}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819002349935968}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.12994681, y: 0.20233035, z: 0.88109696, w: -0.40724003}
+  m_LocalPosition: {x: -9.50178, y: 1.1141735e-15, z: -3.4606209e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 156.80486, y: -12.46788, z: 31.600529}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4301371720676592}
-  m_Father: {fileID: 4842532610854530}
---- !u!1 &1179914723027025
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4301371720676592}
-  m_Layer: 0
-  m_Name: yarihorse:horsefront_rt_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4301371720676592
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1179914723027025}
-  m_LocalRotation: {x: -0.13678823, y: 0.06997659, z: 0.26142785, w: 0.95291543}
-  m_LocalPosition: {x: 5.109493, y: 0.4729469, z: 7.4524}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -13.236132, y: -11.822712, z: -29.30621}
-  m_Children:
-  - {fileID: 4262117769165072}
-  m_Father: {fileID: 4728124999037292}
---- !u!1 &1140998379025105
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4262117769165072}
-  m_Layer: 0
-  m_Name: yarihorse:horsefront_rt_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4262117769165072
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1140998379025105}
-  m_LocalRotation: {x: 1, y: -1.0099817E-05, z: -7.2365975E-17, w: -6.123307E-17}
-  m_LocalPosition: {x: 9.097312, y: -5.075003E-05, z: -8.881784E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -180, y: -8.292601E-15, z: 0.0011573537}
-  m_Children:
-  - {fileID: 4214220979101080}
-  m_Father: {fileID: 4301371720676592}
---- !u!1 &1906473170526759
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4214220979101080}
-  m_Layer: 0
-  m_Name: yarihorse:horsefront_rt_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4214220979101080
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1906473170526759}
-  m_LocalRotation: {x: 0.34737247, y: -0.047562987, z: 0.3817229, w: 0.85519457}
-  m_LocalPosition: {x: 9.93194, y: -2.8708602E-05, z: 8.881784E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 36.48998, y: 20.27652, z: -41.360886}
-  m_Children:
-  - {fileID: 4131440427857989}
-  m_Father: {fileID: 4262117769165072}
---- !u!1 &1348967236280278
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4131440427857989}
-  m_Layer: 0
-  m_Name: yarihorse:horsefront_rt_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4131440427857989
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1348967236280278}
-  m_LocalRotation: {x: -1.1131789E-23, y: 1.8945987E-16, z: 0.5730837, w: 0.81949687}
-  m_LocalPosition: {x: 8.48118, y: 5.4311673E-05, z: -8.881784E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.2441934E-14, y: -1.7791688E-14, z: -69.93108}
-  m_Children: []
-  m_Father: {fileID: 4214220979101080}
---- !u!1 &1626251526541198
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4852253286830635}
-  m_Layer: 0
-  m_Name: yarihorse:horsefront_spine_mid_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4852253286830635
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1626251526541198}
-  m_LocalRotation: {x: 0.9794126, y: 0.06666112, z: -0.18608178, w: -0.040997803}
-  m_LocalPosition: {x: -6.966813, y: -3.3044856E-10, z: -1.1859296E-09}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -173.5333, y: -21.04099, z: -8.989518}
-  m_Children:
-  - {fileID: 4881336656118415}
-  m_Father: {fileID: 4842532610854530}
---- !u!1 &1948194072529593
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4881336656118415}
-  m_Layer: 0
-  m_Name: yarihorse:horsefront_neck_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4881336656118415
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1948194072529593}
-  m_LocalRotation: {x: 0.6063991, y: -0.3637033, z: 0.6063991, w: 0.3637033}
-  m_LocalPosition: {x: -13.375108, y: -2.8512564, z: 7.1054274E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 118.09141, y: 90, z: 0}
-  m_Children:
-  - {fileID: 4825280523889303}
-  m_Father: {fileID: 4852253286830635}
---- !u!1 &1323967988105149
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4825280523889303}
-  m_Layer: 0
-  m_Name: yarihorse:horsefront_head_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4825280523889303
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323967988105149}
-  m_LocalRotation: {x: -0.11194106, y: -0.11253882, z: -0.17388108, w: 0.97188973}
-  m_LocalPosition: {x: 1.4182422E-08, y: 2.0212529, z: -1.9511788E-09}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -10.642991, y: 14.932416, z: 18.888226}
-  m_Children:
-  - {fileID: 4855539971287966}
-  m_Father: {fileID: 4881336656118415}
+  - {fileID: 4732638282400049}
+  m_Father: {fileID: 4672564471485145}
+  m_LocalEulerAnglesHint: {x: 15.827571, y: 23.19025, z: 133.65501}
 --- !u!1 &1838153028973925
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4855539971287966}
+  - component: {fileID: 4855539971287966}
   m_Layer: 0
   m_Name: yarihorse:horsefront_head_b_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4855539971287966
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838153028973925}
-  m_LocalRotation: {x: -0.3319004, y: 8.451426E-09, z: 1.5845679E-09, w: 0.9433145}
-  m_LocalPosition: {x: 8.170372E-08, y: 31.177828, z: 1.4073935E-14}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.3319004, y: 0.000000008451426, z: 0.0000000015845679, w: 0.9433145}
+  m_LocalPosition: {x: 0.00000008170372, y: 31.177828, z: 1.4073935e-14}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -38.768322, y: -9.738301E-07, z: 1.5014767E-07}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4825280523889303}
---- !u!1 &1264878981168654
+  m_LocalEulerAnglesHint: {x: -38.768322, y: -0.0000009738301, z: 0.00000015014767}
+--- !u!1 &1906473170526759
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4785668910085451}
+  - component: {fileID: 4214220979101080}
   m_Layer: 0
-  m_Name: yarihorse:horse_tail1_jnt
+  m_Name: yarihorse:horsefront_rt_ankle_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4785668910085451
+--- !u!4 &4214220979101080
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1264878981168654}
-  m_LocalRotation: {x: -0.6035722, y: 0.45364663, z: 0.33213544, w: 0.5653242}
-  m_LocalPosition: {x: -11.523104, y: -18.51414, z: -1.3322676E-15}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906473170526759}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.34737247, y: -0.047562987, z: 0.3817229, w: 0.85519457}
+  m_LocalPosition: {x: 9.93194, y: -0.000028708602, z: 8.881784e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -110.19706, y: -66.04297, z: 25.075352}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4139321966909314}
-  m_Father: {fileID: 4474647312864535}
---- !u!1 &1681165727726132
+  - {fileID: 4131440427857989}
+  m_Father: {fileID: 4262117769165072}
+  m_LocalEulerAnglesHint: {x: 36.48998, y: 20.27652, z: -41.360886}
+--- !u!1 &1922458107590840
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4139321966909314}
+  - component: {fileID: 4036022540435676}
   m_Layer: 0
-  m_Name: yarihorse:horse_tail2_jnt
+  m_Name: yarihorse:horse_lf_ball_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4139321966909314
+--- !u!4 &4036022540435676
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1681165727726132}
-  m_LocalRotation: {x: 0.33141097, y: -0.01302822, z: -0.40561494, w: 0.85174733}
-  m_LocalPosition: {x: -3.5527137E-15, y: -10.886715, z: -3.7498684}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922458107590840}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.8564527, y: -0.5162255, z: -2.7071623e-16, w: -9.16785e-17}
+  m_LocalPosition: {x: -9.720124, y: 2.8865799e-15, z: 1.9975265e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 36.40307, y: -14.279778, z: 46.211823}
-  m_Children:
-  - {fileID: 4690161582191665}
-  m_Father: {fileID: 4785668910085451}
---- !u!1 &1464137608425306
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4690161582191665}
-  m_Layer: 0
-  m_Name: yarihorse:horse_tail3_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4690161582191665
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1464137608425306}
-  m_LocalRotation: {x: -0.08188366, y: 0.0028353932, z: -0.4058143, w: 0.9102757}
-  m_LocalPosition: {x: -0, y: -8.830335, z: 0.36289048}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -8.723132, y: 3.5142705, z: 47.787914}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4139321966909314}
+  m_Father: {fileID: 4633128918639149}
+  m_LocalEulerAnglesHint: {x: 180, y: -3.199195e-14, z: 62.15881}
+--- !u!1 &1925942162331155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4344310843188436}
+  m_Layer: 0
+  m_Name: yarihorse:horse_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4344310843188436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925942162331155}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.35224217, y: 0.9352736, z: 0.034394585, w: 0.0024275973}
+  m_LocalPosition: {x: 4.531995, y: -0.79735154, z: -9.296214}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4827190432839339}
+  m_Father: {fileID: 4951968399319894}
+  m_LocalEulerAnglesHint: {x: 176.40793, y: -1.6487061, z: 138.77701}
+--- !u!1 &1938981734401150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4672564471485145}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_lf_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4672564471485145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938981734401150}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.74732035, y: -0.6644639, z: -1.8733634e-17, w: 6.5279254e-17}
+  m_LocalPosition: {x: -8.703398, y: 2.3483612e-14, z: -1.8407085e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4413972644161874}
+  m_Father: {fileID: 4094424423475800}
+  m_LocalEulerAnglesHint: {x: 180, y: 3.366205e-15, z: 83.28242}
+--- !u!1 &1948194072529593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4881336656118415}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_neck_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4881336656118415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948194072529593}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6063991, y: -0.3637033, z: 0.6063991, w: 0.3637033}
+  m_LocalPosition: {x: -13.375108, y: -2.8512564, z: 7.1054274e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4825280523889303}
+  m_Father: {fileID: 4852253286830635}
+  m_LocalEulerAnglesHint: {x: 118.09141, y: 90, z: 0}
+--- !u!1 &1968676282320935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4474647312864535}
+  m_Layer: 0
+  m_Name: yarihorse:horse_spine_low_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4474647312864535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968676282320935}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.44809037, y: -0.47680387, z: -0.51788014, w: 0.5510657}
+  m_LocalPosition: {x: -3.6982677, y: 36.6108, z: -17.424383}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4951968399319894}
+  - {fileID: 4436623287971076}
+  - {fileID: 4785668910085451}
+  m_Father: {fileID: 4410379526297139}
+  m_LocalEulerAnglesHint: {x: 81.71959, y: 3.5193872, z: 89.488144}
+--- !u!1 &1982375382439314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4410379526297139}
+  m_Layer: 0
+  m_Name: yarihorse:horse_Skeleton_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4410379526297139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982375382439314}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4474647312864535}
+  m_Father: {fileID: 4557228769526774}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

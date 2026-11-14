@@ -38,7 +38,7 @@ public class PachinkoMachineImpl : WeakGlobalSceneBehavior<PachinkoMachineImpl>
 
 	public int MaxMultiplier = 5;
 
-	public ParticleEmitter multiplierMaxedEffect;
+	public LegacyParticleEmitter multiplierMaxedEffect;
 
 	public float BoardLightsChangeSpeed = 1f;
 

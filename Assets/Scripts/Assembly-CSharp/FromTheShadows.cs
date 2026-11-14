@@ -15,7 +15,7 @@ public class FromTheShadows : MonoBehaviour
 	{
 		if (!Singleton<Profile>.instance.fromTheShadows)
 		{
-			base.gameObject.SetActiveRecursively(false);
+			LegacyActivation.SetRecursively(base.gameObject, false);
 		}
 		else
 		{

@@ -16,14 +16,14 @@ public class ParSelfAttractBehavior : MonoBehaviour
 
 	private void Update()
 	{
-		Particle[] particles = base.GetComponent<ParticleEmitter>().particles;
+		ParticleSystem.Particle[] particles = base.GetComponent<LegacyParticleEmitter>().particles;
 		x = 0;
-		Particle[] array = particles;
+		ParticleSystem.Particle[] array = particles;
 		for (int i = 0; i < array.Length; i++)
 		{
-			Particle particle = array[i];
-			Particle[] array2 = particles;
-			foreach (Particle particle2 in array2)
+			ParticleSystem.Particle particle = array[i];
+			ParticleSystem.Particle[] array2 = particles;
+			foreach (ParticleSystem.Particle particle2 in array2)
 			{
 				gVector = particle.position - particle2.position;
 				if (gVector.sqrMagnitude > minExclusion * minExclusion)
@@ -34,6 +34,6 @@ public class ParSelfAttractBehavior : MonoBehaviour
 			}
 			x++;
 		}
-		base.GetComponent<ParticleEmitter>().particles = particles;
+		base.GetComponent<LegacyParticleEmitter>().particles = particles;
 	}
 }

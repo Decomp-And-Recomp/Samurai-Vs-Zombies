@@ -1,55 +1,783 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1571760127705794}
-  m_IsPrefabParent: 1
-  m_IsExploded: 0
---- !u!1 &1571760127705794
+--- !u!1 &1005190636368831
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4640816854989163}
-  - 111: {fileID: 111829582387220848}
-  - 114: {fileID: 114581716314092588}
+  - component: {fileID: 4843918661962360}
   m_Layer: 0
-  m_Name: hzombie@knockback
+  m_Name: hzombie:Zomb_rt_knee_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4843918661962360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005190636368831}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.93213654, y: 0.00018498617, z: -0.000042855183, w: 0.36210692}
+  m_LocalPosition: {x: 12.74197, y: -0.000000070935926, z: -0.0000031412958}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4471375438694375}
+  m_Father: {fileID: 4816275310224659}
+  m_LocalEulerAnglesHint: {x: 137.54071, y: -0.012253465, z: -0.017981045}
+--- !u!1 &1025590808227585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4453348740153204}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_lf_clavicle_jnt
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4453348740153204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025590808227585}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.2978388, y: 0.63511735, z: -0.54493016, w: -0.45931375}
+  m_LocalPosition: {x: -0.2608615, y: 1.7830496, z: -7.347836}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4018301617319028}
+  m_Father: {fileID: 4982176504453586}
+  m_LocalEulerAnglesHint: {x: -87.83341, y: 65.23574, z: -163.02971}
+--- !u!1 &1131009721939839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4787376329741840}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_Skeleton_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4787376329741840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131009721939839}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4569878516898980}
+  m_Father: {fileID: 4640816854989163}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1158984989995198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4318281021835199}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4318281021835199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158984989995198}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.35569388, y: 0.6759753, z: 0.5846272, w: -0.27340493}
+  m_LocalPosition: {x: -0.26088116, y: 1.7830478, z: 7.34784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4408089489575813}
+  m_Father: {fileID: 4982176504453586}
+  m_LocalEulerAnglesHint: {x: 105.64868, y: 51.769413, z: -164.90065}
+--- !u!1 &1186988544958613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4793794190609105}
+  m_Layer: 0
+  m_Name: hzombie:LeftSkirt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4793794190609105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186988544958613}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.19553307, y: 0.65859747, z: 0.7263315, w: 0.021418002}
+  m_LocalPosition: {x: -5.327322, y: 0.112043455, z: 13.473885}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4579183981693652}
+  m_Father: {fileID: 4266391860551484}
+  m_LocalEulerAnglesHint: {x: 86.618645, y: -18.195202, z: 166.2102}
+--- !u!1 &1198705707188348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4972284835194159}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_neck_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4972284835194159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198705707188348}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3914759, y: -0.13223451, z: 0.8526411, w: 0.31978714}
+  m_LocalPosition: {x: -9.61547, y: 1.0658141e-14, z: 2.6298408e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4764974433109783}
+  m_Father: {fileID: 4982176504453586}
+  m_LocalEulerAnglesHint: {x: 2.163763, y: 48.77702, z: -137.9013}
+--- !u!1 &1213201132642546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4764974433109783}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_head_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4764974433109783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213201132642546}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.34210095, y: -0.2539568, z: -0.20933507, w: 0.880143}
+  m_LocalPosition: {x: -2.842171e-14, y: 4.463485, z: 7.1054274e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4559904631180959}
+  m_Father: {fileID: 4972284835194159}
+  m_LocalEulerAnglesHint: {x: -37.901268, y: 36.175747, z: 13.959773}
+--- !u!1 &1214223482605713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4363265655123674}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_spine_mid_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4363265655123674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214223482605713}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.99197966, y: -0.039653625, z: -0.032983106, w: -0.1153954}
+  m_LocalPosition: {x: -5.8557644, y: -2.6709657e-10, z: 3.0270542e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4542844753322699}
+  m_Father: {fileID: 4569878516898980}
+  m_LocalEulerAnglesHint: {x: -166.88206, y: -4.2775974, z: 4.0862155}
+--- !u!1 &1229487898405792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4644651031968508}
+  m_Layer: 0
+  m_Name: hzombie:RightSkirt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4644651031968508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229487898405792}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.26660624, y: 0.5001407, z: 0.75111294, w: -0.33854064}
+  m_LocalPosition: {x: -4.795668, y: 0.39807943, z: -13.527658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4202631397257044}
+  m_Father: {fileID: 4266391860551484}
+  m_LocalEulerAnglesHint: {x: 69.00742, y: -3.5469754, z: 129.03752}
+--- !u!1 &1240828329665352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4058805033821127}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4058805033821127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240828329665352}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.26038456, y: 0.6400354, z: -0.4539609, w: 0.5625603}
+  m_LocalPosition: {x: 7.237327, y: -0.08251458, z: 10.344801}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4674125383593699}
+  m_Father: {fileID: 4266391860551484}
+  m_LocalEulerAnglesHint: {x: -87.04568, y: -28.927872, z: 105.33408}
+--- !u!1 &1254021467519031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4605548680123985}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_lf_hand_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4605548680123985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254021467519031}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.6392398, y: -0.4391338, z: 0.05625188, w: 0.62878436}
+  m_LocalPosition: {x: -0, y: 7.1054274e-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4268212546139958}
+  - {fileID: 4404307665568364}
+  - {fileID: 4335535727944094}
+  m_Father: {fileID: 4370089955963506}
+  m_LocalEulerAnglesHint: {x: -103.3777, y: 28.706568, z: -46.11651}
+--- !u!1 &1265788027494481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4837310586488874}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_rt_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4837310586488874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265788027494481}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.010831049, y: -0.03839218, z: 0.3661383, w: 0.929705}
+  m_LocalPosition: {x: 4.771821, y: -0.00000055669324, z: -0.000014290844}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4471375438694375}
+  m_LocalEulerAnglesHint: {x: -0.45834464, y: 4.5493727, z: -43.00943}
+--- !u!1 &1274683258620842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4959875512785376}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_lf_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4959875512785376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274683258620842}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.23648599, y: -0.11728519, z: 0.36480704, w: 0.89287984}
+  m_LocalPosition: {x: -9.218766, y: -2.0256012e-15, z: 7.066765e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4523040288127833}
+  m_Father: {fileID: 4674125383593699}
+  m_LocalEulerAnglesHint: {x: 21.368496, y: 22.456797, z: -40.157307}
+--- !u!1 &1399871261213433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4542844753322699}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_spine_hi_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4542844753322699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399871261213433}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.11327246, y: -0.10548103, z: 0.020293996, w: 0.98774046}
+  m_LocalPosition: {x: -7.327674, y: -1.4284751e-10, z: 0.0000000012887664}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4982176504453586}
+  m_Father: {fileID: 4363265655123674}
+  m_LocalEulerAnglesHint: {x: 12.9817095, y: 12.29665, z: -0.94969016}
+--- !u!1 &1477775419308791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4050319726055938}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_rt_hand_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4050319726055938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477775419308791}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.39738598, y: 0.05952717, z: -0.010341772, w: 0.9156604}
+  m_LocalPosition: {x: -0, y: 7.1054274e-15, z: 1.7763568e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4480314271683713}
+  - {fileID: 4293741715277358}
+  m_Father: {fileID: 4104474481976573}
+  m_LocalEulerAnglesHint: {x: 47.016865, y: -6.73242, z: -1.6370726}
+--- !u!1 &1484498862363605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4579183981693652}
+  m_Layer: 0
+  m_Name: hzombie:LeftSkirt1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4579183981693652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484498862363605}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.13576677, y: 0.08714762, z: -0.56592196, w: 0.80852026}
+  m_LocalPosition: {x: -15.921364, y: 2.6645353e-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4793794190609105}
+  m_LocalEulerAnglesHint: {x: -18.554329, y: 0.73028666, z: 69.86073}
+--- !u!1 &1489053257485939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4370089955963506}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_lf_wrist_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4370089955963506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489053257485939}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.737501, y: -5.496588e-16, z: 1.3159041e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4605548680123985}
+  m_Father: {fileID: 4391603145512218}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1497245338171162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4548273383339861}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_cape_01_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4548273383339861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497245338171162}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.46724024, y: -0.5307415, z: 0.46724024, w: 0.5307415}
+  m_LocalPosition: {x: -6.4390693, y: 9.820337, z: -2.7568225e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4913899717847560}
+  m_Father: {fileID: 4982176504453586}
+  m_LocalEulerAnglesHint: {x: 82.71839, y: 90, z: 0}
+--- !u!1 &1504081414430333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4480314271683713}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_rt_index_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4480314271683713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504081414430333}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7108708, y: -0.07432357, z: 0.04985772, w: 0.69760513}
+  m_LocalPosition: {x: 5.89958, y: -0.26722717, z: -0.5192229}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4050319726055938}
+  m_LocalEulerAnglesHint: {x: -91.245384, y: 1.8803389, z: -10.09759}
+--- !u!1 &1507902241976107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4104474481976573}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_rt_wrist_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4104474481976573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507902241976107}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.737534, y: 0.000047157875, z: -0.0000019393904}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4050319726055938}
+  m_Father: {fileID: 4063340326757796}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1538369998082967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4063340326757796}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_rt_elbow_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4063340326757796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538369998082967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0016663839, y: 0.59327036, z: 0.00094291434, w: 0.805001}
+  m_LocalPosition: {x: 21.131779, y: -0.00006829642, z: 0.0000015533215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4104474481976573}
+  m_Father: {fileID: 4408089489575813}
+  m_LocalEulerAnglesHint: {x: 0.73570347, y: -72.777725, z: -0.6764135}
+--- !u!1 &1548141421713981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4816275310224659}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4816275310224659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548141421713981}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.638433, y: 0.48217186, z: -0.4894118, w: -0.34697223}
+  m_LocalPosition: {x: 7.237366, y: -0.08251444, z: -10.3448}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4843918661962360}
+  m_Father: {fileID: 4266391860551484}
+  m_LocalEulerAnglesHint: {x: -107.024605, y: -16.876682, z: -86.64674}
+--- !u!1 &1568320244852826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4404307665568364}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_lf_index_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4404307665568364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568320244852826}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7043952, y: -0.13123438, z: 0.107937746, w: 0.68916935}
+  m_LocalPosition: {x: -5.89961, y: 0.2672423, z: 0.519218}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4605548680123985}
+  m_LocalEulerAnglesHint: {x: -91.53578, y: 1.651709, z: -19.49929}
+--- !u!1 &1571760127705794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4640816854989163}
+  - component: {fileID: 111829582387220848}
+  - component: {fileID: 114581716314092588}
+  m_Layer: 0
+  m_Name: hzombie@knockback
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4640816854989163
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571760127705794}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4787376329741840}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!111 &111829582387220848
 Animation:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571760127705794}
   m_Enabled: 1
+  serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 6d108bd47a93d0446875f8cb199e4ede, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 6d108bd47a93d0446875f8cb199e4ede, type: 2}
@@ -57,1110 +785,530 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
-  m_UserAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!114 &114581716314092588
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571760127705794}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sourcePrefabPath: Assets/Resources/Characters/HeavyZombie/hzombie@knockback.fbx
-  basePrefabPath:
+  basePrefabPath: 
   exemptObjects: []
---- !u!1 &1131009721939839
+--- !u!1 &1589446590227391
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4787376329741840}
+  - component: {fileID: 4202631397257044}
   m_Layer: 0
-  m_Name: hzombie:Zomb_Skeleton_grp
+  m_Name: hzombie:RightSkirt1
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4787376329741840
+--- !u!4 &4202631397257044
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1131009721939839}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 4569878516898980}
-  m_Father: {fileID: 4640816854989163}
---- !u!1 &1802607997183161
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4569878516898980}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_spine_low_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4569878516898980
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1802607997183161}
-  m_LocalRotation: {x: 0.69084686, y: -0.4709588, z: -0.50014406, w: 0.22535384}
-  m_LocalPosition: {x: 2.87196, y: 33.364418, z: -7.3009405}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589446590227391}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0295642, y: 0.010545632, z: 0.03969227, w: 0.9987188}
+  m_LocalPosition: {x: -13.095837, y: -8.993278, z: -1.0523314}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 116.96846, y: -28.605827, z: 86.335815}
-  m_Children:
-  - {fileID: 4266391860551484}
-  - {fileID: 4363265655123674}
-  m_Father: {fileID: 4787376329741840}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4644651031968508}
+  m_LocalEulerAnglesHint: {x: 3.43409, y: -1.072485, z: -4.583989}
 --- !u!1 &1647643483845783
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4266391860551484}
+  - component: {fileID: 4266391860551484}
   m_Layer: 0
   m_Name: hzombie:Zomb_hip_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4266391860551484
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647643483845783}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.060100794, y: 0.00866588, z: -0.0012329188, w: 0.998154}
   m_LocalPosition: {x: 5.4827757, y: -0.3660841, z: 0.14934836}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -6.893182, y: -0.9827605, z: 0.20073348}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4793794190609105}
   - {fileID: 4644651031968508}
   - {fileID: 4058805033821127}
   - {fileID: 4816275310224659}
   m_Father: {fileID: 4569878516898980}
---- !u!1 &1186988544958613
+  m_LocalEulerAnglesHint: {x: -6.893182, y: -0.9827605, z: 0.20073348}
+--- !u!1 &1652116484533090
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4793794190609105}
+  - component: {fileID: 4335535727944094}
   m_Layer: 0
-  m_Name: hzombie:LeftSkirt
+  m_Name: hzombie:Zomb_lf_thumb_a_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4793794190609105
+--- !u!4 &4335535727944094
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1186988544958613}
-  m_LocalRotation: {x: -0.19553307, y: 0.65859747, z: 0.7263315, w: 0.021418002}
-  m_LocalPosition: {x: -5.327322, y: 0.112043455, z: 13.473885}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652116484533090}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7291461, y: 0.06439273, z: 0.40540022, w: 0.5475858}
+  m_LocalPosition: {x: -2.9822645, y: -1.685204, z: 2.1125178}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 86.618645, y: -18.195202, z: 166.2102}
-  m_Children:
-  - {fileID: 4579183981693652}
-  m_Father: {fileID: 4266391860551484}
---- !u!1 &1484498862363605
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4579183981693652}
-  m_Layer: 0
-  m_Name: hzombie:LeftSkirt1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4579183981693652
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1484498862363605}
-  m_LocalRotation: {x: -0.13576677, y: 0.08714762, z: -0.56592196, w: 0.80852026}
-  m_LocalPosition: {x: -15.921364, y: 2.6645353E-15, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -18.554329, y: 0.73028666, z: 69.86073}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4793794190609105}
---- !u!1 &1229487898405792
+  m_Father: {fileID: 4605548680123985}
+  m_LocalEulerAnglesHint: {x: -95.480034, y: -41.430653, z: -27.83479}
+--- !u!1 &1683734538526560
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4644651031968508}
+  - component: {fileID: 4356448532094519}
   m_Layer: 0
-  m_Name: hzombie:RightSkirt
+  m_Name: hzombie:Zomb_cape_03_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4644651031968508
+--- !u!4 &4356448532094519
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1229487898405792}
-  m_LocalRotation: {x: -0.26660624, y: 0.5001407, z: 0.75111294, w: -0.33854064}
-  m_LocalPosition: {x: -4.795668, y: 0.39807943, z: -13.527658}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683734538526560}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.15331273, y: -0.02595553, z: -0.109422855, w: 0.9817577}
+  m_LocalPosition: {x: 3.5527137e-14, y: -25.500183, z: -8.719418}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 69.00742, y: -3.5469754, z: 129.03752}
-  m_Children:
-  - {fileID: 4202631397257044}
-  m_Father: {fileID: 4266391860551484}
---- !u!1 &1589446590227391
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4202631397257044}
-  m_Layer: 0
-  m_Name: hzombie:RightSkirt1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4202631397257044
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1589446590227391}
-  m_LocalRotation: {x: 0.0295642, y: 0.010545632, z: 0.03969227, w: 0.9987188}
-  m_LocalPosition: {x: -13.095837, y: -8.993278, z: -1.0523314}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 3.43409, y: -1.072485, z: -4.583989}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4644651031968508}
---- !u!1 &1240828329665352
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4058805033821127}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_lf_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4058805033821127
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1240828329665352}
-  m_LocalRotation: {x: -0.26038456, y: 0.6400354, z: -0.4539609, w: 0.5625603}
-  m_LocalPosition: {x: 7.237327, y: -0.08251458, z: 10.344801}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -87.04568, y: -28.927872, z: 105.33408}
-  m_Children:
-  - {fileID: 4674125383593699}
-  m_Father: {fileID: 4266391860551484}
---- !u!1 &1720317414251731
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4674125383593699}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_lf_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4674125383593699
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1720317414251731}
-  m_LocalRotation: {x: 0.27067617, y: 0.5657999, z: -0.55019844, w: 0.5512591}
-  m_LocalPosition: {x: -12.699595, y: -1.3948343E-16, z: -1.5742411E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -56.66742, y: -67.16937, z: 129.28828}
-  m_Children:
-  - {fileID: 4959875512785376}
-  m_Father: {fileID: 4058805033821127}
---- !u!1 &1274683258620842
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4959875512785376}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_lf_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4959875512785376
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1274683258620842}
-  m_LocalRotation: {x: 0.23648599, y: -0.11728519, z: 0.36480704, w: 0.89287984}
-  m_LocalPosition: {x: -9.218766, y: -2.0256012E-15, z: 7.066765E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 21.368496, y: 22.456797, z: -40.157307}
-  m_Children:
-  - {fileID: 4523040288127833}
-  m_Father: {fileID: 4674125383593699}
+  m_Father: {fileID: 4913899717847560}
+  m_LocalEulerAnglesHint: {x: -17.242237, y: 4.848189, z: 11.983953}
 --- !u!1 &1711443848658488
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4523040288127833}
+  - component: {fileID: 4523040288127833}
   m_Layer: 0
   m_Name: hzombie:Zomb_lf_ball_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4523040288127833
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711443848658488}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.004624805, y: -0.039621744, z: 0.50852466, w: 0.860123}
-  m_LocalPosition: {x: -4.771814, y: 6.9574884E-16, z: -2.5754418E-16}
+  m_LocalPosition: {x: -4.771814, y: 6.9574884e-16, z: -2.5754418e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -1.8582935, y: 4.1784334, z: -61.252926}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4959875512785376}
---- !u!1 &1548141421713981
+  m_LocalEulerAnglesHint: {x: -1.8582935, y: 4.1784334, z: -61.252926}
+--- !u!1 &1720317414251731
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4816275310224659}
+  - component: {fileID: 4674125383593699}
   m_Layer: 0
-  m_Name: hzombie:Zomb_rt_upLeg_jnt
+  m_Name: hzombie:Zomb_lf_knee_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4816275310224659
+--- !u!4 &4674125383593699
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1548141421713981}
-  m_LocalRotation: {x: 0.638433, y: 0.48217186, z: -0.4894118, w: -0.34697223}
-  m_LocalPosition: {x: 7.237366, y: -0.08251444, z: -10.3448}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720317414251731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.27067617, y: 0.5657999, z: -0.55019844, w: 0.5512591}
+  m_LocalPosition: {x: -12.699595, y: -1.3948343e-16, z: -1.5742411e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -107.024605, y: -16.876682, z: -86.64674}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4843918661962360}
-  m_Father: {fileID: 4266391860551484}
---- !u!1 &1005190636368831
+  - {fileID: 4959875512785376}
+  m_Father: {fileID: 4058805033821127}
+  m_LocalEulerAnglesHint: {x: -56.66742, y: -67.16937, z: 129.28828}
+--- !u!1 &1732350131944386
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4843918661962360}
+  - component: {fileID: 4559904631180959}
   m_Layer: 0
-  m_Name: hzombie:Zomb_rt_knee_jnt
+  m_Name: hzombie:Zomb_head_b_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4843918661962360
+--- !u!4 &4559904631180959
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1005190636368831}
-  m_LocalRotation: {x: 0.93213654, y: 0.00018498617, z: -4.2855183E-05, w: 0.36210692}
-  m_LocalPosition: {x: 12.74197, y: -7.0935926E-08, z: -3.1412958E-06}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732350131944386}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.045143593, y: 0, z: -0, w: 0.9989805}
+  m_LocalPosition: {x: 6.2305046e-15, y: 52.257973, z: 9.226653e-14}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 137.54071, y: -0.012253465, z: -0.017981045}
-  m_Children:
-  - {fileID: 4471375438694375}
-  m_Father: {fileID: 4816275310224659}
---- !u!1 &1898800870920854
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4471375438694375}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_rt_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4471375438694375
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1898800870920854}
-  m_LocalRotation: {x: -0.1741182, y: 0.00028347006, z: -0.2777303, w: 0.944748}
-  m_LocalPosition: {x: 9.249619, y: -1.25893785E-05, z: -3.4045468E-05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -19.310427, y: 5.51925, z: 31.824121}
-  m_Children:
-  - {fileID: 4837310586488874}
-  m_Father: {fileID: 4843918661962360}
---- !u!1 &1265788027494481
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4837310586488874}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_rt_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4837310586488874
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1265788027494481}
-  m_LocalRotation: {x: 0.010831049, y: -0.03839218, z: 0.3661383, w: 0.929705}
-  m_LocalPosition: {x: 4.771821, y: -5.5669324E-07, z: -1.4290844E-05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -0.45834464, y: 4.5493727, z: -43.00943}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4471375438694375}
---- !u!1 &1214223482605713
+  m_Father: {fileID: 4764974433109783}
+  m_LocalEulerAnglesHint: {x: -5.1748333, y: -0, z: 0}
+--- !u!1 &1742865869526451
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4363265655123674}
+  - component: {fileID: 4408089489575813}
   m_Layer: 0
-  m_Name: hzombie:Zomb_spine_mid_jnt
+  m_Name: hzombie:Zomb_rt_upArm_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4363265655123674
+--- !u!4 &4408089489575813
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1214223482605713}
-  m_LocalRotation: {x: 0.99197966, y: -0.039653625, z: -0.032983106, w: -0.1153954}
-  m_LocalPosition: {x: -5.8557644, y: -2.6709657E-10, z: 3.0270542E-10}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742865869526451}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.19101837, y: 0.043266412, z: 0.7754403, w: 0.600277}
+  m_LocalPosition: {x: 6.570937, y: 0.00004119919, z: 0.0000012180934}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -166.88206, y: -4.2775974, z: 4.0862155}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4542844753322699}
-  m_Father: {fileID: 4569878516898980}
---- !u!1 &1399871261213433
+  - {fileID: 4063340326757796}
+  m_Father: {fileID: 4318281021835199}
+  m_LocalEulerAnglesHint: {x: -9.9655485, y: -20.376667, z: -102.71692}
+--- !u!1 &1795476711889082
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4542844753322699}
+  - component: {fileID: 4018301617319028}
   m_Layer: 0
-  m_Name: hzombie:Zomb_spine_hi_jnt
+  m_Name: hzombie:Zomb_lf_upArm_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4542844753322699
+--- !u!4 &4018301617319028
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1399871261213433}
-  m_LocalRotation: {x: 0.11327246, y: -0.10548103, z: 0.020293996, w: 0.98774046}
-  m_LocalPosition: {x: -7.327674, y: -1.4284751E-10, z: 1.2887664E-09}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795476711889082}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.05917414, y: -0.018358711, z: 0.3021791, w: 0.9512356}
+  m_LocalPosition: {x: -6.5709333, y: -7.0371345e-15, z: -7.637227e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 12.9817095, y: 12.29665, z: -0.94969016}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4982176504453586}
-  m_Father: {fileID: 4363265655123674}
+  - {fileID: 4391603145512218}
+  m_Father: {fileID: 4453348740153204}
+  m_LocalEulerAnglesHint: {x: -7.1040936, y: -0.047868166, z: -35.24402}
+--- !u!1 &1802607997183161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4569878516898980}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_spine_low_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4569878516898980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802607997183161}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.69084686, y: -0.4709588, z: -0.50014406, w: 0.22535384}
+  m_LocalPosition: {x: 2.87196, y: 33.364418, z: -7.3009405}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4266391860551484}
+  - {fileID: 4363265655123674}
+  m_Father: {fileID: 4787376329741840}
+  m_LocalEulerAnglesHint: {x: 116.96846, y: -28.605827, z: 86.335815}
 --- !u!1 &1843950105724527
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4982176504453586}
+  - component: {fileID: 4982176504453586}
   m_Layer: 0
   m_Name: hzombie:Zomb_spine_end_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4982176504453586
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843950105724527}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.12982982, w: 0.9915363}
-  m_LocalPosition: {x: -9.38294, y: -1.4773523E-14, z: 2.5811834E-15}
+  m_LocalPosition: {x: -9.38294, y: -1.4773523e-14, z: 2.5811834e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -14.919516}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4548273383339861}
   - {fileID: 4453348740153204}
   - {fileID: 4972284835194159}
   - {fileID: 4318281021835199}
   m_Father: {fileID: 4542844753322699}
---- !u!1 &1497245338171162
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -14.919516}
+--- !u!1 &1898800870920854
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4548273383339861}
+  - component: {fileID: 4471375438694375}
   m_Layer: 0
-  m_Name: hzombie:Zomb_cape_01_jnt
+  m_Name: hzombie:Zomb_rt_ankle_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4548273383339861
+--- !u!4 &4471375438694375
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1497245338171162}
-  m_LocalRotation: {x: 0.46724024, y: -0.5307415, z: 0.46724024, w: 0.5307415}
-  m_LocalPosition: {x: -6.4390693, y: 9.820337, z: -2.7568225E-14}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898800870920854}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.1741182, y: 0.00028347006, z: -0.2777303, w: 0.944748}
+  m_LocalPosition: {x: 9.249619, y: -0.0000125893785, z: -0.000034045468}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 82.71839, y: 90, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4913899717847560}
-  m_Father: {fileID: 4982176504453586}
---- !u!1 &1960834271498983
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4913899717847560}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_cape_02_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4913899717847560
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1960834271498983}
-  m_LocalRotation: {x: -0.15018053, y: -0.003249002, z: -0.0116230985, w: 0.98858494}
-  m_LocalPosition: {x: 1.6327217E-14, y: -5.264554, z: -3.4548635}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -17.269794, y: 0.5680944, z: 1.2609555}
-  m_Children:
-  - {fileID: 4356448532094519}
-  m_Father: {fileID: 4548273383339861}
---- !u!1 &1683734538526560
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4356448532094519}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_cape_03_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4356448532094519
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1683734538526560}
-  m_LocalRotation: {x: -0.15331273, y: -0.02595553, z: -0.109422855, w: 0.9817577}
-  m_LocalPosition: {x: 3.5527137E-14, y: -25.500183, z: -8.719418}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -17.242237, y: 4.848189, z: 11.983953}
-  m_Children: []
-  m_Father: {fileID: 4913899717847560}
---- !u!1 &1025590808227585
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4453348740153204}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_lf_clavicle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4453348740153204
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1025590808227585}
-  m_LocalRotation: {x: -0.2978388, y: 0.63511735, z: -0.54493016, w: -0.45931375}
-  m_LocalPosition: {x: -0.2608615, y: 1.7830496, z: -7.347836}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -87.83341, y: 65.23574, z: -163.02971}
-  m_Children:
-  - {fileID: 4018301617319028}
-  m_Father: {fileID: 4982176504453586}
---- !u!1 &1795476711889082
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4018301617319028}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_lf_upArm_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4018301617319028
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1795476711889082}
-  m_LocalRotation: {x: -0.05917414, y: -0.018358711, z: 0.3021791, w: 0.9512356}
-  m_LocalPosition: {x: -6.5709333, y: -7.0371345E-15, z: -7.637227E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -7.1040936, y: -0.047868166, z: -35.24402}
-  m_Children:
-  - {fileID: 4391603145512218}
-  m_Father: {fileID: 4453348740153204}
---- !u!1 &1969334501479727
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4391603145512218}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_lf_elbow_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4391603145512218
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1969334501479727}
-  m_LocalRotation: {x: 0.004304561, y: 0.51768273, z: -0.0039050786, w: 0.8555529}
-  m_LocalPosition: {x: -21.131807, y: -7.164356E-15, z: 2.7277379E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0.41027215, y: -62.35551, z: 0.27478442}
-  m_Children:
-  - {fileID: 4370089955963506}
-  m_Father: {fileID: 4018301617319028}
---- !u!1 &1489053257485939
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4370089955963506}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_lf_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4370089955963506
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1489053257485939}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.737501, y: -5.496588E-16, z: 1.3159041E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4605548680123985}
-  m_Father: {fileID: 4391603145512218}
---- !u!1 &1254021467519031
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4605548680123985}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_lf_hand_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4605548680123985
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1254021467519031}
-  m_LocalRotation: {x: -0.6392398, y: -0.4391338, z: 0.05625188, w: 0.62878436}
-  m_LocalPosition: {x: -0, y: 7.1054274E-15, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -103.3777, y: 28.706568, z: -46.11651}
-  m_Children:
-  - {fileID: 4268212546139958}
-  - {fileID: 4404307665568364}
-  - {fileID: 4335535727944094}
-  m_Father: {fileID: 4370089955963506}
---- !u!1 &1980196317765545
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4268212546139958}
-  m_Layer: 0
-  m_Name: hzombie:prop1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4268212546139958
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1980196317765545}
-  m_LocalRotation: {x: -0.002549667, y: -0.060220283, z: -0.0422242, w: 0.9972884}
-  m_LocalPosition: {x: -6.407031, y: -1.5707624, z: 5.8580647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -9.435098E-09, y: 6.9111075, z: 4.848797}
-  m_Children: []
-  m_Father: {fileID: 4605548680123985}
---- !u!1 &1568320244852826
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4404307665568364}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_lf_index_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4404307665568364
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1568320244852826}
-  m_LocalRotation: {x: -0.7043952, y: -0.13123438, z: 0.107937746, w: 0.68916935}
-  m_LocalPosition: {x: -5.89961, y: 0.2672423, z: 0.519218}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -91.53578, y: 1.651709, z: -19.49929}
-  m_Children: []
-  m_Father: {fileID: 4605548680123985}
---- !u!1 &1652116484533090
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4335535727944094}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_lf_thumb_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4335535727944094
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1652116484533090}
-  m_LocalRotation: {x: -0.7291461, y: 0.06439273, z: 0.40540022, w: 0.5475858}
-  m_LocalPosition: {x: -2.9822645, y: -1.685204, z: 2.1125178}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -95.480034, y: -41.430653, z: -27.83479}
-  m_Children: []
-  m_Father: {fileID: 4605548680123985}
---- !u!1 &1198705707188348
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4972284835194159}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_neck_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4972284835194159
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1198705707188348}
-  m_LocalRotation: {x: 0.3914759, y: -0.13223451, z: 0.8526411, w: 0.31978714}
-  m_LocalPosition: {x: -9.61547, y: 1.0658141E-14, z: 2.6298408E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 2.163763, y: 48.77702, z: -137.9013}
-  m_Children:
-  - {fileID: 4764974433109783}
-  m_Father: {fileID: 4982176504453586}
---- !u!1 &1213201132642546
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4764974433109783}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_head_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4764974433109783
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1213201132642546}
-  m_LocalRotation: {x: -0.34210095, y: -0.2539568, z: -0.20933507, w: 0.880143}
-  m_LocalPosition: {x: -2.842171E-14, y: 4.463485, z: 7.1054274E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -37.901268, y: 36.175747, z: 13.959773}
-  m_Children:
-  - {fileID: 4559904631180959}
-  m_Father: {fileID: 4972284835194159}
---- !u!1 &1732350131944386
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4559904631180959}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_head_b_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4559904631180959
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1732350131944386}
-  m_LocalRotation: {x: -0.045143593, y: 0, z: -0, w: 0.9989805}
-  m_LocalPosition: {x: 6.2305046E-15, y: 52.257973, z: 9.226653E-14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -5.1748333, y: -0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4764974433109783}
---- !u!1 &1158984989995198
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4318281021835199}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_rt_clavicle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4318281021835199
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1158984989995198}
-  m_LocalRotation: {x: 0.35569388, y: 0.6759753, z: 0.5846272, w: -0.27340493}
-  m_LocalPosition: {x: -0.26088116, y: 1.7830478, z: 7.34784}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 105.64868, y: 51.769413, z: -164.90065}
-  m_Children:
-  - {fileID: 4408089489575813}
-  m_Father: {fileID: 4982176504453586}
---- !u!1 &1742865869526451
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4408089489575813}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_rt_upArm_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4408089489575813
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1742865869526451}
-  m_LocalRotation: {x: -0.19101837, y: 0.043266412, z: 0.7754403, w: 0.600277}
-  m_LocalPosition: {x: 6.570937, y: 4.119919E-05, z: 1.2180934E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -9.9655485, y: -20.376667, z: -102.71692}
-  m_Children:
-  - {fileID: 4063340326757796}
-  m_Father: {fileID: 4318281021835199}
---- !u!1 &1538369998082967
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4063340326757796}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_rt_elbow_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4063340326757796
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1538369998082967}
-  m_LocalRotation: {x: 0.0016663839, y: 0.59327036, z: 0.00094291434, w: 0.805001}
-  m_LocalPosition: {x: 21.131779, y: -6.829642E-05, z: 1.5533215E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0.73570347, y: -72.777725, z: -0.6764135}
-  m_Children:
-  - {fileID: 4104474481976573}
-  m_Father: {fileID: 4408089489575813}
---- !u!1 &1507902241976107
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4104474481976573}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_rt_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4104474481976573
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1507902241976107}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.737534, y: 4.7157875E-05, z: -1.9393904E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4050319726055938}
-  m_Father: {fileID: 4063340326757796}
---- !u!1 &1477775419308791
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4050319726055938}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_rt_hand_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4050319726055938
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1477775419308791}
-  m_LocalRotation: {x: 0.39738598, y: 0.05952717, z: -0.010341772, w: 0.9156604}
-  m_LocalPosition: {x: -0, y: 7.1054274E-15, z: 1.7763568E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 47.016865, y: -6.73242, z: -1.6370726}
-  m_Children:
-  - {fileID: 4480314271683713}
-  - {fileID: 4293741715277358}
-  m_Father: {fileID: 4104474481976573}
---- !u!1 &1504081414430333
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4480314271683713}
-  m_Layer: 0
-  m_Name: hzombie:Zomb_rt_index_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4480314271683713
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1504081414430333}
-  m_LocalRotation: {x: -0.7108708, y: -0.07432357, z: 0.04985772, w: 0.69760513}
-  m_LocalPosition: {x: 5.89958, y: -0.26722717, z: -0.5192229}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -91.245384, y: 1.8803389, z: -10.09759}
-  m_Children: []
-  m_Father: {fileID: 4050319726055938}
+  - {fileID: 4837310586488874}
+  m_Father: {fileID: 4843918661962360}
+  m_LocalEulerAnglesHint: {x: -19.310427, y: 5.51925, z: 31.824121}
 --- !u!1 &1931772373855275
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4293741715277358}
+  - component: {fileID: 4293741715277358}
   m_Layer: 0
   m_Name: hzombie:Zomb_rt_thumb_a_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4293741715277358
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931772373855275}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7837568, y: 0.17073213, z: 0.30479234, w: 0.5134954}
   m_LocalPosition: {x: 2.982275, y: 1.6852498, z: -2.1125145}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -112.25903, y: -40.776226, z: -3.4366317}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4050319726055938}
+  m_LocalEulerAnglesHint: {x: -112.25903, y: -40.776226, z: -3.4366317}
+--- !u!1 &1960834271498983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4913899717847560}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_cape_02_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4913899717847560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960834271498983}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.15018053, y: -0.003249002, z: -0.0116230985, w: 0.98858494}
+  m_LocalPosition: {x: 1.6327217e-14, y: -5.264554, z: -3.4548635}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4356448532094519}
+  m_Father: {fileID: 4548273383339861}
+  m_LocalEulerAnglesHint: {x: -17.269794, y: 0.5680944, z: 1.2609555}
+--- !u!1 &1969334501479727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4391603145512218}
+  m_Layer: 0
+  m_Name: hzombie:Zomb_lf_elbow_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4391603145512218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969334501479727}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.004304561, y: 0.51768273, z: -0.0039050786, w: 0.8555529}
+  m_LocalPosition: {x: -21.131807, y: -7.164356e-15, z: 2.7277379e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4370089955963506}
+  m_Father: {fileID: 4018301617319028}
+  m_LocalEulerAnglesHint: {x: 0.41027215, y: -62.35551, z: 0.27478442}
+--- !u!1 &1980196317765545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4268212546139958}
+  m_Layer: 0
+  m_Name: hzombie:prop1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4268212546139958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980196317765545}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.002549667, y: -0.060220283, z: -0.0422242, w: 0.9972884}
+  m_LocalPosition: {x: -6.407031, y: -1.5707624, z: 5.8580647}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4605548680123985}
+  m_LocalEulerAnglesHint: {x: -0.000000009435098, y: 6.9111075, z: 4.848797}

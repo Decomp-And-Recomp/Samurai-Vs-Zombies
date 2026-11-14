@@ -5,7 +5,7 @@ public class SUILabel : SUIWidget
 {
 	private const float kShadowPriorityOffset = -0.001f;
 
-	private GUIText mTextSprite;
+	private SUITextRenderer mTextSprite;
 
 	private string mFontFile;
 
@@ -71,11 +71,11 @@ public class SUILabel : SUIWidget
 	{
 		get
 		{
-			return mTextSprite.material.color;
+			return mTextSprite.color;
 		}
 		set
 		{
-			mTextSprite.material.color = new Color(value.r, value.g, value.b, mTextSprite.material.color.a);
+			mTextSprite.color = new Color(value.r, value.g, value.b, mTextSprite.color.a);
 		}
 	}
 
@@ -171,13 +171,13 @@ public class SUILabel : SUIWidget
 	{
 		get
 		{
-			return mTextSprite.material.color.a;
+			return mTextSprite.color.a;
 		}
 		set
 		{
-			if (value != mTextSprite.material.color.a)
+			if (value != mTextSprite.color.a)
 			{
-				mTextSprite.material.color = new Color(mTextSprite.material.color.r, mTextSprite.material.color.g, mTextSprite.material.color.b, value);
+				mTextSprite.color = new Color(mTextSprite.color.r, mTextSprite.color.g, mTextSprite.color.b, value);
 				if (mShadow != null)
 				{
 					mShadow.alpha = value;
@@ -286,7 +286,7 @@ public class SUILabel : SUIWidget
 	{
 		GUIStyle gUIStyle = new GUIStyle();
 		gUIStyle.font = mTextSprite.font;
-		gUIStyle.normal.textColor = mTextSprite.material.color;
+		gUIStyle.normal.textColor = mTextSprite.color;
 		Vector2 vector = gUIStyle.CalcSize(new GUIContent(mOriginalText));
 		Rect rect = new Rect(position.x, position.y, vector.x, vector.y);
 		switch (mTextSprite.anchor)
@@ -328,14 +328,18 @@ public class SUILabel : SUIWidget
 		string prefab = Singleton<FontSetFinder>.instance.GetPrefab(fontFile);
 		if (prefab == string.Empty)
 		{
-			mTextSprite = (GUIText)mGameObject.AddComponent<GUIText>();
+			mTextSprite = (SUITextRenderer)mGameObject.AddComponent<SUITextRenderer>();
 		}
 		else
 		{
 			Object.Destroy(mGameObject);
 			mGameObject = Object.Instantiate(Resources.Load(prefab)) as GameObject;
 			mGOTransformRef = mGameObject.transform;
-			mTextSprite = mGameObject.GetComponent<GUIText>();
+			mTextSprite = mGameObject.GetComponent<SUITextRenderer>();
+			if (mTextSprite == null)
+			{
+				mTextSprite = mGameObject.AddComponent<SUITextRenderer>();
+			}
 		}
 		string path = Singleton<FontSetFinder>.instance.basePath + fontFile;
 		Font font = null;

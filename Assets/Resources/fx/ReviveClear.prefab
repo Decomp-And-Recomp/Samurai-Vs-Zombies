@@ -120,9 +120,9 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
   - 4: {fileID: 4909344621216678}
-  - 15: {fileID: 15945928705374201}
-  - 12: {fileID: 12723325620707954}
-  - 26: {fileID: 26300238892108505}
+  - 114: {fileID: 15945928705374201}
+  - 114: {fileID: 12723325620707954}
+  - 114: {fileID: 26300238892108505}
   m_Layer: 0
   m_Name: ClearMain
   m_TagString: Untagged
@@ -142,86 +142,150 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
   m_Children: []
   m_Father: {fileID: 4545164231665426}
---- !u!15 &15945928705374201
-EllipsoidParticleEmitter:
-  serializedVersion: 2
+--- !u!114 &15945928705374201
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1848868468737603}
+  m_CorrespondingSourceObject:
+    fileID: 0
+  m_PrefabInstance:
+    fileID: 100100000
+  m_PrefabAsset:
+    fileID: 0
+  m_GameObject:
+    fileID: 1848868468737603
   m_Enabled: 1
-  m_Emit: 1
+  m_EditorHideFlags: 0
+  m_Script:
+    fileID: 11500000
+    guid: 2f0e2be1a8ba4a07a4816efb657d3780
+    type: 3
+  m_Name: ''
+  m_EditorClassIdentifier: ''
+  emitEnabled: 1
   minSize: 100
   maxSize: 120
   minEnergy: 0.8
   maxEnergy: 4
   minEmission: 1
   maxEmission: 1
-  worldVelocity: {x: 0, y: 0, z: 0}
-  localVelocity: {x: 0, y: 0, z: 0}
-  rndVelocity: {x: 0, y: 0, z: 0}
+  worldVelocity:
+    x: 0
+    y: 0
+    z: 0
+  localVelocity:
+    x: 0
+    y: 0
+    z: 0
+  rndVelocity:
+    x: 0
+    y: 0
+    z: 0
   emitterVelocityScale: 500
-  tangentVelocity: {x: 0, y: 0, z: 0}
+  tangentVelocity:
+    x: 0
+    y: 0
+    z: 0
   angularVelocity: 30
   rndAngularVelocity: 0
   rndRotation: 1
-  Simulate in Worldspace?: 0
-  m_OneShot: 1
-  m_Ellipsoid: {x: 1, y: 1, z: 1}
-  m_MinEmitterRange: 0
---- !u!12 &12723325620707954
-ParticleAnimator:
+  worldSpace: 0
+  oneShot: 1
+  ellipsoid:
+    x: 1
+    y: 1
+    z: 1
+  minEmitterRange: 0
+--- !u!114 &12723325620707954
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1848868468737603}
-  Does Animate Color?: 1
-  colorAnimation[0]:
-    serializedVersion: 2
-    rgba: 4283585153
-  colorAnimation[1]:
-    serializedVersion: 2
-    rgba: 4283387783
-  colorAnimation[2]:
-    serializedVersion: 2
-    rgba: 4282335115
-  colorAnimation[3]:
-    serializedVersion: 2
-    rgba: 3028386219
-  colorAnimation[4]:
-    serializedVersion: 2
-    rgba: 171982968
-  worldRotationAxis: {x: 0, y: 0, z: 0}
-  localRotationAxis: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject:
+    fileID: 0
+  m_PrefabInstance:
+    fileID: 100100000
+  m_PrefabAsset:
+    fileID: 0
+  m_GameObject:
+    fileID: 1848868468737603
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script:
+    fileID: 11500000
+    guid: 3f0e2be1a8ba4a07a4816efb657d3780
+    type: 3
+  m_Name: ''
+  m_EditorClassIdentifier: ''
+  doesAnimateColor: 1
+  worldRotationAxis:
+    x: 0
+    y: 0
+    z: 0
+  localRotationAxis:
+    x: 0
+    y: 0
+    z: 0
   sizeGrow: 5
-  rndForce: {x: 0, y: 0, z: 0}
-  force: {x: 0, y: 0, z: 0}
+  rndForce:
+    x: 0
+    y: 0
+    z: 0
+  force:
+    x: 0
+    y: 0
+    z: 0
   damping: 1
   stopSimulation: 0
   autodestruct: 1
---- !u!26 &26300238892108505
-ParticleRenderer:
-  serializedVersion: 2
+  colorAnimation:
+  - r: 0.5058823529411764
+    g: 0.3215686274509804
+    b: 0.3215686274509804
+    a: 1.0
+  - r: 0.5294117647058824
+    g: 0.30980392156862746
+    b: 0.30980392156862746
+    a: 1.0
+  - r: 0.5450980392156862
+    g: 0.24705882352941178
+    b: 0.24705882352941178
+    a: 1.0
+  - r: 0.6705882352941176
+    g: 0.5058823529411764
+    b: 0.5058823529411764
+    a: 0.7058823529411765
+  - r: 0.47058823529411764
+    g: 0.25098039215686274
+    b: 0.25098039215686274
+    a: 0.0392156862745098
+--- !u!114 &26300238892108505
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1848868468737603}
+  m_CorrespondingSourceObject:
+    fileID: 0
+  m_PrefabInstance:
+    fileID: 100100000
+  m_PrefabAsset:
+    fileID: 0
+  m_GameObject:
+    fileID: 1848868468737603
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 41d4e28d20cafa34d9ba6fd1c4bf8e39, type: 2}
-  m_SubsetIndices: []
-  m_StaticBatchRoot: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_CameraVelocityScale: 0
-  m_StretchParticles: 0
-  m_LengthScale: 2
-  m_VelocityScale: 0
-  m_MaxParticleSize: 3
-  UV Animation:
-    x Tile: 1
-    y Tile: 1
-    cycles: 1
+  m_EditorHideFlags: 0
+  m_Script:
+    fileID: 11500000
+    guid: 4f0e2be1a8ba4a07a4816efb657d3780
+    type: 3
+  m_Name: ''
+  m_EditorClassIdentifier: ''
+  materials:
+  - fileID: 2100000
+    guid: 41d4e28d20cafa34d9ba6fd1c4bf8e39
+    type: 2
+  castShadows: 0
+  receiveShadows: 0
+  cameraVelocityScale: 0
+  stretchParticles: 0
+  lengthScale: 2
+  velocityScale: 0
+  maxParticleSize: 3
+  tilesX: 1
+  tilesY: 1
+  cycles: 1

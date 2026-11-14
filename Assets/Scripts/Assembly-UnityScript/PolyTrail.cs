@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityScript.Lang;
 
 [Serializable]
 [RequireComponent(typeof(MeshFilter))]
@@ -85,7 +84,7 @@ public class PolyTrail : MonoBehaviour
 				array2[i * 2 + 1] = color;
 			}
 			int[] array4 = new int[(sections.Count - 1) * 2 * 3];
-			for (int i = 0; i < unchecked(Extensions.get_length((System.Array)array4) / 6); i++)
+			for (int i = 0; i < unchecked(array4.Length / 6); i++)
 			{
 				array4[i * 6 + 0] = i * 2;
 				array4[i * 6 + 1] = i * 2 + 1;

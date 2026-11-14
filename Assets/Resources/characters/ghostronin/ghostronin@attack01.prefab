@@ -1,55 +1,48 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1051814132094214}
-  m_IsPrefabParent: 1
-  m_IsExploded: 0
 --- !u!1 &1051814132094214
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4773356506060465}
-  - 111: {fileID: 111469734314931521}
-  - 114: {fileID: 114770591868901963}
+  - component: {fileID: 4773356506060465}
+  - component: {fileID: 111469734314931521}
+  - component: {fileID: 114770591868901963}
   m_Layer: 0
   m_Name: ghostronin@attack01
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4773356506060465
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051814132094214}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4236218876578788}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!111 &111469734314931521
 Animation:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051814132094214}
   m_Enabled: 1
+  serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: c6280c59801340f4b98760a7ed1afe66, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: c6280c59801340f4b98760a7ed1afe66, type: 2}
@@ -57,886 +50,1009 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
-  m_UserAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!114 &114770591868901963
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051814132094214}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sourcePrefabPath: Assets/Resources/Characters/GhostRonin/ghostronin@attack01.fbx
-  basePrefabPath:
+  basePrefabPath: 
   exemptObjects: []
---- !u!1 &1832825648276628
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4236218876578788}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_Skeleton_grp
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4236218876578788
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1832825648276628}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 4111476738764634}
-  m_Father: {fileID: 4773356506060465}
---- !u!1 &1274171247799174
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4111476738764634}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_spine_low_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4111476738764634
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1274171247799174}
-  m_LocalRotation: {x: -0.65331507, y: 0.7054467, z: 0.19871485, w: -0.18983349}
-  m_LocalPosition: {x: -3.6799555, y: 28.983416, z: 28.003075}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 148.10088, y: 0.4691439, z: 94.26031}
-  m_Children:
-  - {fileID: 4337894301960856}
-  - {fileID: 4869236620726875}
-  m_Father: {fileID: 4236218876578788}
---- !u!1 &1989904099643017
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4337894301960856}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_hip_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4337894301960856
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1989904099643017}
-  m_LocalRotation: {x: 0.9982924, y: -0.05841492, z: 2.7626893E-16, w: 7.750291E-17}
-  m_LocalPosition: {x: 3.1901014, y: -0.37461922, z: -7.1054274E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: 3.212282E-14, z: 6.6976695}
-  m_Children:
-  - {fileID: 4070183937355606}
-  - {fileID: 4032897933247208}
-  m_Father: {fileID: 4111476738764634}
---- !u!1 &1816047837805848
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4070183937355606}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_lf_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4070183937355606
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1816047837805848}
-  m_LocalRotation: {x: 0.1908387, y: 0.93068784, z: 0.19461055, w: -0.24398254}
-  m_LocalPosition: {x: 5.3046975, y: -0.054581236, z: -11.700472}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 161.51888, y: 31.89887, z: -162.14828}
-  m_Children:
-  - {fileID: 4893689495490005}
-  m_Father: {fileID: 4337894301960856}
---- !u!1 &1259207137120970
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4893689495490005}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_lf_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4893689495490005
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1259207137120970}
-  m_LocalRotation: {x: 0, y: 0, z: -0.5360264, w: 0.8442012}
-  m_LocalPosition: {x: -17.697142, y: -4.9091565E-15, z: -4.926448E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 64.827095}
-  m_Children:
-  - {fileID: 4265290447493859}
-  m_Father: {fileID: 4070183937355606}
 --- !u!1 &1056751913077789
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4265290447493859}
+  - component: {fileID: 4265290447493859}
   m_Layer: 0
   m_Name: ghostronin:ghostronin_lf_ankle_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4265290447493859
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056751913077789}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.20940597, y: -0.1516765, z: 0.7399635, w: 0.62096494}
-  m_LocalPosition: {x: -15.067513, y: 1.4453569E-14, z: -9.180802E-15}
+  m_LocalPosition: {x: -15.067513, y: 1.4453569e-14, z: -9.180802e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -29.21947, y: -6.9806395, z: -98.17269}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4782418334470739}
   m_Father: {fileID: 4893689495490005}
---- !u!1 &1362489458339048
+  m_LocalEulerAnglesHint: {x: -29.21947, y: -6.9806395, z: -98.17269}
+--- !u!1 &1070396032543990
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4782418334470739}
+  - component: {fileID: 4062070244268100}
   m_Layer: 0
-  m_Name: ghostronin:ghostronin_lf_ball_jnt
+  m_Name: ghostronin:ghostronin_rt_thumb_a_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4782418334470739
+--- !u!4 &4062070244268100
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1362489458339048}
-  m_LocalRotation: {x: 0, y: 0, z: 0.1605062, w: 0.98703486}
-  m_LocalPosition: {x: -5.3503184, y: 1.4821831E-15, z: -2.7580636E-15}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070396032543990}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7062139, y: 0.21761869, z: -0.5545258, w: -0.38262933}
+  m_LocalPosition: {x: 2.5211046, y: 3.4212134, z: -6.502514}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -18.472559}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4265290447493859}
---- !u!1 &1140821552189367
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4032897933247208}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_rt_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4032897933247208
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1140821552189367}
-  m_LocalRotation: {x: 0.7951838, y: -0.37294284, z: 0.3172186, w: 0.35772717}
-  m_LocalPosition: {x: 5.304664, y: -0.054582655, z: 11.7005}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 148.52486, y: 50.47237, z: 35.12185}
-  m_Children:
-  - {fileID: 4101103338648856}
-  m_Father: {fileID: 4337894301960856}
---- !u!1 &1903730670447686
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4101103338648856}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_rt_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4101103338648856
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1903730670447686}
-  m_LocalRotation: {x: -1.7631567E-10, y: -4.5268536E-09, z: -0.6181525, w: 0.7860582}
-  m_LocalPosition: {x: 10.215498, y: -2.258103E-06, z: -3.5527137E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 3.0477818E-07, y: 4.2024854E-07, z: 76.36269}
-  m_Children:
-  - {fileID: 4947609892056013}
-  m_Father: {fileID: 4032897933247208}
+  m_Father: {fileID: 4310822555091287}
+  m_LocalEulerAnglesHint: {x: -96.725525, y: -38.075043, z: -68.36105}
 --- !u!1 &1102694013382755
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4947609892056013}
+  - component: {fileID: 4947609892056013}
   m_Layer: 0
   m_Name: ghostronin:ghostronin_rt_ankle_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4947609892056013
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102694013382755}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.056512322, y: -0.16263314, z: 0.6924486, w: 0.7006224}
-  m_LocalPosition: {x: 8.6976385, y: -3.7999694E-06, z: 7.993606E-14}
+  m_LocalPosition: {x: 8.6976385, y: -0.0000037999694, z: 7.993606e-14}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -8.82453, y: 17.82752, z: -90.71438}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4227381533894011}
   m_Father: {fileID: 4101103338648856}
---- !u!1 &1746410690463843
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4227381533894011}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_rt_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4227381533894011
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1746410690463843}
-  m_LocalRotation: {x: 3.5268464E-08, y: 1.6884108E-08, z: 0.1605062, w: 0.98703486}
-  m_LocalPosition: {x: 5.350316, y: 2.4895485E-06, z: 7.2396105E-08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 4.2996135E-06, y: -1.2610109E-06, z: -18.472559}
-  m_Children: []
-  m_Father: {fileID: 4947609892056013}
---- !u!1 &1857004327030425
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4869236620726875}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_spine_mid_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4869236620726875
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1857004327030425}
-  m_LocalRotation: {x: 0.9986517, y: -0.045144573, z: 0.0022867809, w: -0.025525287}
-  m_LocalPosition: {x: -9.320375, y: 1.0310065, z: -3.4753926}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -177.06584, y: 0.12964548, z: 5.179967}
-  m_Children:
-  - {fileID: 4776418535047320}
-  m_Father: {fileID: 4111476738764634}
---- !u!1 &1256287921400700
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4776418535047320}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_spine_hi_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4776418535047320
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1256287921400700}
-  m_LocalRotation: {x: 0.087097794, y: 0.039793007, z: -0.22473124, w: 0.9697043}
-  m_LocalPosition: {x: -14.763186, y: -0.77156335, z: 3.5465784}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 8.746617, y: -6.679887, z: 25.584736}
-  m_Children:
-  - {fileID: 4404571092477387}
-  m_Father: {fileID: 4869236620726875}
---- !u!1 &1969608392154889
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4404571092477387}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_spine_end_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4404571092477387
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1969608392154889}
-  m_LocalRotation: {x: 0, y: 0, z: 0.48523337, w: 0.8743847}
-  m_LocalPosition: {x: -8.512626, y: -2.1066203E-15, z: 3.929535E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -58.055527}
-  m_Children:
-  - {fileID: 4949192240305973}
-  - {fileID: 4004039309072309}
-  - {fileID: 4995138172107211}
-  m_Father: {fileID: 4776418535047320}
---- !u!1 &1488120471076672
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4949192240305973}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_lf_clavicle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4949192240305973
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1488120471076672}
-  m_LocalRotation: {x: 0.36665148, y: -0.56523764, z: 0.39949194, w: 0.6216747}
-  m_LocalPosition: {x: -0.7574868, y: 0.34226662, z: -8.188212}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 2.6470358, y: 84.70724, z: -63.036892}
-  m_Children:
-  - {fileID: 4819155534695805}
-  m_Father: {fileID: 4404571092477387}
---- !u!1 &1255321707000625
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4819155534695805}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_lf_upArm_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4819155534695805
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1255321707000625}
-  m_LocalRotation: {x: -0.005282936, y: -0.20191453, z: 0.37565395, w: 0.9044815}
-  m_LocalPosition: {x: -10.248027, y: 1.4705357E-15, z: -1.3294219E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -9.95867, y: 21.179243, z: -46.97507}
-  m_Children:
-  - {fileID: 4281505906433227}
-  m_Father: {fileID: 4949192240305973}
+  m_LocalEulerAnglesHint: {x: -8.82453, y: 17.82752, z: -90.71438}
 --- !u!1 &1109389904512359
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4281505906433227}
+  - component: {fileID: 4281505906433227}
   m_Layer: 0
   m_Name: ghostronin:ghostronin_lf_elbow_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4281505906433227
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109389904512359}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.2064901, y: 0.45003474, z: 0.0015132722, w: 0.86880857}
-  m_LocalPosition: {x: -18.00861, y: 6.4897886E-16, z: 4.096249E-15}
+  m_LocalPosition: {x: -18.00861, y: 6.4897886e-16, z: 4.096249e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 35.24774, y: -51.38555, z: -17.579094}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4006480163602986}
   m_Father: {fileID: 4819155534695805}
---- !u!1 &1511355104094988
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4006480163602986}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_lf_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4006480163602986
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1511355104094988}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.746256, y: -2.7434033E-15, z: 6.702074E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4510764988365120}
-  m_Father: {fileID: 4281505906433227}
---- !u!1 &1906891098367749
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4510764988365120}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_lf_hand_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4510764988365120
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1906891098367749}
-  m_LocalRotation: {x: -0.0074944915, y: -0.11148201, z: -0.055292252, w: 0.99219877}
-  m_LocalPosition: {x: -7.1054274E-15, y: -7.1054274E-15, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -0.149485, y: 12.829668, z: 6.362438}
-  m_Children:
-  - {fileID: 4960975075987052}
-  - {fileID: 4209653684352579}
-  m_Father: {fileID: 4006480163602986}
+  m_LocalEulerAnglesHint: {x: 35.24774, y: -51.38555, z: -17.579094}
 --- !u!1 &1139831257149771
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4960975075987052}
+  - component: {fileID: 4960975075987052}
   m_Layer: 0
   m_Name: ghostronin:ghostronin_lf_index_a_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4960975075987052
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1139831257149771}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.4689169, y: 0.5714058, z: -0.53064364, w: -0.41476458}
   m_LocalPosition: {x: -9.285275, y: -1.2499728, z: 0.47919226}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4510764988365120}
   m_LocalEulerAnglesHint: {x: -95.32478, y: -1.3556149, z: -102.488}
-  m_Children: []
-  m_Father: {fileID: 4510764988365120}
---- !u!1 &1965703216080486
+--- !u!1 &1140821552189367
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4209653684352579}
+  - component: {fileID: 4032897933247208}
   m_Layer: 0
-  m_Name: ghostronin:ghostronin_lf_thumb_a_jnt
+  m_Name: ghostronin:ghostronin_rt_upLeg_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4209653684352579
+--- !u!4 &4032897933247208
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1965703216080486}
-  m_LocalRotation: {x: 0.6890107, y: 0.2671334, z: -0.5260069, w: -0.42097604}
-  m_LocalPosition: {x: -2.5210488, y: -3.4212205, z: 6.502521}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140821552189367}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7951838, y: -0.37294284, z: 0.3172186, w: 0.35772717}
+  m_LocalPosition: {x: 5.304664, y: -0.054582655, z: 11.7005}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -96.11069, y: -29.99571, z: -69.45681}
-  m_Children: []
-  m_Father: {fileID: 4510764988365120}
---- !u!1 &1424495531886456
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4004039309072309}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_neck_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4004039309072309
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1424495531886456}
-  m_LocalRotation: {x: 0.50564164, y: -0.494294, z: 0.50564164, w: 0.494294}
-  m_LocalPosition: {x: -7.9662867, y: -3.5527137E-15, z: 7.1054274E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 91.30038, y: 90, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4328109688552807}
-  m_Father: {fileID: 4404571092477387}
---- !u!1 &1831686926581988
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4328109688552807}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_head_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4328109688552807
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1831686926581988}
-  m_LocalRotation: {x: -0.19393955, y: 0.01687746, z: -0.03146736, w: 0.9803634}
-  m_LocalPosition: {x: 3.5527137E-15, y: 4.6105194, z: -2.1316282E-14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -22.420916, y: -1.1967986, z: 3.9140651}
-  m_Children: []
-  m_Father: {fileID: 4004039309072309}
---- !u!1 &1601786463287670
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4995138172107211}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_rt_clavicle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4995138172107211
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1601786463287670}
-  m_LocalRotation: {x: 0.5392257, y: 0.30040276, z: 0.6415931, w: -0.45535937}
-  m_LocalPosition: {x: -0.7575118, y: 0.34227946, z: 8.18821}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -23.929909, y: 74.90808, z: 90.828995}
-  m_Children:
-  - {fileID: 4226507222359952}
-  m_Father: {fileID: 4404571092477387}
---- !u!1 &1505818638014187
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4226507222359952}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_rt_upArm_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4226507222359952
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1505818638014187}
-  m_LocalRotation: {x: -0.118783295, y: -0.47684512, z: 0.3065382, w: 0.81519544}
-  m_LocalPosition: {x: 10.248043, y: 2.9701168E-05, z: -2.9338387E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -43.229015, y: 44.79891, z: -59.76532}
-  m_Children:
-  - {fileID: 4242947056145462}
-  m_Father: {fileID: 4995138172107211}
---- !u!1 &1686999706221889
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4242947056145462}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_rt_elbow_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4242947056145462
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1686999706221889}
-  m_LocalRotation: {x: -0.13563992, y: 0.62793076, z: 0.1092125, w: 0.75853634}
-  m_LocalPosition: {x: 18.008581, y: 8.769012E-06, z: 8.527587E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -21.45434, y: -79.186714, z: 1.4238144}
-  m_Children:
-  - {fileID: 4219681489459202}
-  m_Father: {fileID: 4226507222359952}
---- !u!1 &1641935700770303
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4219681489459202}
-  m_Layer: 0
-  m_Name: ghostronin:ghostronin_rt_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4219681489459202
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1641935700770303}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.746248, y: -3.1885822E-05, z: -6.678343E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4310822555091287}
-  m_Father: {fileID: 4242947056145462}
+  - {fileID: 4101103338648856}
+  m_Father: {fileID: 4337894301960856}
+  m_LocalEulerAnglesHint: {x: 148.52486, y: 50.47237, z: 35.12185}
 --- !u!1 &1187214511018770
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4310822555091287}
+  - component: {fileID: 4310822555091287}
   m_Layer: 0
   m_Name: ghostronin:ghostronin_rt_hand_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4310822555091287
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187214511018770}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.09299516, y: -0.3471465, z: -0.20893271, w: 0.90949893}
-  m_LocalPosition: {x: -0, y: 1.4210855E-14, z: 1.7763568E-15}
+  m_LocalPosition: {x: -0, y: 1.4210855e-14, z: 1.7763568e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -1.8609015, y: 42.09163, z: 25.159271}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4623248256730047}
   - {fileID: 4062070244268100}
   - {fileID: 4467440742074709}
   m_Father: {fileID: 4219681489459202}
---- !u!1 &1615486531035659
+  m_LocalEulerAnglesHint: {x: -1.8609015, y: 42.09163, z: 25.159271}
+--- !u!1 &1255321707000625
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4623248256730047}
+  - component: {fileID: 4819155534695805}
   m_Layer: 0
-  m_Name: ghostronin:ghostronin_rt_index_a_jnt
+  m_Name: ghostronin:ghostronin_lf_upArm_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4623248256730047
+--- !u!4 &4819155534695805
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1615486531035659}
-  m_LocalRotation: {x: -0.5801915, y: -0.45832443, z: 0.40600932, w: 0.5370968}
-  m_LocalPosition: {x: 9.285266, y: 1.2499924, z: -0.4791928}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255321707000625}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.005282936, y: -0.20191453, z: 0.37565395, w: 0.9044815}
+  m_LocalPosition: {x: -10.248027, y: 1.4705357e-15, z: -1.3294219e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -95.35854, y: 1.2149259, z: -75.5079}
-  m_Children: []
-  m_Father: {fileID: 4310822555091287}
---- !u!1 &1070396032543990
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4281505906433227}
+  m_Father: {fileID: 4949192240305973}
+  m_LocalEulerAnglesHint: {x: -9.95867, y: 21.179243, z: -46.97507}
+--- !u!1 &1256287921400700
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4062070244268100}
+  - component: {fileID: 4776418535047320}
   m_Layer: 0
-  m_Name: ghostronin:ghostronin_rt_thumb_a_jnt
+  m_Name: ghostronin:ghostronin_spine_hi_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4062070244268100
+--- !u!4 &4776418535047320
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1070396032543990}
-  m_LocalRotation: {x: 0.7062139, y: 0.21761869, z: -0.5545258, w: -0.38262933}
-  m_LocalPosition: {x: 2.5211046, y: 3.4212134, z: -6.502514}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256287921400700}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.087097794, y: 0.039793007, z: -0.22473124, w: 0.9697043}
+  m_LocalPosition: {x: -14.763186, y: -0.77156335, z: 3.5465784}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -96.725525, y: -38.075043, z: -68.36105}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4404571092477387}
+  m_Father: {fileID: 4869236620726875}
+  m_LocalEulerAnglesHint: {x: 8.746617, y: -6.679887, z: 25.584736}
+--- !u!1 &1259207137120970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4893689495490005}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_lf_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4893689495490005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259207137120970}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: -0.5360264, w: 0.8442012}
+  m_LocalPosition: {x: -17.697142, y: -4.9091565e-15, z: -4.926448e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4265290447493859}
+  m_Father: {fileID: 4070183937355606}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 64.827095}
+--- !u!1 &1274171247799174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4111476738764634}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_spine_low_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4111476738764634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274171247799174}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.65331507, y: 0.7054467, z: 0.19871485, w: -0.18983349}
+  m_LocalPosition: {x: -3.6799555, y: 28.983416, z: 28.003075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4337894301960856}
+  - {fileID: 4869236620726875}
+  m_Father: {fileID: 4236218876578788}
+  m_LocalEulerAnglesHint: {x: 148.10088, y: 0.4691439, z: 94.26031}
+--- !u!1 &1362489458339048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4782418334470739}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_lf_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4782418334470739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362489458339048}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.1605062, w: 0.98703486}
+  m_LocalPosition: {x: -5.3503184, y: 1.4821831e-15, z: -2.7580636e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4310822555091287}
+  m_Father: {fileID: 4265290447493859}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -18.472559}
 --- !u!1 &1403406846242527
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4467440742074709}
+  - component: {fileID: 4467440742074709}
   m_Layer: 0
   m_Name: ghostronin:prop1
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4467440742074709
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403406846242527}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.8487415, y: -0.52663165, z: 0.041479155, w: -0.024010276}
   m_LocalPosition: {x: 6.292722, y: 6.4038763, z: 0.6851008}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
-  m_LocalEulerAnglesHint: {x: -175.15091, y: 2.5861218, z: 63.74751}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4310822555091287}
+  m_LocalEulerAnglesHint: {x: -175.15091, y: 2.5861218, z: 63.74751}
+--- !u!1 &1424495531886456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4004039309072309}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_neck_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4004039309072309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424495531886456}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.50564164, y: -0.494294, z: 0.50564164, w: 0.494294}
+  m_LocalPosition: {x: -7.9662867, y: -3.5527137e-15, z: 7.1054274e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4328109688552807}
+  m_Father: {fileID: 4404571092477387}
+  m_LocalEulerAnglesHint: {x: 91.30038, y: 90, z: 0}
+--- !u!1 &1488120471076672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4949192240305973}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4949192240305973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488120471076672}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.36665148, y: -0.56523764, z: 0.39949194, w: 0.6216747}
+  m_LocalPosition: {x: -0.7574868, y: 0.34226662, z: -8.188212}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4819155534695805}
+  m_Father: {fileID: 4404571092477387}
+  m_LocalEulerAnglesHint: {x: 2.6470358, y: 84.70724, z: -63.036892}
+--- !u!1 &1505818638014187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4226507222359952}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_rt_upArm_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4226507222359952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505818638014187}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.118783295, y: -0.47684512, z: 0.3065382, w: 0.81519544}
+  m_LocalPosition: {x: 10.248043, y: 0.000029701168, z: -0.0000029338387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4242947056145462}
+  m_Father: {fileID: 4995138172107211}
+  m_LocalEulerAnglesHint: {x: -43.229015, y: 44.79891, z: -59.76532}
+--- !u!1 &1511355104094988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4006480163602986}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_lf_wrist_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4006480163602986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511355104094988}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.746256, y: -2.7434033e-15, z: 6.702074e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4510764988365120}
+  m_Father: {fileID: 4281505906433227}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1601786463287670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4995138172107211}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4995138172107211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601786463287670}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5392257, y: 0.30040276, z: 0.6415931, w: -0.45535937}
+  m_LocalPosition: {x: -0.7575118, y: 0.34227946, z: 8.18821}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4226507222359952}
+  m_Father: {fileID: 4404571092477387}
+  m_LocalEulerAnglesHint: {x: -23.929909, y: 74.90808, z: 90.828995}
+--- !u!1 &1615486531035659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4623248256730047}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_rt_index_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4623248256730047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615486531035659}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5801915, y: -0.45832443, z: 0.40600932, w: 0.5370968}
+  m_LocalPosition: {x: 9.285266, y: 1.2499924, z: -0.4791928}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4310822555091287}
+  m_LocalEulerAnglesHint: {x: -95.35854, y: 1.2149259, z: -75.5079}
+--- !u!1 &1641935700770303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4219681489459202}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_rt_wrist_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4219681489459202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641935700770303}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.746248, y: -0.000031885822, z: -0.000006678343}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4310822555091287}
+  m_Father: {fileID: 4242947056145462}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1686999706221889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4242947056145462}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_rt_elbow_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4242947056145462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686999706221889}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.13563992, y: 0.62793076, z: 0.1092125, w: 0.75853634}
+  m_LocalPosition: {x: 18.008581, y: 0.000008769012, z: 0.000008527587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4219681489459202}
+  m_Father: {fileID: 4226507222359952}
+  m_LocalEulerAnglesHint: {x: -21.45434, y: -79.186714, z: 1.4238144}
+--- !u!1 &1746410690463843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4227381533894011}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_rt_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4227381533894011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746410690463843}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000035268464, y: 0.000000016884108, z: 0.1605062, w: 0.98703486}
+  m_LocalPosition: {x: 5.350316, y: 0.0000024895485, z: 0.000000072396105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4947609892056013}
+  m_LocalEulerAnglesHint: {x: 0.0000042996135, y: -0.0000012610109, z: -18.472559}
+--- !u!1 &1816047837805848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4070183937355606}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4070183937355606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816047837805848}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.1908387, y: 0.93068784, z: 0.19461055, w: -0.24398254}
+  m_LocalPosition: {x: 5.3046975, y: -0.054581236, z: -11.700472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4893689495490005}
+  m_Father: {fileID: 4337894301960856}
+  m_LocalEulerAnglesHint: {x: 161.51888, y: 31.89887, z: -162.14828}
+--- !u!1 &1831686926581988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4328109688552807}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_head_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4328109688552807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831686926581988}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.19393955, y: 0.01687746, z: -0.03146736, w: 0.9803634}
+  m_LocalPosition: {x: 3.5527137e-15, y: 4.6105194, z: -2.1316282e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4004039309072309}
+  m_LocalEulerAnglesHint: {x: -22.420916, y: -1.1967986, z: 3.9140651}
+--- !u!1 &1832825648276628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4236218876578788}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_Skeleton_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4236218876578788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832825648276628}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4111476738764634}
+  m_Father: {fileID: 4773356506060465}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1857004327030425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4869236620726875}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_spine_mid_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4869236620726875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857004327030425}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9986517, y: -0.045144573, z: 0.0022867809, w: -0.025525287}
+  m_LocalPosition: {x: -9.320375, y: 1.0310065, z: -3.4753926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4776418535047320}
+  m_Father: {fileID: 4111476738764634}
+  m_LocalEulerAnglesHint: {x: -177.06584, y: 0.12964548, z: 5.179967}
+--- !u!1 &1903730670447686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4101103338648856}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_rt_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4101103338648856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903730670447686}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.7631567e-10, y: -0.0000000045268536, z: -0.6181525, w: 0.7860582}
+  m_LocalPosition: {x: 10.215498, y: -0.000002258103, z: -3.5527137e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4947609892056013}
+  m_Father: {fileID: 4032897933247208}
+  m_LocalEulerAnglesHint: {x: 0.00000030477818, y: 0.00000042024854, z: 76.36269}
+--- !u!1 &1906891098367749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4510764988365120}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_lf_hand_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4510764988365120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906891098367749}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0074944915, y: -0.11148201, z: -0.055292252, w: 0.99219877}
+  m_LocalPosition: {x: -7.1054274e-15, y: -7.1054274e-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4960975075987052}
+  - {fileID: 4209653684352579}
+  m_Father: {fileID: 4006480163602986}
+  m_LocalEulerAnglesHint: {x: -0.149485, y: 12.829668, z: 6.362438}
+--- !u!1 &1965703216080486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4209653684352579}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_lf_thumb_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4209653684352579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965703216080486}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6890107, y: 0.2671334, z: -0.5260069, w: -0.42097604}
+  m_LocalPosition: {x: -2.5210488, y: -3.4212205, z: 6.502521}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4510764988365120}
+  m_LocalEulerAnglesHint: {x: -96.11069, y: -29.99571, z: -69.45681}
+--- !u!1 &1969608392154889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4404571092477387}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_spine_end_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4404571092477387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969608392154889}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.48523337, w: 0.8743847}
+  m_LocalPosition: {x: -8.512626, y: -2.1066203e-15, z: 3.929535e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4949192240305973}
+  - {fileID: 4004039309072309}
+  - {fileID: 4995138172107211}
+  m_Father: {fileID: 4776418535047320}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -58.055527}
+--- !u!1 &1989904099643017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4337894301960856}
+  m_Layer: 0
+  m_Name: ghostronin:ghostronin_hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4337894301960856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989904099643017}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9982924, y: -0.05841492, z: 2.7626893e-16, w: 7.750291e-17}
+  m_LocalPosition: {x: 3.1901014, y: -0.37461922, z: -7.1054274e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4070183937355606}
+  - {fileID: 4032897933247208}
+  m_Father: {fileID: 4111476738764634}
+  m_LocalEulerAnglesHint: {x: 180, y: 3.212282e-14, z: 6.6976695}

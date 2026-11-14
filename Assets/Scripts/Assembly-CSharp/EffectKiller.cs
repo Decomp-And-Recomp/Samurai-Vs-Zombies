@@ -12,11 +12,11 @@ public class EffectKiller : MonoBehaviour
 
 	private bool mStoppedParticleEmits;
 
-	private ParticleEmitter[] mEmitters;
+	private LegacyParticleEmitter[] mEmitters;
 
 	private void Start()
 	{
-		mHadChildren = base.transform.GetChildCount() > 0;
+		mHadChildren = base.transform.childCount > 0;
 		if (autoDeleteAfterTime > 0f)
 		{
 			if (!letParticlesFinishForTimedDelete)
@@ -25,7 +25,7 @@ public class EffectKiller : MonoBehaviour
 			}
 			else
 			{
-				mEmitters = GetComponentsInChildren<ParticleEmitter>();
+				mEmitters = GetComponentsInChildren<LegacyParticleEmitter>();
 				if (mEmitters.Length == 0)
 				{
 					letParticlesFinishForTimedDelete = false;
@@ -45,7 +45,7 @@ public class EffectKiller : MonoBehaviour
 
 	private void Update()
 	{
-		if (mHadChildren && base.transform.GetChildCount() <= 0)
+		if (mHadChildren && base.transform.childCount <= 0)
 		{
 			Object.Destroy(base.gameObject);
 		}
@@ -66,8 +66,8 @@ public class EffectKiller : MonoBehaviour
 			bool flag = false;
 			if (mEmitters != null)
 			{
-				ParticleEmitter[] array = mEmitters;
-				foreach (ParticleEmitter particleEmitter in array)
+				LegacyParticleEmitter[] array = mEmitters;
+				foreach (LegacyParticleEmitter particleEmitter in array)
 				{
 					if (!(particleEmitter == null))
 					{
@@ -90,8 +90,8 @@ public class EffectKiller : MonoBehaviour
 		{
 			return;
 		}
-		ParticleEmitter[] array2 = mEmitters;
-		foreach (ParticleEmitter particleEmitter2 in array2)
+		LegacyParticleEmitter[] array2 = mEmitters;
+		foreach (LegacyParticleEmitter particleEmitter2 in array2)
 		{
 			if (particleEmitter2 != null)
 			{

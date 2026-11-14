@@ -1176,7 +1176,7 @@ public class TaggedAnimPlayer : MonoBehaviour
 
 	private void FlagNullChildPlayer()
 	{
-		if (base.gameObject.active)
+		if (base.gameObject.activeSelf)
 		{
 			StartCoroutine(ClearNullsFromChildPlayers());
 		}

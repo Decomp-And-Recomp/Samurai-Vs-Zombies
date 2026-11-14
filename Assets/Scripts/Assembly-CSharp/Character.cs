@@ -1632,7 +1632,7 @@ public class Character : Weakable
 	{
 		if (rangedWeaponPrefab != null)
 		{
-			rangedWeaponPrefab.SetActiveRecursively(inRangeAttack);
+			LegacyActivation.SetRecursively(rangedWeaponPrefab, inRangeAttack);
 		}
 		if (ProjectileManager.ProjectileNeedsBothHands(bowProjectile))
 		{
@@ -1640,7 +1640,7 @@ public class Character : Weakable
 			{
 				if (item != null)
 				{
-					item.SetActiveRecursively(!inRangeAttack);
+					LegacyActivation.SetRecursively(item, !inRangeAttack);
 				}
 			}
 		}

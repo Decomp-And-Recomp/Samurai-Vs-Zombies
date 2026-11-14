@@ -114,7 +114,7 @@ public class InGameImpl : WeakGlobalSceneBehavior<InGameImpl>
 
 	private bool mStartedSlowMoFinisher;
 
-	private PlayModesManager.GameDirection mGameDirection = Singleton<PlayModesManager>.instance.gameDirection;
+	private PlayModesManager.GameDirection mGameDirection;
 
 	public Transform heroSpawnPoint
 	{
@@ -267,6 +267,7 @@ public class InGameImpl : WeakGlobalSceneBehavior<InGameImpl>
 
 	private void Start()
 	{
+		mGameDirection = Singleton<PlayModesManager>.instance.gameDirection;
 		SetUniqueInstance(this);
 		ApplicationUtilities.instance.onApplicationPause += OnApplicationPause;
 		HideUnusedGate();

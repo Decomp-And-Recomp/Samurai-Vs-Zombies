@@ -74,9 +74,9 @@ public class ModelMelter : MonoBehaviour
 		{
 			mMaterial.shader = Resources.Load("Shaders/DiffuseWithColorIntensity") as Shader;
 		}
-		ParticleEmitter[] componentsInChildren2 = GetComponentsInChildren<ParticleEmitter>();
-		ParticleEmitter[] array3 = componentsInChildren2;
-		foreach (ParticleEmitter particleEmitter in array3)
+		LegacyParticleEmitter[] componentsInChildren2 = GetComponentsInChildren<LegacyParticleEmitter>();
+		LegacyParticleEmitter[] array3 = componentsInChildren2;
+		foreach (LegacyParticleEmitter particleEmitter in array3)
 		{
 			if (particleEmitter != null)
 			{

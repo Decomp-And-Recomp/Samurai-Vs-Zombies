@@ -1,56 +1,81 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1020213708079029}
-  m_IsPrefabParent: 1
-  m_IsExploded: 0
---- !u!1 &1020213708079029
+--- !u!1 &1003613076285206
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4446404064901458}
-  - 111: {fileID: 111841293391852605}
-  - 114: {fileID: 114672809097182399}
+  - component: {fileID: 4844781813554563}
   m_Layer: 0
-  m_Name: tengushingen
+  m_Name: tengushingen:Tengu_lf_wrist_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4844781813554563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003613076285206}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.903893, y: -6.981861e-15, z: 1.6527905e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4915832972930237}
+  m_Father: {fileID: 4342817893805202}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1020213708079029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4446404064901458}
+  - component: {fileID: 111841293391852605}
+  - component: {fileID: 114672809097182399}
+  m_Layer: 0
+  m_Name: tengushingen
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4446404064901458
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020213708079029}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4910863330974495}
   - {fileID: 4772080665425940}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!111 &111841293391852605
 Animation:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020213708079029}
   m_Enabled: 1
+  serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 70dbff15e83e4944189b140f912e4871, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 70dbff15e83e4944189b140f912e4871, type: 2}
@@ -73,99 +98,515 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 1
-  m_UserAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!114 &114672809097182399
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020213708079029}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sourcePrefabPath: Assets/Resources/Characters/TenguShingen/tengushingen.fbx
-  basePrefabPath:
+  basePrefabPath: 
   exemptObjects: []
---- !u!1 &1935066467631625
+--- !u!1 &1024546269981321
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4910863330974495}
+  - component: {fileID: 4654563813802223}
   m_Layer: 0
-  m_Name: tengushingen:Tengu_Skeleton_grp
+  m_Name: tengushingen:Tengu_rt_knee_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4910863330974495
+--- !u!4 &4654563813802223
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1935066467631625}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024546269981321}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: -0.07817943, w: 0.9969393}
+  m_LocalPosition: {x: 13.947661, y: -0.0000006659834, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4969473682989301}
-  m_Father: {fileID: 4446404064901458}
+  - {fileID: 4377856036510998}
+  m_Father: {fileID: 4571023924925694}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 8.967854}
+--- !u!1 &1060456474584356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4816999560995932}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_rt_upArm_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4816999560995932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060456474584356}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0041474393, y: -0.058339804, z: 0.07079072, w: 0.9957751}
+  m_LocalPosition: {x: 9.390085, y: -3.3671994, z: 5.053521}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4534730174477706}
+  m_Father: {fileID: 4478701982689888}
+  m_LocalEulerAnglesHint: {x: -0.000000019561508, y: 6.705948, z: -8.132754}
+--- !u!1 &1133413544333670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4746196846271887}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4746196846271887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133413544333670}
+  serializedVersion: 2
+  m_LocalRotation: {x: 2.525931e-10, y: -0.000000011076991, z: 0.9997401, w: -0.02279748}
+  m_LocalPosition: {x: 1.0778399, y: -0.08538739, z: 7.8335495}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4574767828608531}
+  m_Father: {fileID: 4964403766200504}
+  m_LocalEulerAnglesHint: {x: -0.0000012696596, y: -1.1925032e-15, z: 177.38737}
+--- !u!1 &1153780022316117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4554945185295303}
+  m_Layer: 0
+  m_Name: tengushingen:wingLeft1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4554945185295303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153780022316117}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.51902115, y: 0.6472178, z: -0.48022595, w: -0.28479663}
+  m_LocalPosition: {x: 0.800334, y: 12.089395, z: -6.310475}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4775079802480780}
+  m_Father: {fileID: 4501662999634190}
+  m_LocalEulerAnglesHint: {x: -139.1161, y: 60.12864, z: 126.89624}
+--- !u!1 &1153984568063393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4013716748926299}
+  m_Layer: 0
+  m_Name: tengushingen:prop1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4013716748926299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153984568063393}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.03511395, z: -0, w: 0.99938333}
+  m_LocalPosition: {x: -2.5146194, y: -5.449727, z: -0.027114144}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4915832972930237}
+  m_LocalEulerAnglesHint: {x: 0, y: 4.0245895, z: 0}
+--- !u!1 &1179394941875802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4222260731909058}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_neck_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4222260731909058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179394941875802}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5071258, y: -0.49277118, z: 0.5071258, w: 0.49277118}
+  m_LocalPosition: {x: -5.3131185, y: 3.5527137e-15, z: 2.3248638e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4502092938154746}
+  m_Father: {fileID: 4899277480312105}
+  m_LocalEulerAnglesHint: {x: 91.64497, y: 90, z: 0}
+--- !u!1 &1188247949919501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4911434211094696}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4911434211094696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188247949919501}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.47361898, y: -0.4878536, z: 0.43120208, w: 0.59308404}
+  m_LocalPosition: {x: 0.6576436, y: -5.2573705, z: -5.1525087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4037417536374723}
+  m_Father: {fileID: 4899277480312105}
+  m_LocalEulerAnglesHint: {x: 61.885365, y: 80.79681, z: -17.978043}
+--- !u!1 &1248578468045079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4230794882539386}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_rt_index_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4230794882539386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248578468045079}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7055643, y: -0.002955275, z: -0.04667957, w: 0.70710063}
+  m_LocalPosition: {x: 4.589119, y: -0.4042, z: 0.16382405}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4134360551747175}
+  m_LocalEulerAnglesHint: {x: -89.750694, y: 4.0168724, z: 3.5544076}
+--- !u!1 &1256388797026860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4571023924925694}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4571023924925694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256388797026860}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.02279742, w: 0.9997401}
+  m_LocalPosition: {x: 1.0778348, y: -0.085387334, z: -7.83355}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4654563813802223}
+  m_Father: {fileID: 4964403766200504}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -2.6126184}
+--- !u!1 &1278865915241546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4931681623634589}
+  m_Layer: 0
+  m_Name: tengushingen:wingRight1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4931681623634589
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278865915241546}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.552097, y: -0.22045174, z: 0.5485946, w: 0.58790636}
+  m_LocalPosition: {x: 0.8003339, y: 12.089394, z: 6.0819306}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4924707185104310}
+  m_Father: {fileID: 4501662999634190}
+  m_LocalEulerAnglesHint: {x: 54.2522, y: 59.878693, z: -53.159992}
+--- !u!1 &1323758845468879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4377856036510998}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_rt_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4377856036510998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323758845468879}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.5289727, w: 0.8486389}
+  m_LocalPosition: {x: 8.871081, y: -0.0000020096088, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4946720748999572}
+  m_Father: {fileID: 4654563813802223}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -63.87214}
+--- !u!1 &1346441881380458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4964403766200504}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4964403766200504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346441881380458}
+  serializedVersion: 2
+  m_LocalRotation: {x: -5.551115e-17, y: -8.326673e-17, z: -0.0243976, w: 0.99970233}
+  m_LocalPosition: {x: 1.580125, y: -0.07717144, z: -2.5703253e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4746196846271887}
+  - {fileID: 4571023924925694}
+  m_Father: {fileID: 4969473682989301}
+  m_LocalEulerAnglesHint: {x: -6.126422e-15, y: 9.694019e-15, z: 2.7960365}
+--- !u!1 &1406639972004989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4691967262973239}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_lf_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4691967262973239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406639972004989}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000009872058, y: -0.000000004977017, z: 0.5289728, w: 0.8486388}
+  m_LocalPosition: {x: -8.871096, y: 4.3362683e-15, z: -1.232568e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4865782832813177}
+  m_Father: {fileID: 4574767828608531}
+  m_LocalEulerAnglesHint: {x: 0.00000065834047, y: 0.000001082402, z: -63.872154}
 --- !u!1 &1447931198201721
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4969473682989301}
-  - 137: {fileID: 137724198470245752}
+  - component: {fileID: 4969473682989301}
+  - component: {fileID: 137724198470245752}
   m_Layer: 0
   m_Name: tengushingen:Tengu_spine_low_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4969473682989301
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447931198201721}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.48424414, y: -0.51527435, z: -0.48424414, w: 0.51527435}
   m_LocalPosition: {x: -0, y: 28.569542, z: -0.096870095}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 90.00001, y: 3.5563707, z: 90.00001}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4964403766200504}
   - {fileID: 4666971294976095}
   m_Father: {fileID: 4910863330974495}
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 3.5563707, z: 90.00001}
 --- !u!137 &137724198470245752
 SkinnedMeshRenderer:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447931198201721}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 5b5103fa023e5cf49a60199cba824434, type: 2}
-  m_SubsetIndices: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4300000, guid: 8e6aac856f15b4c45a0c5b6baa4dc403, type: 2}
   m_Bones:
   - {fileID: 4969473682989301}
@@ -201,928 +642,647 @@ SkinnedMeshRenderer:
   - {fileID: 4654563813802223}
   - {fileID: 4377856036510998}
   - {fileID: 4946720748999572}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
   m_AABB:
     m_Center: {x: -24.728094, y: 3.188797, z: -0.23820114}
     m_Extent: {x: 72.316246, y: 75.7344, z: 66.02127}
   m_DirtyAABB: 0
---- !u!1 &1346441881380458
+--- !u!1 &1453638515049965
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4964403766200504}
+  - component: {fileID: 4342817893805202}
   m_Layer: 0
-  m_Name: tengushingen:Tengu_hip_jnt
+  m_Name: tengushingen:Tengu_lf_elbow_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4964403766200504
+--- !u!4 &4342817893805202
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1346441881380458}
-  m_LocalRotation: {x: -5.551115E-17, y: -8.326673E-17, z: -0.0243976, w: 0.99970233}
-  m_LocalPosition: {x: 1.580125, y: -0.07717144, z: -2.5703253E-17}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453638515049965}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.05589272, z: -0, w: 0.9984368}
+  m_LocalPosition: {x: -9.209866, y: 1.8738603e-16, z: -1.2949158e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -6.126422E-15, y: 9.694019E-15, z: 2.7960365}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4746196846271887}
-  - {fileID: 4571023924925694}
-  m_Father: {fileID: 4969473682989301}
---- !u!1 &1133413544333670
+  - {fileID: 4844781813554563}
+  m_Father: {fileID: 4037417536374723}
+  m_LocalEulerAnglesHint: {x: 0, y: -6.4081736, z: 0}
+--- !u!1 &1477195878487376
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4746196846271887}
+  - component: {fileID: 4478701982689888}
   m_Layer: 0
-  m_Name: tengushingen:Tengu_lf_upLeg_jnt
+  m_Name: tengushingen:Tengu_rt_clavicle_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4746196846271887
+--- !u!4 &4478701982689888
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1133413544333670}
-  m_LocalRotation: {x: 2.525931E-10, y: -1.1076991E-08, z: 0.9997401, w: -0.02279748}
-  m_LocalPosition: {x: 1.0778399, y: -0.08538739, z: 7.8335495}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477195878487376}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.48785356, y: 0.47361898, z: 0.59308404, w: -0.4312021}
+  m_LocalPosition: {x: 0.65761924, y: -5.257369, z: 5.1525097}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -1.2696596E-06, y: -1.1925032E-15, z: 177.38737}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4574767828608531}
-  m_Father: {fileID: 4964403766200504}
---- !u!1 &1790465022647683
+  - {fileID: 4816999560995932}
+  m_Father: {fileID: 4899277480312105}
+  m_LocalEulerAnglesHint: {x: 61.885345, y: 80.79681, z: 162.02193}
+--- !u!1 &1502792914958075
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4574767828608531}
+  - component: {fileID: 4924707185104310}
   m_Layer: 0
-  m_Name: tengushingen:Tengu_lf_knee_jnt
+  m_Name: tengushingen:wingRight2
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4574767828608531
+--- !u!4 &4924707185104310
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1790465022647683}
-  m_LocalRotation: {x: 0, y: 0, z: -0.078179695, w: 0.9969393}
-  m_LocalPosition: {x: -13.947644, y: 2.752307E-15, z: -3.4714244E-15}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502792914958075}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: -0.16526799, w: 0.9862487}
+  m_LocalPosition: {x: 22.405695, y: -7.1054274e-14, z: 8.1712415e-14}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 8.967884}
-  m_Children:
-  - {fileID: 4691967262973239}
-  m_Father: {fileID: 4746196846271887}
---- !u!1 &1406639972004989
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4691967262973239}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_lf_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4691967262973239
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1406639972004989}
-  m_LocalRotation: {x: 9.872058E-09, y: -4.977017E-09, z: 0.5289728, w: 0.8486388}
-  m_LocalPosition: {x: -8.871096, y: 4.3362683E-15, z: -1.232568E-13}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 6.5834047E-07, y: 1.082402E-06, z: -63.872154}
-  m_Children:
-  - {fileID: 4865782832813177}
-  m_Father: {fileID: 4574767828608531}
---- !u!1 &1885160842106840
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4865782832813177}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_lf_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4865782832813177
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1885160842106840}
-  m_LocalRotation: {x: 2.9832077E-09, y: -1.0645588E-08, z: 0.26983488, w: 0.96290666}
-  m_LocalPosition: {x: -5.787416, y: -0.06060224, z: -3.9926328E-14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -5.6076546E-14, y: 1.2668876E-06, z: -31.30888}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4691967262973239}
---- !u!1 &1256388797026860
+  m_Father: {fileID: 4931681623634589}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 19.025606}
+--- !u!1 &1528472639654141
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4571023924925694}
+  - component: {fileID: 4534730174477706}
   m_Layer: 0
-  m_Name: tengushingen:Tengu_rt_upLeg_jnt
+  m_Name: tengushingen:Tengu_rt_elbow_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4571023924925694
+--- !u!4 &4534730174477706
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1256388797026860}
-  m_LocalRotation: {x: 0, y: 0, z: 0.02279742, w: 0.9997401}
-  m_LocalPosition: {x: 1.0778348, y: -0.085387334, z: -7.83355}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528472639654141}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.05589272, z: -0, w: 0.9984368}
+  m_LocalPosition: {x: 9.209868, y: 0.0000000065341865, z: -0.0000007685963}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -2.6126184}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4654563813802223}
-  m_Father: {fileID: 4964403766200504}
---- !u!1 &1024546269981321
+  - {fileID: 4260469971757322}
+  m_Father: {fileID: 4816999560995932}
+  m_LocalEulerAnglesHint: {x: 0, y: -6.4081736, z: 0}
+--- !u!1 &1578611717622963
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4654563813802223}
+  - component: {fileID: 4502092938154746}
   m_Layer: 0
-  m_Name: tengushingen:Tengu_rt_knee_jnt
+  m_Name: tengushingen:Tengu_head_a_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4654563813802223
+--- !u!4 &4502092938154746
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1024546269981321}
-  m_LocalRotation: {x: 0, y: 0, z: -0.07817943, w: 0.9969393}
-  m_LocalPosition: {x: 13.947661, y: -6.659834E-07, z: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578611717622963}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0063205557, y: 0.000000009274007, z: -3.7376546e-11, w: 0.99998003}
+  m_LocalPosition: {x: 2.5954729e-15, y: 5.10494, z: -0.00000002013291}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 8.967854}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4377856036510998}
-  m_Father: {fileID: 4571023924925694}
---- !u!1 &1323758845468879
+  - {fileID: 4123416449758113}
+  m_Father: {fileID: 4222260731909058}
+  m_LocalEulerAnglesHint: {x: 0.72428715, y: -0.0000010627288, z: -0.0000000024340485}
+--- !u!1 &1579038770264676
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4377856036510998}
+  - component: {fileID: 4775079802480780}
   m_Layer: 0
-  m_Name: tengushingen:Tengu_rt_ankle_jnt
+  m_Name: tengushingen:wingleft2
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4377856036510998
+--- !u!4 &4775079802480780
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323758845468879}
-  m_LocalRotation: {x: 0, y: 0, z: 0.5289727, w: 0.8486389}
-  m_LocalPosition: {x: 8.871081, y: -2.0096088E-06, z: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579038770264676}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: -0.16526799, w: 0.9862487}
+  m_LocalPosition: {x: -22.405695, y: 6.3948846e-14, z: -1.2434498e-14}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -63.87214}
-  m_Children:
-  - {fileID: 4946720748999572}
-  m_Father: {fileID: 4654563813802223}
---- !u!1 &1662910305707477
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4946720748999572}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_rt_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4946720748999572
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1662910305707477}
-  m_LocalRotation: {x: 0, y: 0, z: 0.26983488, w: 0.96290666}
-  m_LocalPosition: {x: 5.787416, y: 0.060599953, z: -9.649873E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -31.30888}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4377856036510998}
---- !u!1 &1645669251132476
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4666971294976095}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_spine_mid_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4666971294976095
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1645669251132476}
-  m_LocalRotation: {x: 0.9999741, y: -0.007199365, z: 1.3474687E-16, w: 6.220404E-17}
-  m_LocalPosition: {x: -7.9714713, y: -7.771561E-15, z: -3.5332273E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: 1.5491772E-14, z: 0.8249936}
-  m_Children:
-  - {fileID: 4501662999634190}
-  m_Father: {fileID: 4969473682989301}
+  m_Father: {fileID: 4554945185295303}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 19.025606}
 --- !u!1 &1594762853541344
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4501662999634190}
+  - component: {fileID: 4501662999634190}
   m_Layer: 0
   m_Name: tengushingen:Tengu_spine_hi_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4501662999634190
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594762853541344}
-  m_LocalRotation: {x: -1.6653347E-16, y: -5.1226627E-26, z: 0.023833498, w: 0.999716}
-  m_LocalPosition: {x: -10.355139, y: 2.3536728E-14, z: 4.5933813E-15}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.6653347e-16, y: -5.1226627e-26, z: 0.023833498, w: 0.999716}
+  m_LocalPosition: {x: -10.355139, y: 2.3536728e-14, z: 4.5933813e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -1.9077908E-14, y: -4.5482244E-16, z: -2.7313762}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4899277480312105}
   - {fileID: 4554945185295303}
   - {fileID: 4931681623634589}
   m_Father: {fileID: 4666971294976095}
---- !u!1 &1919874653205000
+  m_LocalEulerAnglesHint: {x: -1.9077908e-14, y: -4.5482244e-16, z: -2.7313762}
+--- !u!1 &1625603581914396
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4899277480312105}
+  - component: {fileID: 4915832972930237}
   m_Layer: 0
-  m_Name: tengushingen:Tengu_spine_end_jnt
+  m_Name: tengushingen:Tengu_lf_hand_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4915832972930237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625603581914396}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.1054274e-15, y: -7.1054274e-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4013716748926299}
+  - {fileID: 4095887139515607}
+  m_Father: {fileID: 4844781813554563}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1627949119498341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4260469971757322}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_rt_wrist_jnt
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4260469971757322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627949119498341}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.903857, y: 0.0000000063605228, z: -0.0000024322683}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4134360551747175}
+  m_Father: {fileID: 4534730174477706}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1645669251132476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4666971294976095}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_spine_mid_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4666971294976095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645669251132476}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9999741, y: -0.007199365, z: 1.3474687e-16, w: 6.220404e-17}
+  m_LocalPosition: {x: -7.9714713, y: -7.771561e-15, z: -3.5332273e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4501662999634190}
+  m_Father: {fileID: 4969473682989301}
+  m_LocalEulerAnglesHint: {x: 180, y: 1.5491772e-14, z: 0.8249936}
+--- !u!1 &1662910305707477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4946720748999572}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_rt_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4946720748999572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662910305707477}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.26983488, w: 0.96290666}
+  m_LocalPosition: {x: 5.787416, y: 0.060599953, z: -9.649873e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4377856036510998}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -31.30888}
+--- !u!1 &1734481991377830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4134360551747175}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_rt_hand_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4134360551747175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734481991377830}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.1054274e-15, y: 7.1054274e-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4230794882539386}
+  m_Father: {fileID: 4260469971757322}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1790465022647683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4574767828608531}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_lf_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4574767828608531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790465022647683}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: -0.078179695, w: 0.9969393}
+  m_LocalPosition: {x: -13.947644, y: 2.752307e-15, z: -3.4714244e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4691967262973239}
+  m_Father: {fileID: 4746196846271887}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 8.967884}
+--- !u!1 &1817845412912543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4037417536374723}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_lf_upArm_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4037417536374723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817845412912543}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0041474393, y: -0.058339804, z: 0.07079072, w: 0.9957751}
+  m_LocalPosition: {x: -9.390066, y: 3.3671997, z: -5.0535173}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4342817893805202}
+  m_Father: {fileID: 4911434211094696}
+  m_LocalEulerAnglesHint: {x: -0.000000019561508, y: 6.705948, z: -8.132754}
+--- !u!1 &1820197100008954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4772080665425940}
+  m_Layer: 0
+  m_Name: tengushingen:TenguShingen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4772080665425940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820197100008954}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4446404064901458}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1842955872471469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4123416449758113}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_head_b_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4123416449758113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842955872471469}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.106250405, y: 0, z: -0, w: 0.9943394}
+  m_LocalPosition: {x: -0.00000014653988, y: 49.547623, z: -13.879024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4502092938154746}
+  m_LocalEulerAnglesHint: {x: -12.198425, y: -0, z: 0}
+--- !u!1 &1856007566757412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4095887139515607}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_lf_index_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4095887139515607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856007566757412}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7055643, y: -0.002955275, z: -0.04667957, w: 0.70710063}
+  m_LocalPosition: {x: -4.589072, y: 0.4041928, z: -0.16382048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4915832972930237}
+  m_LocalEulerAnglesHint: {x: -89.750694, y: 4.0168724, z: 3.5544076}
+--- !u!1 &1885160842106840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4865782832813177}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_lf_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4865782832813177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885160842106840}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000029832077, y: -0.000000010645588, z: 0.26983488, w: 0.96290666}
+  m_LocalPosition: {x: -5.787416, y: -0.06060224, z: -3.9926328e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4691967262973239}
+  m_LocalEulerAnglesHint: {x: -5.6076546e-14, y: 0.0000012668876, z: -31.30888}
+--- !u!1 &1919874653205000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4899277480312105}
+  m_Layer: 0
+  m_Name: tengushingen:Tengu_spine_end_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4899277480312105
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1919874653205000}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.08567042, w: 0.9963235}
-  m_LocalPosition: {x: -4.2447953, y: 4.9777573E-15, z: 1.8850678E-15}
+  m_LocalPosition: {x: -4.2447953, y: 4.9777573e-15, z: 1.8850678e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -9.829155}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4911434211094696}
   - {fileID: 4222260731909058}
   - {fileID: 4478701982689888}
   m_Father: {fileID: 4501662999634190}
---- !u!1 &1188247949919501
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -9.829155}
+--- !u!1 &1935066467631625
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4911434211094696}
+  - component: {fileID: 4910863330974495}
   m_Layer: 0
-  m_Name: tengushingen:Tengu_lf_clavicle_jnt
+  m_Name: tengushingen:Tengu_Skeleton_grp
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4911434211094696
+--- !u!4 &4910863330974495
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1188247949919501}
-  m_LocalRotation: {x: 0.47361898, y: -0.4878536, z: 0.43120208, w: 0.59308404}
-  m_LocalPosition: {x: 0.6576436, y: -5.2573705, z: -5.1525087}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 61.885365, y: 80.79681, z: -17.978043}
-  m_Children:
-  - {fileID: 4037417536374723}
-  m_Father: {fileID: 4899277480312105}
---- !u!1 &1817845412912543
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4037417536374723}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_lf_upArm_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4037417536374723
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1817845412912543}
-  m_LocalRotation: {x: 0.0041474393, y: -0.058339804, z: 0.07079072, w: 0.9957751}
-  m_LocalPosition: {x: -9.390066, y: 3.3671997, z: -5.0535173}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -1.9561508E-08, y: 6.705948, z: -8.132754}
-  m_Children:
-  - {fileID: 4342817893805202}
-  m_Father: {fileID: 4911434211094696}
---- !u!1 &1453638515049965
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4342817893805202}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_lf_elbow_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4342817893805202
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1453638515049965}
-  m_LocalRotation: {x: 0, y: 0.05589272, z: -0, w: 0.9984368}
-  m_LocalPosition: {x: -9.209866, y: 1.8738603E-16, z: -1.2949158E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -6.4081736, z: 0}
-  m_Children:
-  - {fileID: 4844781813554563}
-  m_Father: {fileID: 4037417536374723}
---- !u!1 &1003613076285206
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4844781813554563}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_lf_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4844781813554563
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1003613076285206}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.903893, y: -6.981861E-15, z: 1.6527905E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4915832972930237}
-  m_Father: {fileID: 4342817893805202}
---- !u!1 &1625603581914396
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4915832972930237}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_lf_hand_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4915832972930237
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1625603581914396}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.1054274E-15, y: -7.1054274E-15, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4013716748926299}
-  - {fileID: 4095887139515607}
-  m_Father: {fileID: 4844781813554563}
---- !u!1 &1153984568063393
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4013716748926299}
-  m_Layer: 0
-  m_Name: tengushingen:prop1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4013716748926299
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1153984568063393}
-  m_LocalRotation: {x: 0, y: -0.03511395, z: -0, w: 0.99938333}
-  m_LocalPosition: {x: -2.5146194, y: -5.449727, z: -0.027114144}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 4.0245895, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4915832972930237}
---- !u!1 &1856007566757412
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4095887139515607}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_lf_index_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4095887139515607
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1856007566757412}
-  m_LocalRotation: {x: -0.7055643, y: -0.002955275, z: -0.04667957, w: 0.70710063}
-  m_LocalPosition: {x: -4.589072, y: 0.4041928, z: -0.16382048}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -89.750694, y: 4.0168724, z: 3.5544076}
-  m_Children: []
-  m_Father: {fileID: 4915832972930237}
---- !u!1 &1179394941875802
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4222260731909058}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_neck_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4222260731909058
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1179394941875802}
-  m_LocalRotation: {x: 0.5071258, y: -0.49277118, z: 0.5071258, w: 0.49277118}
-  m_LocalPosition: {x: -5.3131185, y: 3.5527137E-15, z: 2.3248638E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 91.64497, y: 90, z: 0}
-  m_Children:
-  - {fileID: 4502092938154746}
-  m_Father: {fileID: 4899277480312105}
---- !u!1 &1578611717622963
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4502092938154746}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_head_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4502092938154746
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1578611717622963}
-  m_LocalRotation: {x: 0.0063205557, y: 9.274007E-09, z: -3.7376546E-11, w: 0.99998003}
-  m_LocalPosition: {x: 2.5954729E-15, y: 5.10494, z: -2.013291E-08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0.72428715, y: -1.0627288E-06, z: -2.4340485E-09}
-  m_Children:
-  - {fileID: 4123416449758113}
-  m_Father: {fileID: 4222260731909058}
---- !u!1 &1842955872471469
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4123416449758113}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_head_b_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4123416449758113
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1842955872471469}
-  m_LocalRotation: {x: -0.106250405, y: 0, z: -0, w: 0.9943394}
-  m_LocalPosition: {x: -1.4653988E-07, y: 49.547623, z: -13.879024}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -12.198425, y: -0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4502092938154746}
---- !u!1 &1477195878487376
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4478701982689888}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_rt_clavicle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4478701982689888
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1477195878487376}
-  m_LocalRotation: {x: 0.48785356, y: 0.47361898, z: 0.59308404, w: -0.4312021}
-  m_LocalPosition: {x: 0.65761924, y: -5.257369, z: 5.1525097}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 61.885345, y: 80.79681, z: 162.02193}
-  m_Children:
-  - {fileID: 4816999560995932}
-  m_Father: {fileID: 4899277480312105}
---- !u!1 &1060456474584356
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4816999560995932}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_rt_upArm_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4816999560995932
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1060456474584356}
-  m_LocalRotation: {x: 0.0041474393, y: -0.058339804, z: 0.07079072, w: 0.9957751}
-  m_LocalPosition: {x: 9.390085, y: -3.3671994, z: 5.053521}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -1.9561508E-08, y: 6.705948, z: -8.132754}
-  m_Children:
-  - {fileID: 4534730174477706}
-  m_Father: {fileID: 4478701982689888}
---- !u!1 &1528472639654141
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4534730174477706}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_rt_elbow_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4534730174477706
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1528472639654141}
-  m_LocalRotation: {x: 0, y: 0.05589272, z: -0, w: 0.9984368}
-  m_LocalPosition: {x: 9.209868, y: 6.5341865E-09, z: -7.685963E-07}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -6.4081736, z: 0}
-  m_Children:
-  - {fileID: 4260469971757322}
-  m_Father: {fileID: 4816999560995932}
---- !u!1 &1627949119498341
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4260469971757322}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_rt_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4260469971757322
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1627949119498341}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.903857, y: 6.3605228E-09, z: -2.4322683E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4134360551747175}
-  m_Father: {fileID: 4534730174477706}
---- !u!1 &1734481991377830
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4134360551747175}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_rt_hand_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4134360551747175
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1734481991377830}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.1054274E-15, y: 7.1054274E-15, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4230794882539386}
-  m_Father: {fileID: 4260469971757322}
---- !u!1 &1248578468045079
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4230794882539386}
-  m_Layer: 0
-  m_Name: tengushingen:Tengu_rt_index_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4230794882539386
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1248578468045079}
-  m_LocalRotation: {x: -0.7055643, y: -0.002955275, z: -0.04667957, w: 0.70710063}
-  m_LocalPosition: {x: 4.589119, y: -0.4042, z: 0.16382405}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -89.750694, y: 4.0168724, z: 3.5544076}
-  m_Children: []
-  m_Father: {fileID: 4134360551747175}
---- !u!1 &1153780022316117
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4554945185295303}
-  m_Layer: 0
-  m_Name: tengushingen:wingLeft1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4554945185295303
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1153780022316117}
-  m_LocalRotation: {x: -0.51902115, y: 0.6472178, z: -0.48022595, w: -0.28479663}
-  m_LocalPosition: {x: 0.800334, y: 12.089395, z: -6.310475}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -139.1161, y: 60.12864, z: 126.89624}
-  m_Children:
-  - {fileID: 4775079802480780}
-  m_Father: {fileID: 4501662999634190}
---- !u!1 &1579038770264676
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4775079802480780}
-  m_Layer: 0
-  m_Name: tengushingen:wingleft2
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4775079802480780
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1579038770264676}
-  m_LocalRotation: {x: 0, y: 0, z: -0.16526799, w: 0.9862487}
-  m_LocalPosition: {x: -22.405695, y: 6.3948846E-14, z: -1.2434498E-14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 19.025606}
-  m_Children: []
-  m_Father: {fileID: 4554945185295303}
---- !u!1 &1278865915241546
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4931681623634589}
-  m_Layer: 0
-  m_Name: tengushingen:wingRight1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4931681623634589
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1278865915241546}
-  m_LocalRotation: {x: 0.552097, y: -0.22045174, z: 0.5485946, w: 0.58790636}
-  m_LocalPosition: {x: 0.8003339, y: 12.089394, z: 6.0819306}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 54.2522, y: 59.878693, z: -53.159992}
-  m_Children:
-  - {fileID: 4924707185104310}
-  m_Father: {fileID: 4501662999634190}
---- !u!1 &1502792914958075
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4924707185104310}
-  m_Layer: 0
-  m_Name: tengushingen:wingRight2
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4924707185104310
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1502792914958075}
-  m_LocalRotation: {x: 0, y: 0, z: -0.16526799, w: 0.9862487}
-  m_LocalPosition: {x: 22.405695, y: -7.1054274E-14, z: 8.1712415E-14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 19.025606}
-  m_Children: []
-  m_Father: {fileID: 4931681623634589}
---- !u!1 &1820197100008954
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4772080665425940}
-  m_Layer: 0
-  m_Name: tengushingen:TenguShingen
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4772080665425940
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1820197100008954}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935066467631625}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4969473682989301}
   m_Father: {fileID: 4446404064901458}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

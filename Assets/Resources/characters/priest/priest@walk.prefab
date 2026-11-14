@@ -1,55 +1,878 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1745111155449920}
-  m_IsPrefabParent: 1
-  m_IsExploded: 0
---- !u!1 &1745111155449920
+--- !u!1 &1006125288054194
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4168817870681147}
-  - 111: {fileID: 111818812953758584}
-  - 114: {fileID: 114445419594644229}
+  - component: {fileID: 4631298025480056}
   m_Layer: 0
-  m_Name: priest@walk
+  m_Name: Priest:priest_head_b_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4631298025480056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006125288054194}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.058518536, y: 0.0054415627, z: -0.04634691, w: 0.99719507}
+  m_LocalPosition: {x: 7.0080414, y: 43.971832, z: -4.8283615}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4149197660027474}
+  m_LocalEulerAnglesHint: {x: -6.731394, y: -0.31101972, z: 5.3403645}
+--- !u!1 &1054777208749482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4323112968739388}
+  m_Layer: 0
+  m_Name: Priest:Beard2jnt
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4323112968739388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054777208749482}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.4632917, y: 0.09709194, z: -0.03541552, w: 0.8801589}
+  m_LocalPosition: {x: -0, y: -7.576243, z: 4.329282}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4631248164029528}
+  m_Father: {fileID: 4933091949358320}
+  m_LocalEulerAnglesHint: {x: 55.688637, y: -11.7550535, z: -1.6166952}
+--- !u!1 &1061980698869330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4361351238303608}
+  m_Layer: 0
+  m_Name: Priest:priest_spine_mid_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4361351238303608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061980698869330}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9915913, y: 0.12934141, z: -0.0014840881, w: 0.003926704}
+  m_LocalPosition: {x: -6.0037336, y: 4.5317972e-10, z: -4.315126e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4454021411899895}
+  m_Father: {fileID: 4890710668817656}
+  m_LocalEulerAnglesHint: {x: 179.5758, y: -0.22683392, z: -14.862366}
+--- !u!1 &1076277855606019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4631248164029528}
+  m_Layer: 0
+  m_Name: Priest:Beard3jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4631248164029528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076277855606019}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.115384266, y: 0.1260666, z: 0.1529244, w: 0.9733488}
+  m_LocalPosition: {x: 2.1316282e-14, y: -13.451696, z: 3.86543}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4323112968739388}
+  m_LocalEulerAnglesHint: {x: 15.615785, y: -12.129582, z: -19.527056}
+--- !u!1 &1081115870080545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4748157512311335}
+  m_Layer: 0
+  m_Name: Priest:priest_rt_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4748157512311335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081115870080545}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.008403435, y: 0.0011663827, z: 0.6031854, w: 0.7975559}
+  m_LocalPosition: {x: 8.205423, y: 0.0000051889597, z: 0.000010398004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4521161933253782}
+  m_Father: {fileID: 4592723304120005}
+  m_LocalEulerAnglesHint: {x: -0.6874622, y: -0.68746096, z: -74.19575}
+--- !u!1 &1097103950322126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4149197660027474}
+  m_Layer: 0
+  m_Name: Priest:priest_head_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4149197660027474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097103950322126}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.103885464, y: 0.0054849857, z: 0.052438874, w: 0.99319077}
+  m_LocalPosition: {x: -1.110223e-16, y: 3.9768655, z: -2.8865799e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4933091949358320}
+  - {fileID: 4631298025480056}
+  m_Father: {fileID: 4643750933026503}
+  m_LocalEulerAnglesHint: {x: -11.878078, y: -1.2486053, z: -5.9147415}
+--- !u!1 &1123878321606972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4861190948821804}
+  m_Layer: 0
+  m_Name: Priest:priest_lf_wrist_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4861190948821804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123878321606972}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.4502125, y: 6.3352343e-15, z: -8.733209e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4286638813515927}
+  m_Father: {fileID: 4224456500634433}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1188953281014273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4522830177362962}
+  m_Layer: 0
+  m_Name: Priest:priest_lf_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4522830177362962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188953281014273}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.8329515, y: 0.55334604, z: 3.024999e-17, w: 5.3416832e-17}
+  m_LocalPosition: {x: -12.288489, y: 1.7187132e-14, z: 5.452465e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4610846550574667}
+  m_Father: {fileID: 4556862754317940}
+  m_LocalEulerAnglesHint: {x: 180, y: -4.9975897e-16, z: -67.19374}
+--- !u!1 &1192335652649025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4736215287645147}
+  m_Layer: 0
+  m_Name: Priest:priest_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4736215287645147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192335652649025}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.4078388, y: -0.4233425, z: 0.5516259, w: 0.5917411}
+  m_LocalPosition: {x: -1.3445784, y: 0.97813255, z: -7.163829}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4585301833070970}
+  m_Father: {fileID: 4314917152006364}
+  m_LocalEulerAnglesHint: {x: 2.894172, y: 71.983444, z: -83.878876}
+--- !u!1 &1203531310449284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4881788186290777}
+  m_Layer: 0
+  m_Name: Priest:priest_Skeleton_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4881788186290777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203531310449284}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4890710668817656}
+  - {fileID: 4246735714180528}
+  m_Father: {fileID: 4168817870681147}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1232489919191655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4955535680848554}
+  m_Layer: 0
+  m_Name: Priest:priest_rt_thumb_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4955535680848554
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232489919191655}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7351891, y: -0.036884315, z: 0.23766361, w: 0.6337607}
+  m_LocalPosition: {x: 4.021846, y: 3.8019443, z: -3.6969466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4462772001464366}
+  m_LocalEulerAnglesHint: {x: -95.03983, y: -17.620068, z: -21.899265}
+--- !u!1 &1267577817758692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4621961733199100}
+  m_Layer: 0
+  m_Name: Priest:priest_lf_thumb_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4621961733199100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267577817758692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.75680196, y: -0.17974079, z: -0.40017217, w: -0.48456827}
+  m_LocalPosition: {x: -4.021829, y: -3.8019085, z: 3.6969528}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4286638813515927}
+  m_LocalEulerAnglesHint: {x: -109.61451, y: -51.251003, z: -10.6585045}
+--- !u!1 &1270069428499491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4124599109537131}
+  m_Layer: 0
+  m_Name: Priest:priest_lf_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4124599109537131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270069428499491}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.6373917e-18, y: -0.0000000023760809, z: 0.15945598, w: 0.987205}
+  m_LocalPosition: {x: -4.5372, y: -3.743174e-15, z: 6.2504165e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4610846550574667}
+  m_LocalEulerAnglesHint: {x: -0.000000043416485, y: 0.00000026879502, z: -18.350641}
+--- !u!1 &1303650578528606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4933091949358320}
+  m_Layer: 0
+  m_Name: Priest:Beard1jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4933091949358320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303650578528606}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.23512685, y: 0.0773164, z: 0.39363396, w: 0.8853191}
+  m_LocalPosition: {x: -9.769963e-15, y: -1.4156165, z: 23.144852}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4323112968739388}
+  m_Father: {fileID: 4149197660027474}
+  m_LocalEulerAnglesHint: {x: -22.052345, y: -18.784353, z: -44.25006}
+--- !u!1 &1368170030150634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4804852285550325}
+  m_Layer: 0
+  m_Name: Priest:priest_rt_elbow_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4804852285550325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368170030150634}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.057156242, y: 0.25465313, z: -0.24885365, w: 0.93271476}
+  m_LocalPosition: {x: 9.545918, y: 0.000025457122, z: 0.0000039679067}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4006707023808420}
+  m_Father: {fileID: 4188364867876922}
+  m_LocalEulerAnglesHint: {x: -1.3344811, y: -30.230804, z: 30.238184}
+--- !u!1 &1371543556066095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4454021411899895}
+  m_Layer: 0
+  m_Name: Priest:priest_spine_hi_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4454021411899895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371543556066095}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.07121642, y: 0.123388134, z: -0.29103658, w: 0.9460451}
+  m_LocalPosition: {x: -7.0432653, y: -4.899494e-10, z: -5.6824767e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4314917152006364}
+  m_Father: {fileID: 4361351238303608}
+  m_LocalEulerAnglesHint: {x: -12.15079, y: -11.07001, z: 35.381332}
+--- !u!1 &1391817083471965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4802450595028145}
+  m_Layer: 0
+  m_Name: Priest:priest_hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4802450595028145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391817083471965}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.021393072, y: -0.3165452, z: 0.6573389, w: 0.6835547}
+  m_LocalPosition: {x: -0.55759484, y: 4.088683, z: 1.6363505}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4556862754317940}
+  - {fileID: 4999812806516735}
+  m_Father: {fileID: 4890710668817656}
+  m_LocalEulerAnglesHint: {x: -29.147102, y: 23.86775, z: -94.050224}
+--- !u!1 &1406702420724719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4224456500634433}
+  m_Layer: 0
+  m_Name: Priest:priest_lf_elbow_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4224456500634433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406702420724719}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.05964392, y: 0.326561, z: -0.19068167, w: 0.92381877}
+  m_LocalPosition: {x: -9.545933, y: -1.8782066e-15, z: 1.134418e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4861190948821804}
+  m_Father: {fileID: 4585301833070970}
+  m_LocalEulerAnglesHint: {x: -1.0536374, y: -38.763874, z: 23.6955}
+--- !u!1 &1407247504373885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4286638813515927}
+  m_Layer: 0
+  m_Name: Priest:priest_lf_hand_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4286638813515927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407247504373885}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9753343, y: -0.12015798, z: 0.14392906, w: -0.11648846}
+  m_LocalPosition: {x: -3.5527137e-15, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4396943345928224}
+  - {fileID: 4621961733199100}
+  m_Father: {fileID: 4861190948821804}
+  m_LocalEulerAnglesHint: {x: -164.29967, y: 14.641124, z: 16.076015}
+--- !u!1 &1422998298388058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4585301833070970}
+  m_Layer: 0
+  m_Name: Priest:priest_lf_upArm_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4585301833070970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422998298388058}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.02170714, y: -0.02831212, z: 0.29007268, w: 0.9563394}
+  m_LocalPosition: {x: -9.96348, y: 7.007945e-15, z: -2.703444e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4224456500634433}
+  m_Father: {fileID: 4736215287645147}
+  m_LocalEulerAnglesHint: {x: 1.441125, y: 3.8270686, z: -33.69859}
+--- !u!1 &1477718649052704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4521161933253782}
+  m_Layer: 0
+  m_Name: Priest:priest_rt_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4521161933253782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477718649052704}
+  serializedVersion: 2
+  m_LocalRotation: {x: 9.326238e-18, y: -0.0000000013273314, z: 0.15945598, w: 0.987205}
+  m_LocalPosition: {x: 4.537197, y: 0.0000015148744, z: -0.0000034107422}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4748157512311335}
+  m_LocalEulerAnglesHint: {x: -0.000000024253408, y: 0.00000015015485, z: -18.350641}
+--- !u!1 &1530444664983507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4124334508803275}
+  m_Layer: 0
+  m_Name: Priest:priest_rt_index_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4124334508803275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530444664983507}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.6795981, y: -0.16560921, z: 0.2317368, w: 0.67603123}
+  m_LocalPosition: {x: 8.566614, y: 0.51644397, z: 0.789325}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4462772001464366}
+  m_LocalEulerAnglesHint: {x: -88.76635, y: -5.2246923, z: -32.72887}
+--- !u!1 &1575641002434309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4823929532054229}
+  m_Layer: 0
+  m_Name: Priest:priest_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4823929532054229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575641002434309}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.3792565, y: -0.36670664, z: -0.62091947, w: 0.5797844}
+  m_LocalPosition: {x: -1.34458, y: 0.97813755, z: 7.16383}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4188364867876922}
+  m_Father: {fileID: 4314917152006364}
+  m_LocalEulerAnglesHint: {x: 2.0172133, y: 63.662582, z: 95.17661}
+--- !u!1 &1636421310339585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4006707023808420}
+  m_Layer: 0
+  m_Name: Priest:priest_rt_wrist_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4006707023808420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636421310339585}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.450206, y: 0.00000020844357, z: -0.0000022223528}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4462772001464366}
+  m_Father: {fileID: 4804852285550325}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1683146708938675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4462772001464366}
+  m_Layer: 0
+  m_Name: Priest:priest_rt_hand_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4462772001464366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683146708938675}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.97988725, y: -0.11289989, z: 0.015439076, w: -0.1638177}
+  m_LocalPosition: {x: 7.1054274e-15, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4124334508803275}
+  - {fileID: 4955535680848554}
+  m_Father: {fileID: 4006707023808420}
+  m_LocalEulerAnglesHint: {x: -161.06233, y: -0.38576934, z: 13.08062}
+--- !u!1 &1721034597999478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4643750933026503}
+  m_Layer: 0
+  m_Name: Priest:priest_neck_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4643750933026503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721034597999478}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.51715136, y: -0.48223907, z: 0.51715136, w: 0.48223907}
+  m_LocalPosition: {x: -7.474195, y: 3.996803e-15, z: 3.4416914e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4149197660027474}
+  m_Father: {fileID: 4314917152006364}
+  m_LocalEulerAnglesHint: {x: 94.001465, y: 90, z: 0}
+--- !u!1 &1745111155449920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4168817870681147}
+  - component: {fileID: 111818812953758584}
+  - component: {fileID: 114445419594644229}
+  m_Layer: 0
+  m_Name: priest@walk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4168817870681147
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745111155449920}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4881788186290777}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!111 &111818812953758584
 Animation:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745111155449920}
   m_Enabled: 1
+  serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 8d21dcb4e0a39724f87b86f6faf06002, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 8d21dcb4e0a39724f87b86f6faf06002, type: 2}
@@ -57,998 +880,307 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
-  m_UserAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!114 &114445419594644229
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745111155449920}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sourcePrefabPath: Assets/Resources/Characters/Priest/priest@walk.fbx
-  basePrefabPath:
+  basePrefabPath: 
   exemptObjects: []
---- !u!1 &1203531310449284
+--- !u!1 &1749960291683883
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4881788186290777}
+  - component: {fileID: 4188364867876922}
   m_Layer: 0
-  m_Name: Priest:priest_Skeleton_grp
+  m_Name: Priest:priest_rt_upArm_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4881788186290777
+--- !u!4 &4188364867876922
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1203531310449284}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749960291683883}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.09317475, y: -0.35447657, z: 0.39621592, w: 0.84183}
+  m_LocalPosition: {x: 9.963487, y: -0.000033583612, z: -0.000008948636}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4890710668817656}
-  - {fileID: 4246735714180528}
-  m_Father: {fileID: 4168817870681147}
+  - {fileID: 4804852285550325}
+  m_Father: {fileID: 4823929532054229}
+  m_LocalEulerAnglesHint: {x: -30.904692, y: 31.532585, z: -59.334312}
+--- !u!1 &1760233013313121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4592723304120005}
+  m_Layer: 0
+  m_Name: Priest:priest_rt_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4592723304120005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760233013313121}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.632651, y: 0.77443707, z: -0.0000000104283435, w: 0.000000012765483}
+  m_LocalPosition: {x: 12.288485, y: 0.000004966352, z: 0.000006697216}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4748157512311335}
+  m_Father: {fileID: 4999812806516735}
+  m_LocalEulerAnglesHint: {x: -180, y: -0.0000018888774, z: -101.50805}
+--- !u!1 &1764145172097646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4556862754317940}
+  m_Layer: 0
+  m_Name: Priest:priest_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4556862754317940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764145172097646}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.09850602, y: 0.7078818, z: 0.67867726, w: -0.1691068}
+  m_LocalPosition: {x: 3.945032, y: -1.5698469, z: 7.9293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4522830177362962}
+  m_Father: {fileID: 4802450595028145}
+  m_LocalEulerAnglesHint: {x: 91.33405, y: 21.908339, z: 174.42848}
 --- !u!1 &1776008696866132
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4890710668817656}
+  - component: {fileID: 4890710668817656}
   m_Layer: 0
   m_Name: Priest:priest_spine_low_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4890710668817656
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776008696866132}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.37817898, y: -0.07873824, z: -0.6502694, w: 0.65416414}
-  m_LocalPosition: {x: 1.4E-44, y: 34.048546, z: 2.4288101}
+  m_LocalPosition: {x: 1.4e-44, y: 34.048546, z: 2.4288101}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 40.405136, y: -22.881155, z: 81.140076}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4802450595028145}
   - {fileID: 4361351238303608}
   m_Father: {fileID: 4881788186290777}
---- !u!1 &1391817083471965
+  m_LocalEulerAnglesHint: {x: 40.405136, y: -22.881155, z: 81.140076}
+--- !u!1 &1813780892800308
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4802450595028145}
+  - component: {fileID: 4246735714180528}
   m_Layer: 0
-  m_Name: Priest:priest_hip_jnt
+  m_Name: Priest:weightSpine_grp
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4802450595028145
+--- !u!4 &4246735714180528
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1391817083471965}
-  m_LocalRotation: {x: -0.021393072, y: -0.3165452, z: 0.6573389, w: 0.6835547}
-  m_LocalPosition: {x: -0.55759484, y: 4.088683, z: 1.6363505}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813780892800308}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -29.147102, y: 23.86775, z: -94.050224}
-  m_Children:
-  - {fileID: 4556862754317940}
-  - {fileID: 4999812806516735}
-  m_Father: {fileID: 4890710668817656}
---- !u!1 &1764145172097646
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4556862754317940}
-  m_Layer: 0
-  m_Name: Priest:priest_lf_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4556862754317940
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1764145172097646}
-  m_LocalRotation: {x: 0.09850602, y: 0.7078818, z: 0.67867726, w: -0.1691068}
-  m_LocalPosition: {x: 3.945032, y: -1.5698469, z: 7.9293}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 91.33405, y: 21.908339, z: 174.42848}
-  m_Children:
-  - {fileID: 4522830177362962}
-  m_Father: {fileID: 4802450595028145}
---- !u!1 &1188953281014273
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4522830177362962}
-  m_Layer: 0
-  m_Name: Priest:priest_lf_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4522830177362962
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1188953281014273}
-  m_LocalRotation: {x: 0.8329515, y: 0.55334604, z: 3.024999E-17, w: 5.3416832E-17}
-  m_LocalPosition: {x: -12.288489, y: 1.7187132E-14, z: 5.452465E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: -4.9975897E-16, z: -67.19374}
-  m_Children:
-  - {fileID: 4610846550574667}
-  m_Father: {fileID: 4556862754317940}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4881788186290777}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
 --- !u!1 &1850993681066770
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4610846550574667}
+  - component: {fileID: 4610846550574667}
   m_Layer: 0
   m_Name: Priest:priest_lf_ankle_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4610846550574667
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850993681066770}
-  m_LocalRotation: {x: 1.7511064E-15, y: -7.42621E-16, z: 0.4781553, w: 0.87827533}
-  m_LocalPosition: {x: -8.205425, y: -5.232186E-15, z: 1.2287932E-15}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.7511064e-15, y: -7.42621e-16, z: 0.4781553, w: 0.87827533}
+  m_LocalPosition: {x: -8.205425, y: -5.232186e-15, z: 1.2287932e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.3554639E-13, y: 1.7068715E-13, z: -57.129982}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4124599109537131}
   m_Father: {fileID: 4522830177362962}
---- !u!1 &1270069428499491
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4124599109537131}
-  m_Layer: 0
-  m_Name: Priest:priest_lf_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4124599109537131
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1270069428499491}
-  m_LocalRotation: {x: 1.6373917E-18, y: -2.3760809E-09, z: 0.15945598, w: 0.987205}
-  m_LocalPosition: {x: -4.5372, y: -3.743174E-15, z: 6.2504165E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -4.3416485E-08, y: 2.6879502E-07, z: -18.350641}
-  m_Children: []
-  m_Father: {fileID: 4610846550574667}
---- !u!1 &1998269967599253
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4999812806516735}
-  m_Layer: 0
-  m_Name: Priest:priest_rt_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4999812806516735
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1998269967599253}
-  m_LocalRotation: {x: 0.79456335, y: 0.2226637, z: -0.21277474, w: 0.5232752}
-  m_LocalPosition: {x: 3.945041, y: -1.5698441, z: -7.9293}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 116.15437, y: -34.83079, z: -9.194633}
-  m_Children:
-  - {fileID: 4592723304120005}
-  m_Father: {fileID: 4802450595028145}
---- !u!1 &1760233013313121
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4592723304120005}
-  m_Layer: 0
-  m_Name: Priest:priest_rt_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4592723304120005
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1760233013313121}
-  m_LocalRotation: {x: 0.632651, y: 0.77443707, z: -1.04283435E-08, w: 1.2765483E-08}
-  m_LocalPosition: {x: 12.288485, y: 4.966352E-06, z: 6.697216E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -180, y: -1.8888774E-06, z: -101.50805}
-  m_Children:
-  - {fileID: 4748157512311335}
-  m_Father: {fileID: 4999812806516735}
---- !u!1 &1081115870080545
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4748157512311335}
-  m_Layer: 0
-  m_Name: Priest:priest_rt_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4748157512311335
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1081115870080545}
-  m_LocalRotation: {x: -0.008403435, y: 0.0011663827, z: 0.6031854, w: 0.7975559}
-  m_LocalPosition: {x: 8.205423, y: 5.1889597E-06, z: 1.0398004E-05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -0.6874622, y: -0.68746096, z: -74.19575}
-  m_Children:
-  - {fileID: 4521161933253782}
-  m_Father: {fileID: 4592723304120005}
---- !u!1 &1477718649052704
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4521161933253782}
-  m_Layer: 0
-  m_Name: Priest:priest_rt_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4521161933253782
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1477718649052704}
-  m_LocalRotation: {x: 9.326238E-18, y: -1.3273314E-09, z: 0.15945598, w: 0.987205}
-  m_LocalPosition: {x: 4.537197, y: 1.5148744E-06, z: -3.4107422E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -2.4253408E-08, y: 1.5015485E-07, z: -18.350641}
-  m_Children: []
-  m_Father: {fileID: 4748157512311335}
---- !u!1 &1061980698869330
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4361351238303608}
-  m_Layer: 0
-  m_Name: Priest:priest_spine_mid_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4361351238303608
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1061980698869330}
-  m_LocalRotation: {x: 0.9915913, y: 0.12934141, z: -0.0014840881, w: 0.003926704}
-  m_LocalPosition: {x: -6.0037336, y: 4.5317972E-10, z: -4.315126E-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 179.5758, y: -0.22683392, z: -14.862366}
-  m_Children:
-  - {fileID: 4454021411899895}
-  m_Father: {fileID: 4890710668817656}
---- !u!1 &1371543556066095
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4454021411899895}
-  m_Layer: 0
-  m_Name: Priest:priest_spine_hi_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4454021411899895
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1371543556066095}
-  m_LocalRotation: {x: -0.07121642, y: 0.123388134, z: -0.29103658, w: 0.9460451}
-  m_LocalPosition: {x: -7.0432653, y: -4.899494E-10, z: -5.6824767E-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -12.15079, y: -11.07001, z: 35.381332}
-  m_Children:
-  - {fileID: 4314917152006364}
-  m_Father: {fileID: 4361351238303608}
+  m_LocalEulerAnglesHint: {x: 1.3554639e-13, y: 1.7068715e-13, z: -57.129982}
 --- !u!1 &1851729267360602
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4314917152006364}
+  - component: {fileID: 4314917152006364}
   m_Layer: 0
   m_Name: Priest:priest_spine_end_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4314917152006364
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851729267360602}
-  m_LocalRotation: {x: 3.582515E-25, y: -3.3752976E-17, z: 0.27561396, w: 0.9612684}
-  m_LocalPosition: {x: -4.257229, y: -3.4370429E-15, z: 1.6611893E-15}
+  serializedVersion: 2
+  m_LocalRotation: {x: 3.582515e-25, y: -3.3752976e-17, z: 0.27561396, w: 0.9612684}
+  m_LocalPosition: {x: -4.257229, y: -3.4370429e-15, z: 1.6611893e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -1.0660214E-15, y: 3.718E-15, z: -31.997211}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4736215287645147}
   - {fileID: 4643750933026503}
   - {fileID: 4823929532054229}
   m_Father: {fileID: 4454021411899895}
---- !u!1 &1192335652649025
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4736215287645147}
-  m_Layer: 0
-  m_Name: Priest:priest_lf_clavicle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4736215287645147
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1192335652649025}
-  m_LocalRotation: {x: 0.4078388, y: -0.4233425, z: 0.5516259, w: 0.5917411}
-  m_LocalPosition: {x: -1.3445784, y: 0.97813255, z: -7.163829}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 2.894172, y: 71.983444, z: -83.878876}
-  m_Children:
-  - {fileID: 4585301833070970}
-  m_Father: {fileID: 4314917152006364}
---- !u!1 &1422998298388058
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4585301833070970}
-  m_Layer: 0
-  m_Name: Priest:priest_lf_upArm_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4585301833070970
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1422998298388058}
-  m_LocalRotation: {x: 0.02170714, y: -0.02831212, z: 0.29007268, w: 0.9563394}
-  m_LocalPosition: {x: -9.96348, y: 7.007945E-15, z: -2.703444E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.441125, y: 3.8270686, z: -33.69859}
-  m_Children:
-  - {fileID: 4224456500634433}
-  m_Father: {fileID: 4736215287645147}
---- !u!1 &1406702420724719
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4224456500634433}
-  m_Layer: 0
-  m_Name: Priest:priest_lf_elbow_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4224456500634433
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1406702420724719}
-  m_LocalRotation: {x: 0.05964392, y: 0.326561, z: -0.19068167, w: 0.92381877}
-  m_LocalPosition: {x: -9.545933, y: -1.8782066E-15, z: 1.134418E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -1.0536374, y: -38.763874, z: 23.6955}
-  m_Children:
-  - {fileID: 4861190948821804}
-  m_Father: {fileID: 4585301833070970}
---- !u!1 &1123878321606972
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4861190948821804}
-  m_Layer: 0
-  m_Name: Priest:priest_lf_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4861190948821804
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1123878321606972}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.4502125, y: 6.3352343E-15, z: -8.733209E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4286638813515927}
-  m_Father: {fileID: 4224456500634433}
---- !u!1 &1407247504373885
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4286638813515927}
-  m_Layer: 0
-  m_Name: Priest:priest_lf_hand_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4286638813515927
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1407247504373885}
-  m_LocalRotation: {x: 0.9753343, y: -0.12015798, z: 0.14392906, w: -0.11648846}
-  m_LocalPosition: {x: -3.5527137E-15, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -164.29967, y: 14.641124, z: 16.076015}
-  m_Children:
-  - {fileID: 4396943345928224}
-  - {fileID: 4621961733199100}
-  m_Father: {fileID: 4861190948821804}
+  m_LocalEulerAnglesHint: {x: -1.0660214e-15, y: 3.718e-15, z: -31.997211}
 --- !u!1 &1949734676818103
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4396943345928224}
+  - component: {fileID: 4396943345928224}
   m_Layer: 0
   m_Name: Priest:priest_lf_index_a_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4396943345928224
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949734676818103}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.6718733, y: -0.1870547, z: 0.25326228, w: 0.6704141}
   m_LocalPosition: {x: -8.566602, y: -0.5164453, z: -0.78932774}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4286638813515927}
   m_LocalEulerAnglesHint: {x: -88.43544, y: -5.13554, z: -36.39275}
-  m_Children: []
-  m_Father: {fileID: 4286638813515927}
---- !u!1 &1267577817758692
+--- !u!1 &1998269967599253
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4621961733199100}
+  - component: {fileID: 4999812806516735}
   m_Layer: 0
-  m_Name: Priest:priest_lf_thumb_a_jnt
+  m_Name: Priest:priest_rt_upLeg_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4621961733199100
+--- !u!4 &4999812806516735
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1267577817758692}
-  m_LocalRotation: {x: 0.75680196, y: -0.17974079, z: -0.40017217, w: -0.48456827}
-  m_LocalPosition: {x: -4.021829, y: -3.8019085, z: 3.6969528}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998269967599253}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.79456335, y: 0.2226637, z: -0.21277474, w: 0.5232752}
+  m_LocalPosition: {x: 3.945041, y: -1.5698441, z: -7.9293}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -109.61451, y: -51.251003, z: -10.6585045}
-  m_Children: []
-  m_Father: {fileID: 4286638813515927}
---- !u!1 &1721034597999478
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4643750933026503}
-  m_Layer: 0
-  m_Name: Priest:priest_neck_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4643750933026503
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1721034597999478}
-  m_LocalRotation: {x: 0.51715136, y: -0.48223907, z: 0.51715136, w: 0.48223907}
-  m_LocalPosition: {x: -7.474195, y: 3.996803E-15, z: 3.4416914E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 94.001465, y: 90, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4149197660027474}
-  m_Father: {fileID: 4314917152006364}
---- !u!1 &1097103950322126
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4149197660027474}
-  m_Layer: 0
-  m_Name: Priest:priest_head_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4149197660027474
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1097103950322126}
-  m_LocalRotation: {x: -0.103885464, y: 0.0054849857, z: 0.052438874, w: 0.99319077}
-  m_LocalPosition: {x: -1.110223E-16, y: 3.9768655, z: -2.8865799E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -11.878078, y: -1.2486053, z: -5.9147415}
-  m_Children:
-  - {fileID: 4933091949358320}
-  - {fileID: 4631298025480056}
-  m_Father: {fileID: 4643750933026503}
---- !u!1 &1303650578528606
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4933091949358320}
-  m_Layer: 0
-  m_Name: Priest:Beard1jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4933091949358320
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1303650578528606}
-  m_LocalRotation: {x: -0.23512685, y: 0.0773164, z: 0.39363396, w: 0.8853191}
-  m_LocalPosition: {x: -9.769963E-15, y: -1.4156165, z: 23.144852}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -22.052345, y: -18.784353, z: -44.25006}
-  m_Children:
-  - {fileID: 4323112968739388}
-  m_Father: {fileID: 4149197660027474}
---- !u!1 &1054777208749482
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4323112968739388}
-  m_Layer: 0
-  m_Name: Priest:Beard2jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4323112968739388
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1054777208749482}
-  m_LocalRotation: {x: 0.4632917, y: 0.09709194, z: -0.03541552, w: 0.8801589}
-  m_LocalPosition: {x: -0, y: -7.576243, z: 4.329282}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 55.688637, y: -11.7550535, z: -1.6166952}
-  m_Children:
-  - {fileID: 4631248164029528}
-  m_Father: {fileID: 4933091949358320}
---- !u!1 &1076277855606019
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4631248164029528}
-  m_Layer: 0
-  m_Name: Priest:Beard3jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4631248164029528
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1076277855606019}
-  m_LocalRotation: {x: 0.115384266, y: 0.1260666, z: 0.1529244, w: 0.9733488}
-  m_LocalPosition: {x: 2.1316282E-14, y: -13.451696, z: 3.86543}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 15.615785, y: -12.129582, z: -19.527056}
-  m_Children: []
-  m_Father: {fileID: 4323112968739388}
---- !u!1 &1006125288054194
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4631298025480056}
-  m_Layer: 0
-  m_Name: Priest:priest_head_b_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4631298025480056
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1006125288054194}
-  m_LocalRotation: {x: -0.058518536, y: 0.0054415627, z: -0.04634691, w: 0.99719507}
-  m_LocalPosition: {x: 7.0080414, y: 43.971832, z: -4.8283615}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -6.731394, y: -0.31101972, z: 5.3403645}
-  m_Children: []
-  m_Father: {fileID: 4149197660027474}
---- !u!1 &1575641002434309
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4823929532054229}
-  m_Layer: 0
-  m_Name: Priest:priest_rt_clavicle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4823929532054229
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1575641002434309}
-  m_LocalRotation: {x: -0.3792565, y: -0.36670664, z: -0.62091947, w: 0.5797844}
-  m_LocalPosition: {x: -1.34458, y: 0.97813755, z: 7.16383}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 2.0172133, y: 63.662582, z: 95.17661}
-  m_Children:
-  - {fileID: 4188364867876922}
-  m_Father: {fileID: 4314917152006364}
---- !u!1 &1749960291683883
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4188364867876922}
-  m_Layer: 0
-  m_Name: Priest:priest_rt_upArm_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4188364867876922
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1749960291683883}
-  m_LocalRotation: {x: -0.09317475, y: -0.35447657, z: 0.39621592, w: 0.84183}
-  m_LocalPosition: {x: 9.963487, y: -3.3583612E-05, z: -8.948636E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -30.904692, y: 31.532585, z: -59.334312}
-  m_Children:
-  - {fileID: 4804852285550325}
-  m_Father: {fileID: 4823929532054229}
---- !u!1 &1368170030150634
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4804852285550325}
-  m_Layer: 0
-  m_Name: Priest:priest_rt_elbow_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4804852285550325
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1368170030150634}
-  m_LocalRotation: {x: 0.057156242, y: 0.25465313, z: -0.24885365, w: 0.93271476}
-  m_LocalPosition: {x: 9.545918, y: 2.5457122E-05, z: 3.9679067E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -1.3344811, y: -30.230804, z: 30.238184}
-  m_Children:
-  - {fileID: 4006707023808420}
-  m_Father: {fileID: 4188364867876922}
---- !u!1 &1636421310339585
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4006707023808420}
-  m_Layer: 0
-  m_Name: Priest:priest_rt_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4006707023808420
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1636421310339585}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.450206, y: 2.0844357E-07, z: -2.2223528E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4462772001464366}
-  m_Father: {fileID: 4804852285550325}
---- !u!1 &1683146708938675
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4462772001464366}
-  m_Layer: 0
-  m_Name: Priest:priest_rt_hand_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4462772001464366
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1683146708938675}
-  m_LocalRotation: {x: 0.97988725, y: -0.11289989, z: 0.015439076, w: -0.1638177}
-  m_LocalPosition: {x: 7.1054274E-15, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -161.06233, y: -0.38576934, z: 13.08062}
-  m_Children:
-  - {fileID: 4124334508803275}
-  - {fileID: 4955535680848554}
-  m_Father: {fileID: 4006707023808420}
---- !u!1 &1530444664983507
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4124334508803275}
-  m_Layer: 0
-  m_Name: Priest:priest_rt_index_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4124334508803275
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1530444664983507}
-  m_LocalRotation: {x: -0.6795981, y: -0.16560921, z: 0.2317368, w: 0.67603123}
-  m_LocalPosition: {x: 8.566614, y: 0.51644397, z: 0.789325}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -88.76635, y: -5.2246923, z: -32.72887}
-  m_Children: []
-  m_Father: {fileID: 4462772001464366}
---- !u!1 &1232489919191655
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4955535680848554}
-  m_Layer: 0
-  m_Name: Priest:priest_rt_thumb_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4955535680848554
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1232489919191655}
-  m_LocalRotation: {x: -0.7351891, y: -0.036884315, z: 0.23766361, w: 0.6337607}
-  m_LocalPosition: {x: 4.021846, y: 3.8019443, z: -3.6969466}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -95.03983, y: -17.620068, z: -21.899265}
-  m_Children: []
-  m_Father: {fileID: 4462772001464366}
---- !u!1 &1813780892800308
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4246735714180528}
-  m_Layer: 0
-  m_Name: Priest:weightSpine_grp
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4246735714180528
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1813780892800308}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4881788186290777}
+  - {fileID: 4592723304120005}
+  m_Father: {fileID: 4802450595028145}
+  m_LocalEulerAnglesHint: {x: 116.15437, y: -34.83079, z: -9.194633}

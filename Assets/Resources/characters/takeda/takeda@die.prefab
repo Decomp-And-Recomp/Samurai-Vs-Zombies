@@ -1,55 +1,782 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1613045790283824}
-  m_IsPrefabParent: 1
-  m_IsExploded: 0
---- !u!1 &1613045790283824
+--- !u!1 &1006753351014356
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4411515414308738}
-  - 111: {fileID: 111926518489673565}
-  - 114: {fileID: 114930243328397528}
+  - component: {fileID: 4323009112872168}
   m_Layer: 0
-  m_Name: takeda@die
+  m_Name: takeda:Takeda_Skeleton_grp
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4323009112872168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006753351014356}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4415628372327522}
+  m_Father: {fileID: 4411515414308738}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1024001743728871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4725782899972175}
+  m_Layer: 0
+  m_Name: takeda:Takeda_lf_elbow_jnt
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4725782899972175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024001743728871}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.009390624, y: 0.40699032, z: 0.002345431, w: 0.9133812}
+  m_LocalPosition: {x: -8.3608675, y: 9.066947e-16, z: -1.5745886e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4733616930524682}
+  m_Father: {fileID: 4029393813550728}
+  m_LocalEulerAnglesHint: {x: 1.6333566, y: -48.02447, z: -1.0219287}
+--- !u!1 &1033386253250780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4940037195255754}
+  m_Layer: 0
+  m_Name: takeda:Takeda_spine_mid_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4940037195255754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033386253250780}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9969606, y: -0.03832837, z: -0.026485004, w: 0.062443327}
+  m_LocalPosition: {x: -6.5639787, y: 1.8443469e-10, z: -4.7777227e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4162166061356980}
+  m_Father: {fileID: 4415628372327522}
+  m_LocalEulerAnglesHint: {x: 172.72202, y: -2.752534, z: 4.578418}
+--- !u!1 &1091259570834861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4271914376355812}
+  m_Layer: 0
+  m_Name: takeda:Takeda_rt_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4271914376355812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091259570834861}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.2763713, y: -0.0891255, z: 0.82953674, w: 0.47701612}
+  m_LocalPosition: {x: 8.491468, y: -0.0000011488315, z: -1.7763568e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4792583213632786}
+  m_Father: {fileID: 4934932098207777}
+  m_LocalEulerAnglesHint: {x: -26.336187, y: -21.931122, z: -115.007774}
+--- !u!1 &1099306711634859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4150457221842634}
+  m_Layer: 0
+  m_Name: takeda:Takeda_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4150457221842634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099306711634859}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.47188985, y: -0.311475, z: 0.688803, w: 0.453711}
+  m_LocalPosition: {x: 3.9363914, y: 0.5633355, z: -11.151315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4335440896888954}
+  m_Father: {fileID: 4098679381182869}
+  m_LocalEulerAnglesHint: {x: -0.14087136, y: 68.86248, z: -113.35119}
+--- !u!1 &1121871145208204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4162166061356980}
+  m_Layer: 0
+  m_Name: takeda:Takeda_spine_hi_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4162166061356980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121871145208204}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.06091853, y: 0.008175466, z: -0.031842638, w: 0.9976012}
+  m_LocalPosition: {x: -8.235269, y: 5.1413096e-11, z: 3.7329118e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4822231667331884}
+  m_Father: {fileID: 4940037195255754}
+  m_LocalEulerAnglesHint: {x: -7.0118647, y: -0.7123249, z: 3.700072}
+--- !u!1 &1162696185053654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4733616930524682}
+  m_Layer: 0
+  m_Name: takeda:Takeda_lf_wrist_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4733616930524682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162696185053654}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.035936, y: 8.83811e-15, z: -4.859611e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4475586344934201}
+  m_Father: {fileID: 4725782899972175}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1181723423159986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4896422433397703}
+  m_Layer: 0
+  m_Name: takeda:Takeda_rt_hand_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4896422433397703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181723423159986}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.08277039, y: -0.6263481, z: -0.43175617, w: 0.6437575}
+  m_LocalPosition: {x: 3.5527137e-15, y: -1.4210855e-14, z: 1.7763568e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4673476312252477}
+  - {fileID: 4146842331942191}
+  - {fileID: 4664900121924408}
+  m_Father: {fileID: 4606934079050714}
+  m_LocalEulerAnglesHint: {x: 65.09099, y: 61.39077, z: 109.19725}
+--- !u!1 &1201086869501483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4540677655030816}
+  m_Layer: 0
+  m_Name: takeda:Takeda_rt_elbow_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4540677655030816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201086869501483}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.01213041, y: 0.56141174, z: -0.0038737773, w: 0.82743865}
+  m_LocalPosition: {x: 8.36085, y: -0.000025109483, z: -0.0000060656325}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4606934079050714}
+  m_Father: {fileID: 4602028619849868}
+  m_LocalEulerAnglesHint: {x: 2.4379182, y: -68.30449, z: -1.1174997}
+--- !u!1 &1209601138346476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4029748455758490}
+  m_Layer: 0
+  m_Name: takeda:LeftSkirt1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4029748455758490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209601138346476}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.1168868, y: 0.06166418, z: -0.5144261, w: 0.8472903}
+  m_LocalPosition: {x: -15.921364, y: 2.6645353e-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4404415389339131}
+  m_LocalEulerAnglesHint: {x: 7.9417157, y: -12.988422, z: 61.62199}
+--- !u!1 &1217855900492089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4355485206785715}
+  m_Layer: 0
+  m_Name: takeda:Takeda_lf_index_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4355485206785715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217855900492089}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.656755, y: -0.38097712, z: 0.27768716, w: 0.5885739}
+  m_LocalPosition: {x: -3.5362003, y: -0.40844178, z: -0.3183188}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4475586344934201}
+  m_LocalEulerAnglesHint: {x: -98.82866, y: 4.8025107, z: -56.120396}
+--- !u!1 &1219996151343021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4404415389339131}
+  m_Layer: 0
+  m_Name: takeda:LeftSkirt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4404415389339131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219996151343021}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.17558175, y: 0.7288669, z: -0.5728349, w: -0.33133715}
+  m_LocalPosition: {x: -7.0924187, y: 0.4242482, z: -13.473885}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4029748455758490}
+  m_Father: {fileID: 4098679381182869}
+  m_LocalEulerAnglesHint: {x: -99.801, y: 43.169586, z: -170.23888}
+--- !u!1 &1250131061122394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4110042887353173}
+  m_Layer: 0
+  m_Name: takeda:Takeda_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4110042887353173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250131061122394}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5361306, y: -0.38630226, z: -0.52438784, w: 0.53698415}
+  m_LocalPosition: {x: -0.30943853, y: 0.022524554, z: 6.2251}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4602028619849868}
+  m_Father: {fileID: 4822231667331884}
+  m_LocalEulerAnglesHint: {x: -53.413284, y: 77.73003, z: 44.50108}
+--- !u!1 &1360448247525336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4907460459234887}
+  m_Layer: 0
+  m_Name: takeda:Takeda_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4907460459234887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360448247525336}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.62922615, y: -0.503783, z: 0.33538634, w: 0.48764053}
+  m_LocalPosition: {x: -0.3094565, y: 0.022523882, z: -6.2250977}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4029393813550728}
+  m_Father: {fileID: 4822231667331884}
+  m_LocalEulerAnglesHint: {x: 137.35916, y: 65.97918, z: 48.92975}
+--- !u!1 &1368198485993130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4475586344934201}
+  m_Layer: 0
+  m_Name: takeda:Takeda_lf_hand_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4475586344934201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368198485993130}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.02213913, y: -0.14470297, z: -0.27777615, w: 0.9494269}
+  m_LocalPosition: {x: -3.5527137e-15, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4355485206785715}
+  - {fileID: 4250420000539610}
+  m_Father: {fileID: 4733616930524682}
+  m_LocalEulerAnglesHint: {x: 7.2891827, y: 15.216692, z: 33.591}
+--- !u!1 &1387905048629168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4766866425751465}
+  m_Layer: 0
+  m_Name: takeda:Takeda_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4766866425751465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387905048629168}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.13819402, y: -0.1745646, z: -0.60344577, w: 0.76569116}
+  m_LocalPosition: {x: 3.9364097, y: 0.5633341, z: 11.1513}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4934932098207777}
+  m_Father: {fileID: 4098679381182869}
+  m_LocalEulerAnglesHint: {x: 25.11643, y: 5.7702627, z: 77.770134}
+--- !u!1 &1394417293798327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4733319688466135}
+  m_Layer: 0
+  m_Name: takeda:Takeda_neck_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4733319688466135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394417293798327}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5208549, y: -0.47823653, z: 0.5208549, w: 0.47823653}
+  m_LocalPosition: {x: -6.2471867, y: 0, z: 8.881784e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4610870030891427}
+  m_Father: {fileID: 4822231667331884}
+  m_LocalEulerAnglesHint: {x: 94.885185, y: 90, z: 0}
+--- !u!1 &1395197903305081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4512701504928161}
+  m_Layer: 0
+  m_Name: takeda:Takeda_lf_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4512701504928161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395197903305081}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.036533862, y: -0.104690194, z: 0.65839237, w: 0.7444627}
+  m_LocalPosition: {x: -8.544095, y: -5.570822e-15, z: -2.295609e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4392665677215049}
+  m_Father: {fileID: 4335440896888954}
+  m_LocalEulerAnglesHint: {x: -11.14992, y: 6.1867046, z: -83.58265}
+--- !u!1 &1415717481068511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4339553231430288}
+  m_Layer: 0
+  m_Name: takeda:Takeda_head_b_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4339553231430288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415717481068511}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.020142497, y: 0, z: -0, w: 0.9997971}
+  m_LocalPosition: {x: -3.4327605e-15, y: 30.819525, z: -1.218788e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4610870030891427}
+  m_LocalEulerAnglesHint: {x: -2.3083162, y: -0, z: 0}
+--- !u!1 &1434106536480599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4257371345165122}
+  m_Layer: 0
+  m_Name: takeda:RightSkirt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4257371345165122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434106536480599}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.03098936, y: 0.6946673, z: -0.67577785, w: -0.24454306}
+  m_LocalPosition: {x: -7.092382, y: 0.42424545, z: 13.4739}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4238813538763943}
+  m_Father: {fileID: 4098679381182869}
+  m_LocalEulerAnglesHint: {x: -88.0217, y: 17.329613, z: -156.9626}
+--- !u!1 &1446508823997880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4934932098207777}
+  m_Layer: 0
+  m_Name: takeda:Takeda_rt_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4934932098207777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446508823997880}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6739141, y: 0.7388097, z: 0.0000000033425787, w: -0.0000000036644574}
+  m_LocalPosition: {x: 10.662992, y: 0.00000032273854, z: 1.7763568e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4271914376355812}
+  m_Father: {fileID: 4766866425751465}
+  m_LocalEulerAnglesHint: {x: 180, y: 0.00000056836814, z: -95.26024}
+--- !u!1 &1502521772992212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4392665677215049}
+  m_Layer: 0
+  m_Name: takeda:Takeda_lf_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4392665677215049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502521772992212}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.16937453, w: 0.9855518}
+  m_LocalPosition: {x: -4.231796, y: 2.3619857e-15, z: -6.919799e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4512701504928161}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -19.502909}
+--- !u!1 &1584152146466935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4250420000539610}
+  m_Layer: 0
+  m_Name: takeda:Takeda_lf_thumb_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4250420000539610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584152146466935}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7399909, y: 0.19614223, z: -0.55866957, w: -0.31910822}
+  m_LocalPosition: {x: -1.7459806, y: -1.4557518, z: 3.1161602}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4475586344934201}
+  m_LocalEulerAnglesHint: {x: -103.97841, y: -44.558697, z: -65.20354}
+--- !u!1 &1613045790283824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4411515414308738}
+  - component: {fileID: 111926518489673565}
+  - component: {fileID: 114930243328397528}
+  m_Layer: 0
+  m_Name: takeda@die
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4411515414308738
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613045790283824}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4323009112872168}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!111 &111926518489673565
 Animation:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613045790283824}
   m_Enabled: 1
+  serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 385d2f44935766b49ab8285472592d37, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 385d2f44935766b49ab8285472592d37, type: 2}
@@ -57,1026 +784,435 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
-  m_UserAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!114 &114930243328397528
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613045790283824}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   sourcePrefabPath: Assets/Resources/Characters/Takeda/takeda@die.fbx
-  basePrefabPath:
+  basePrefabPath: 
   exemptObjects: []
---- !u!1 &1006753351014356
+--- !u!1 &1650833228554136
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4323009112872168}
+  - component: {fileID: 4606934079050714}
   m_Layer: 0
-  m_Name: takeda:Takeda_Skeleton_grp
+  m_Name: takeda:Takeda_rt_wrist_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4323009112872168
+--- !u!4 &4606934079050714
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1006753351014356}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650833228554136}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.03594, y: 0.00006519766, z: 0.000006140749}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4415628372327522}
-  m_Father: {fileID: 4411515414308738}
---- !u!1 &1906992705016068
+  - {fileID: 4896422433397703}
+  m_Father: {fileID: 4540677655030816}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1702498715602387
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4415628372327522}
+  - component: {fileID: 4664900121924408}
   m_Layer: 0
-  m_Name: takeda:Takeda_spine_low_jnt
+  m_Name: takeda:Takeda_rt_thumb_a_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4415628372327522
+--- !u!4 &4664900121924408
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1906992705016068}
-  m_LocalRotation: {x: -0.4887377, y: 0.28134114, z: 0.68570954, w: -0.46020123}
-  m_LocalPosition: {x: 4.6385307, y: 21.43246, z: -9.782565}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702498715602387}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7635416, y: 0.055340312, z: -0.6082036, w: -0.20983353}
+  m_LocalPosition: {x: 1.7459716, y: 1.4557564, z: -3.1161656}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 66.46513, y: -24.2876, z: 96.216446}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4896422433397703}
+  m_LocalEulerAnglesHint: {x: -113.93576, y: -64.89786, z: -53.21249}
+--- !u!1 &1722625988760155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4673476312252477}
+  m_Layer: 0
+  m_Name: takeda:prop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4673476312252477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722625988760155}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.80078405, y: -0.59252524, z: 0.07505753, w: -0.04500117}
+  m_LocalPosition: {x: 5.7550316, y: 4.175016, z: -4.925325}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4896422433397703}
+  m_LocalEulerAnglesHint: {x: -170.71295, y: 3.8348665, z: 73.309395}
+--- !u!1 &1723893536659022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4146842331942191}
+  m_Layer: 0
+  m_Name: takeda:Takeda_rt_index_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4146842331942191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723893536659022}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7111152, y: -0.17216104, z: 0.052463952, w: 0.6796494}
+  m_LocalPosition: {x: 3.5362275, y: 0.4083764, z: 0.3183263}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4896422433397703}
+  m_LocalEulerAnglesHint: {x: -94.10379, y: 9.172215, z: -18.678759}
+--- !u!1 &1732775478794297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4602028619849868}
+  m_Layer: 0
+  m_Name: takeda:Takeda_rt_upArm_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4602028619849868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732775478794297}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.06479583, y: -0.25327194, z: -0.039996535, w: 0.9643937}
+  m_LocalPosition: {x: 10.271405, y: -0.00003792661, z: 0.0000026222533}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4098679381182869}
-  - {fileID: 4940037195255754}
-  m_Father: {fileID: 4323009112872168}
+  - {fileID: 4540677655030816}
+  m_Father: {fileID: 4110042887353173}
+  m_LocalEulerAnglesHint: {x: -6.916053, y: 29.583466, z: 2.9214642}
+--- !u!1 &1735109236262102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4822231667331884}
+  m_Layer: 0
+  m_Name: takeda:Takeda_spine_end_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4822231667331884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735109236262102}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.17838773, w: 0.9839603}
+  m_LocalPosition: {x: -5.4714003, y: 9.825583e-16, z: 1.456916e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4907460459234887}
+  - {fileID: 4733319688466135}
+  - {fileID: 4110042887353173}
+  m_Father: {fileID: 4162166061356980}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -20.551727}
+--- !u!1 &1839013030240456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4335440896888954}
+  m_Layer: 0
+  m_Name: takeda:Takeda_lf_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4335440896888954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839013030240456}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.75731575, y: 0.65304893, z: -3.6514263e-18, w: 8.400314e-17}
+  m_LocalPosition: {x: -10.729092, y: 4.2160692e-15, z: -1.1803353e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4512701504928161}
+  m_Father: {fileID: 4150457221842634}
+  m_LocalEulerAnglesHint: {x: 180, y: -6.60316e-15, z: -81.54375}
+--- !u!1 &1843383982095082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4610870030891427}
+  m_Layer: 0
+  m_Name: takeda:Takeda_head_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4610870030891427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843383982095082}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.096688084, y: -0.1757593, z: -0.019289741, w: 0.97948354}
+  m_LocalPosition: {x: 2.220446e-15, y: 3.2286522, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4339553231430288}
+  m_Father: {fileID: 4733319688466135}
+  m_LocalEulerAnglesHint: {x: -11.233464, y: 20.367289, z: 0.2322631}
 --- !u!1 &1845126905925125
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4098679381182869}
+  - component: {fileID: 4098679381182869}
   m_Layer: 0
   m_Name: takeda:Takeda_hip_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4098679381182869
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845126905925125}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.95462304, y: 0.28999004, z: 0.033372045, w: -0.059050288}
   m_LocalPosition: {x: 5.6640344, y: 3.5142732, z: 0.3997301}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -174.61557, y: 5.621908, z: -33.530308}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4404415389339131}
   - {fileID: 4257371345165122}
   - {fileID: 4150457221842634}
   - {fileID: 4766866425751465}
   m_Father: {fileID: 4415628372327522}
---- !u!1 &1219996151343021
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4404415389339131}
-  m_Layer: 0
-  m_Name: takeda:LeftSkirt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4404415389339131
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1219996151343021}
-  m_LocalRotation: {x: -0.17558175, y: 0.7288669, z: -0.5728349, w: -0.33133715}
-  m_LocalPosition: {x: -7.0924187, y: 0.4242482, z: -13.473885}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -99.801, y: 43.169586, z: -170.23888}
-  m_Children:
-  - {fileID: 4029748455758490}
-  m_Father: {fileID: 4098679381182869}
---- !u!1 &1209601138346476
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4029748455758490}
-  m_Layer: 0
-  m_Name: takeda:LeftSkirt1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4029748455758490
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1209601138346476}
-  m_LocalRotation: {x: 0.1168868, y: 0.06166418, z: -0.5144261, w: 0.8472903}
-  m_LocalPosition: {x: -15.921364, y: 2.6645353E-15, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 7.9417157, y: -12.988422, z: 61.62199}
-  m_Children: []
-  m_Father: {fileID: 4404415389339131}
---- !u!1 &1434106536480599
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4257371345165122}
-  m_Layer: 0
-  m_Name: takeda:RightSkirt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4257371345165122
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1434106536480599}
-  m_LocalRotation: {x: 0.03098936, y: 0.6946673, z: -0.67577785, w: -0.24454306}
-  m_LocalPosition: {x: -7.092382, y: 0.42424545, z: 13.4739}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -88.0217, y: 17.329613, z: -156.9626}
-  m_Children:
-  - {fileID: 4238813538763943}
-  m_Father: {fileID: 4098679381182869}
---- !u!1 &1944256287756892
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4238813538763943}
-  m_Layer: 0
-  m_Name: takeda:RightSkirt1
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4238813538763943
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1944256287756892}
-  m_LocalRotation: {x: 0.05084645, y: -0.09298383, z: 0.0026587814, w: 0.9943649}
-  m_LocalPosition: {x: -13.095837, y: -8.993278, z: -1.0523314}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 5.8771935, y: 10.672215, z: 0.24302448}
-  m_Children: []
-  m_Father: {fileID: 4257371345165122}
---- !u!1 &1099306711634859
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4150457221842634}
-  m_Layer: 0
-  m_Name: takeda:Takeda_lf_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4150457221842634
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1099306711634859}
-  m_LocalRotation: {x: 0.47188985, y: -0.311475, z: 0.688803, w: 0.453711}
-  m_LocalPosition: {x: 3.9363914, y: 0.5633355, z: -11.151315}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -0.14087136, y: 68.86248, z: -113.35119}
-  m_Children:
-  - {fileID: 4335440896888954}
-  m_Father: {fileID: 4098679381182869}
---- !u!1 &1839013030240456
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4335440896888954}
-  m_Layer: 0
-  m_Name: takeda:Takeda_lf_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4335440896888954
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1839013030240456}
-  m_LocalRotation: {x: 0.75731575, y: 0.65304893, z: -3.6514263E-18, w: 8.400314E-17}
-  m_LocalPosition: {x: -10.729092, y: 4.2160692E-15, z: -1.1803353E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: -6.60316E-15, z: -81.54375}
-  m_Children:
-  - {fileID: 4512701504928161}
-  m_Father: {fileID: 4150457221842634}
---- !u!1 &1395197903305081
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4512701504928161}
-  m_Layer: 0
-  m_Name: takeda:Takeda_lf_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4512701504928161
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1395197903305081}
-  m_LocalRotation: {x: -0.036533862, y: -0.104690194, z: 0.65839237, w: 0.7444627}
-  m_LocalPosition: {x: -8.544095, y: -5.570822E-15, z: -2.295609E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -11.14992, y: 6.1867046, z: -83.58265}
-  m_Children:
-  - {fileID: 4392665677215049}
-  m_Father: {fileID: 4335440896888954}
---- !u!1 &1502521772992212
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4392665677215049}
-  m_Layer: 0
-  m_Name: takeda:Takeda_lf_ball_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4392665677215049
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1502521772992212}
-  m_LocalRotation: {x: 0, y: 0, z: 0.16937453, w: 0.9855518}
-  m_LocalPosition: {x: -4.231796, y: 2.3619857E-15, z: -6.919799E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -19.502909}
-  m_Children: []
-  m_Father: {fileID: 4512701504928161}
---- !u!1 &1387905048629168
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4766866425751465}
-  m_Layer: 0
-  m_Name: takeda:Takeda_rt_upLeg_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4766866425751465
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1387905048629168}
-  m_LocalRotation: {x: 0.13819402, y: -0.1745646, z: -0.60344577, w: 0.76569116}
-  m_LocalPosition: {x: 3.9364097, y: 0.5633341, z: 11.1513}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 25.11643, y: 5.7702627, z: 77.770134}
-  m_Children:
-  - {fileID: 4934932098207777}
-  m_Father: {fileID: 4098679381182869}
---- !u!1 &1446508823997880
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4934932098207777}
-  m_Layer: 0
-  m_Name: takeda:Takeda_rt_knee_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4934932098207777
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1446508823997880}
-  m_LocalRotation: {x: 0.6739141, y: 0.7388097, z: 3.3425787E-09, w: -3.6644574E-09}
-  m_LocalPosition: {x: 10.662992, y: 3.2273854E-07, z: 1.7763568E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 180, y: 5.6836814E-07, z: -95.26024}
-  m_Children:
-  - {fileID: 4271914376355812}
-  m_Father: {fileID: 4766866425751465}
---- !u!1 &1091259570834861
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4271914376355812}
-  m_Layer: 0
-  m_Name: takeda:Takeda_rt_ankle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4271914376355812
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1091259570834861}
-  m_LocalRotation: {x: -0.2763713, y: -0.0891255, z: 0.82953674, w: 0.47701612}
-  m_LocalPosition: {x: 8.491468, y: -1.1488315E-06, z: -1.7763568E-14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -26.336187, y: -21.931122, z: -115.007774}
-  m_Children:
-  - {fileID: 4792583213632786}
-  m_Father: {fileID: 4934932098207777}
+  m_LocalEulerAnglesHint: {x: -174.61557, y: 5.621908, z: -33.530308}
 --- !u!1 &1894451339829104
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4792583213632786}
+  - component: {fileID: 4792583213632786}
   m_Layer: 0
   m_Name: takeda:Takeda_rt_ball_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4792583213632786
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894451339829104}
-  m_LocalRotation: {x: -3.0086155E-15, y: -5.170533E-16, z: 0.16937453, w: 0.9855518}
-  m_LocalPosition: {x: 4.2318, y: -2.245908E-06, z: 8.8195556E-08}
+  serializedVersion: 2
+  m_LocalRotation: {x: -3.0086155e-15, y: -5.170533e-16, z: 0.16937453, w: 0.9855518}
+  m_LocalPosition: {x: 4.2318, y: -0.000002245908, z: 0.000000088195556}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -3.4981618E-13, y: -1.1158237E-21, z: -19.502909}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4271914376355812}
---- !u!1 &1033386253250780
+  m_LocalEulerAnglesHint: {x: -3.4981618e-13, y: -1.1158237e-21, z: -19.502909}
+--- !u!1 &1906992705016068
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4940037195255754}
+  - component: {fileID: 4415628372327522}
   m_Layer: 0
-  m_Name: takeda:Takeda_spine_mid_jnt
+  m_Name: takeda:Takeda_spine_low_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4940037195255754
+--- !u!4 &4415628372327522
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1033386253250780}
-  m_LocalRotation: {x: 0.9969606, y: -0.03832837, z: -0.026485004, w: 0.062443327}
-  m_LocalPosition: {x: -6.5639787, y: 1.8443469E-10, z: -4.7777227E-11}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906992705016068}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.4887377, y: 0.28134114, z: 0.68570954, w: -0.46020123}
+  m_LocalPosition: {x: 4.6385307, y: 21.43246, z: -9.782565}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 172.72202, y: -2.752534, z: 4.578418}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4162166061356980}
-  m_Father: {fileID: 4415628372327522}
---- !u!1 &1121871145208204
+  - {fileID: 4098679381182869}
+  - {fileID: 4940037195255754}
+  m_Father: {fileID: 4323009112872168}
+  m_LocalEulerAnglesHint: {x: 66.46513, y: -24.2876, z: 96.216446}
+--- !u!1 &1944256287756892
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4162166061356980}
+  - component: {fileID: 4238813538763943}
   m_Layer: 0
-  m_Name: takeda:Takeda_spine_hi_jnt
+  m_Name: takeda:RightSkirt1
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4162166061356980
+--- !u!4 &4238813538763943
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1121871145208204}
-  m_LocalRotation: {x: -0.06091853, y: 0.008175466, z: -0.031842638, w: 0.9976012}
-  m_LocalPosition: {x: -8.235269, y: 5.1413096E-11, z: 3.7329118E-10}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944256287756892}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.05084645, y: -0.09298383, z: 0.0026587814, w: 0.9943649}
+  m_LocalPosition: {x: -13.095837, y: -8.993278, z: -1.0523314}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -7.0118647, y: -0.7123249, z: 3.700072}
-  m_Children:
-  - {fileID: 4822231667331884}
-  m_Father: {fileID: 4940037195255754}
---- !u!1 &1735109236262102
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4822231667331884}
-  m_Layer: 0
-  m_Name: takeda:Takeda_spine_end_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4822231667331884
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1735109236262102}
-  m_LocalRotation: {x: 0, y: 0, z: 0.17838773, w: 0.9839603}
-  m_LocalPosition: {x: -5.4714003, y: 9.825583E-16, z: 1.456916E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -20.551727}
-  m_Children:
-  - {fileID: 4907460459234887}
-  - {fileID: 4733319688466135}
-  - {fileID: 4110042887353173}
-  m_Father: {fileID: 4162166061356980}
---- !u!1 &1360448247525336
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4907460459234887}
-  m_Layer: 0
-  m_Name: takeda:Takeda_lf_clavicle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4907460459234887
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1360448247525336}
-  m_LocalRotation: {x: 0.62922615, y: -0.503783, z: 0.33538634, w: 0.48764053}
-  m_LocalPosition: {x: -0.3094565, y: 0.022523882, z: -6.2250977}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 137.35916, y: 65.97918, z: 48.92975}
-  m_Children:
-  - {fileID: 4029393813550728}
-  m_Father: {fileID: 4822231667331884}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4257371345165122}
+  m_LocalEulerAnglesHint: {x: 5.8771935, y: 10.672215, z: 0.24302448}
 --- !u!1 &1952489652327664
 GameObject:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 4029393813550728}
+  - component: {fileID: 4029393813550728}
   m_Layer: 0
   m_Name: takeda:Takeda_lf_upArm_jnt
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-  m_Icon: {fileID: 0}
 --- !u!4 &4029393813550728
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952489652327664}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.17419322, y: 0.29736495, z: 0.15580426, w: 0.9257191}
-  m_LocalPosition: {x: -10.271412, y: 2.2307284E-15, z: -9.288689E-16}
+  m_LocalPosition: {x: -10.271412, y: 2.2307284e-15, z: -9.288689e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -16.775602, y: -37.21682, z: -13.423006}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4725782899972175}
   m_Father: {fileID: 4907460459234887}
---- !u!1 &1024001743728871
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4725782899972175}
-  m_Layer: 0
-  m_Name: takeda:Takeda_lf_elbow_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4725782899972175
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1024001743728871}
-  m_LocalRotation: {x: 0.009390624, y: 0.40699032, z: 0.002345431, w: 0.9133812}
-  m_LocalPosition: {x: -8.3608675, y: 9.066947E-16, z: -1.5745886E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 1.6333566, y: -48.02447, z: -1.0219287}
-  m_Children:
-  - {fileID: 4733616930524682}
-  m_Father: {fileID: 4029393813550728}
---- !u!1 &1162696185053654
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4733616930524682}
-  m_Layer: 0
-  m_Name: takeda:Takeda_lf_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4733616930524682
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1162696185053654}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.035936, y: 8.83811E-15, z: -4.859611E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4475586344934201}
-  m_Father: {fileID: 4725782899972175}
---- !u!1 &1368198485993130
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4475586344934201}
-  m_Layer: 0
-  m_Name: takeda:Takeda_lf_hand_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4475586344934201
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1368198485993130}
-  m_LocalRotation: {x: 0.02213913, y: -0.14470297, z: -0.27777615, w: 0.9494269}
-  m_LocalPosition: {x: -3.5527137E-15, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 7.2891827, y: 15.216692, z: 33.591}
-  m_Children:
-  - {fileID: 4355485206785715}
-  - {fileID: 4250420000539610}
-  m_Father: {fileID: 4733616930524682}
---- !u!1 &1217855900492089
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4355485206785715}
-  m_Layer: 0
-  m_Name: takeda:Takeda_lf_index_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4355485206785715
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1217855900492089}
-  m_LocalRotation: {x: -0.656755, y: -0.38097712, z: 0.27768716, w: 0.5885739}
-  m_LocalPosition: {x: -3.5362003, y: -0.40844178, z: -0.3183188}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -98.82866, y: 4.8025107, z: -56.120396}
-  m_Children: []
-  m_Father: {fileID: 4475586344934201}
---- !u!1 &1584152146466935
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4250420000539610}
-  m_Layer: 0
-  m_Name: takeda:Takeda_lf_thumb_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4250420000539610
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1584152146466935}
-  m_LocalRotation: {x: 0.7399909, y: 0.19614223, z: -0.55866957, w: -0.31910822}
-  m_LocalPosition: {x: -1.7459806, y: -1.4557518, z: 3.1161602}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -103.97841, y: -44.558697, z: -65.20354}
-  m_Children: []
-  m_Father: {fileID: 4475586344934201}
---- !u!1 &1394417293798327
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4733319688466135}
-  m_Layer: 0
-  m_Name: takeda:Takeda_neck_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4733319688466135
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1394417293798327}
-  m_LocalRotation: {x: 0.5208549, y: -0.47823653, z: 0.5208549, w: 0.47823653}
-  m_LocalPosition: {x: -6.2471867, y: 0, z: 8.881784E-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 94.885185, y: 90, z: 0}
-  m_Children:
-  - {fileID: 4610870030891427}
-  m_Father: {fileID: 4822231667331884}
---- !u!1 &1843383982095082
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4610870030891427}
-  m_Layer: 0
-  m_Name: takeda:Takeda_head_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4610870030891427
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1843383982095082}
-  m_LocalRotation: {x: -0.096688084, y: -0.1757593, z: -0.019289741, w: 0.97948354}
-  m_LocalPosition: {x: 2.220446E-15, y: 3.2286522, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -11.233464, y: 20.367289, z: 0.2322631}
-  m_Children:
-  - {fileID: 4339553231430288}
-  m_Father: {fileID: 4733319688466135}
---- !u!1 &1415717481068511
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4339553231430288}
-  m_Layer: 0
-  m_Name: takeda:Takeda_head_b_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4339553231430288
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1415717481068511}
-  m_LocalRotation: {x: -0.020142497, y: 0, z: -0, w: 0.9997971}
-  m_LocalPosition: {x: -3.4327605E-15, y: 30.819525, z: -1.218788E-14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -2.3083162, y: -0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4610870030891427}
---- !u!1 &1250131061122394
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4110042887353173}
-  m_Layer: 0
-  m_Name: takeda:Takeda_rt_clavicle_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4110042887353173
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1250131061122394}
-  m_LocalRotation: {x: -0.5361306, y: -0.38630226, z: -0.52438784, w: 0.53698415}
-  m_LocalPosition: {x: -0.30943853, y: 0.022524554, z: 6.2251}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -53.413284, y: 77.73003, z: 44.50108}
-  m_Children:
-  - {fileID: 4602028619849868}
-  m_Father: {fileID: 4822231667331884}
---- !u!1 &1732775478794297
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4602028619849868}
-  m_Layer: 0
-  m_Name: takeda:Takeda_rt_upArm_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4602028619849868
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1732775478794297}
-  m_LocalRotation: {x: -0.06479583, y: -0.25327194, z: -0.039996535, w: 0.9643937}
-  m_LocalPosition: {x: 10.271405, y: -3.792661E-05, z: 2.6222533E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -6.916053, y: 29.583466, z: 2.9214642}
-  m_Children:
-  - {fileID: 4540677655030816}
-  m_Father: {fileID: 4110042887353173}
---- !u!1 &1201086869501483
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4540677655030816}
-  m_Layer: 0
-  m_Name: takeda:Takeda_rt_elbow_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4540677655030816
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1201086869501483}
-  m_LocalRotation: {x: 0.01213041, y: 0.56141174, z: -0.0038737773, w: 0.82743865}
-  m_LocalPosition: {x: 8.36085, y: -2.5109483E-05, z: -6.0656325E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 2.4379182, y: -68.30449, z: -1.1174997}
-  m_Children:
-  - {fileID: 4606934079050714}
-  m_Father: {fileID: 4602028619849868}
---- !u!1 &1650833228554136
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4606934079050714}
-  m_Layer: 0
-  m_Name: takeda:Takeda_rt_wrist_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4606934079050714
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1650833228554136}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.03594, y: 6.519766E-05, z: 6.140749E-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
-  m_Children:
-  - {fileID: 4896422433397703}
-  m_Father: {fileID: 4540677655030816}
---- !u!1 &1181723423159986
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4896422433397703}
-  m_Layer: 0
-  m_Name: takeda:Takeda_rt_hand_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4896422433397703
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1181723423159986}
-  m_LocalRotation: {x: -0.08277039, y: -0.6263481, z: -0.43175617, w: 0.6437575}
-  m_LocalPosition: {x: 3.5527137E-15, y: -1.4210855E-14, z: 1.7763568E-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 65.09099, y: 61.39077, z: 109.19725}
-  m_Children:
-  - {fileID: 4673476312252477}
-  - {fileID: 4146842331942191}
-  - {fileID: 4664900121924408}
-  m_Father: {fileID: 4606934079050714}
---- !u!1 &1722625988760155
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4673476312252477}
-  m_Layer: 0
-  m_Name: takeda:prop
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4673476312252477
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1722625988760155}
-  m_LocalRotation: {x: 0.80078405, y: -0.59252524, z: 0.07505753, w: -0.04500117}
-  m_LocalPosition: {x: 5.7550316, y: 4.175016, z: -4.925325}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -170.71295, y: 3.8348665, z: 73.309395}
-  m_Children: []
-  m_Father: {fileID: 4896422433397703}
---- !u!1 &1723893536659022
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4146842331942191}
-  m_Layer: 0
-  m_Name: takeda:Takeda_rt_index_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4146842331942191
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1723893536659022}
-  m_LocalRotation: {x: -0.7111152, y: -0.17216104, z: 0.052463952, w: 0.6796494}
-  m_LocalPosition: {x: 3.5362275, y: 0.4083764, z: 0.3183263}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -94.10379, y: 9.172215, z: -18.678759}
-  m_Children: []
-  m_Father: {fileID: 4896422433397703}
---- !u!1 &1702498715602387
-GameObject:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4664900121924408}
-  m_Layer: 0
-  m_Name: takeda:Takeda_rt_thumb_a_jnt
-  m_TagString: Untagged
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-  m_Icon: {fileID: 0}
---- !u!4 &4664900121924408
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1702498715602387}
-  m_LocalRotation: {x: 0.7635416, y: 0.055340312, z: -0.6082036, w: -0.20983353}
-  m_LocalPosition: {x: 1.7459716, y: 1.4557564, z: -3.1161656}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -113.93576, y: -64.89786, z: -53.21249}
-  m_Children: []
-  m_Father: {fileID: 4896422433397703}
+  m_LocalEulerAnglesHint: {x: -16.775602, y: -37.21682, z: -13.423006}
